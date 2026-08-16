@@ -1,0 +1,24 @@
+{
+  "name": "CinePalette",
+  "short_name": "CinePalette",
+  "description": "按色调检索电影截图，参考构图与配色",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f2",
+  "theme_color": "#c45d3e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
