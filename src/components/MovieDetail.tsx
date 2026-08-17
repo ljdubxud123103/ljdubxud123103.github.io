@@ -1,6 +1,16 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { X, Heart, Download, Check, CaretLeft, CaretRight, Swatches } from '@phosphor-icons/react';
+import {
+  X,
+  Heart,
+  Download,
+  Check,
+  CaretLeft,
+  CaretRight,
+  Swatches,
+  FolderPlus,
+  Plus,
+} from '@phosphor-icons/react';
 import type { ScreenshotColor } from '@/types';
 import { useAppStore } from '@/store/appStore';
 import { exportScreenshot, exportPaletteCard } from '@/utils/exportUtils';
@@ -22,9 +32,16 @@ export default function MovieDetail() {
   const isFavorite = useAppStore((s) => s.isFavorite);
   const addFavorite = useAppStore((s) => s.addFavorite);
   const removeFavorite = useAppStore((s) => s.removeFavorite);
+  const projectBoards = useAppStore((s) => s.projectBoards);
+  const createProjectBoard = useAppStore((s) => s.createProjectBoard);
+  const addToProjectBoard = useAppStore((s) => s.addToProjectBoard);
+  const removeFromProjectBoard = useAppStore((s) => s.removeFromProjectBoard);
 
   const [isExporting, setIsExporting] = useState(false);
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
+  const [isProjectPickerOpen, setIsProjectPickerOpen] = useState(false);
+  const [newProjectName, setNewProjectName] = useState('');
+  const sheetRef = useRef<HTMLDivElement>(null);
 
   const favorited =
     selectedScreenshot !== null &&
@@ -66,6 +83,36 @@ export default function MovieDetail() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [isDetailOpen, navigateDetail, closeDetail]);
+
+  useEffect(() => {
+    if (!isDetailOpen) return;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const focusClose = window.setTimeout(() => {
+      sheetRef.current?.querySelector<HTMLElement>('[aria-label="关闭"]')?.focus();
+    }, 0);
+    const trapFocus = (event: KeyboardEvent) => {
+      if (event.key !== 'Tab' || !sheetRef.current) return;
+      const focusable = [...sheetRef.current.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      )];
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', trapFocus);
+    return () => {
+      window.clearTimeout(focusClose);
+      document.removeEventListener('keydown', trapFocus);
+      previousFocus?.focus();
+    };
+  }, [isDetailOpen]);
 
   const touchStart = useRef<{ x: number; y: number } | null>(null);
 
@@ -161,6 +208,31 @@ export default function MovieDetail() {
     }
   };
 
+  const projectMembershipCount = projectBoards.filter((board) =>
+    board.items.some(
+      (item) => item.movieId === movie.id && item.screenshotId === screenshot.id,
+    ),
+  ).length;
+
+  const toggleProjectMembership = (boardId: string) => {
+    const board = projectBoards.find((candidate) => candidate.id === boardId);
+    const isIncluded = board?.items.some(
+      (item) => item.movieId === movie.id && item.screenshotId === screenshot.id,
+    );
+    if (isIncluded) {
+      removeFromProjectBoard(boardId, movie.id, screenshot.id);
+    } else {
+      addToProjectBoard(boardId, movie.id, screenshot.id);
+    }
+  };
+
+  const handleCreateProject = () => {
+    if (!newProjectName.trim()) return;
+    const boardId = createProjectBoard(newProjectName);
+    addToProjectBoard(boardId, movie.id, screenshot.id);
+    setNewProjectName('');
+  };
+
   return (
     <AnimatePresence>
       {isDetailOpen && (
@@ -173,12 +245,16 @@ export default function MovieDetail() {
           onClick={closeDetail}
         >
           <motion.div
+            ref={sheetRef}
             style={styles.sheet}
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 32, stiffness: 300 }}
             onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={`${movie.title} 截图详情`}
           >
             {/* 顶部图片区：支持左右滑动切换 */}
             <div
@@ -329,6 +405,88 @@ export default function MovieDetail() {
                 </div>
               )}
 
+              <motion.button
+                type="button"
+                style={{
+                  ...styles.projectAction,
+                  ...(isProjectPickerOpen ? styles.projectActionActive : {}),
+                }}
+                onClick={() => setIsProjectPickerOpen((open) => !open)}
+                whileTap={{ scale: 0.98 }}
+                aria-expanded={isProjectPickerOpen}
+              >
+                <FolderPlus size={18} weight={projectMembershipCount > 0 ? 'fill' : 'regular'} />
+                <span>
+                  {projectMembershipCount > 0
+                    ? `已加入 ${projectMembershipCount} 个项目`
+                    : '加入项目板'}
+                </span>
+              </motion.button>
+
+              <AnimatePresence initial={false}>
+                {isProjectPickerOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.18, ease: 'easeOut' }}
+                    style={styles.projectPickerClip}
+                  >
+                    <div style={styles.projectPicker}>
+                      {projectBoards.length > 0 && (
+                        <div style={styles.projectOptions}>
+                          {projectBoards.map((board) => {
+                            const isIncluded = board.items.some(
+                              (item) =>
+                                item.movieId === movie.id && item.screenshotId === screenshot.id,
+                            );
+                            return (
+                              <button
+                                key={board.id}
+                                type="button"
+                                style={{
+                                  ...styles.projectOption,
+                                  ...(isIncluded ? styles.projectOptionActive : {}),
+                                }}
+                                onClick={() => toggleProjectMembership(board.id)}
+                              >
+                                <span>{board.name}</span>
+                                {isIncluded && <Check size={15} weight="bold" />}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                      <div style={styles.projectCreate}>
+                        <input
+                          value={newProjectName}
+                          onChange={(event) => setNewProjectName(event.target.value)}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter') handleCreateProject();
+                          }}
+                          placeholder="新项目名称"
+                          maxLength={30}
+                          style={styles.projectInput}
+                          aria-label="新项目名称"
+                        />
+                        <button
+                          type="button"
+                          onClick={handleCreateProject}
+                          disabled={!newProjectName.trim()}
+                          style={{
+                            ...styles.projectCreateBtn,
+                            ...(!newProjectName.trim() ? styles.projectCreateBtnDisabled : {}),
+                          }}
+                        >
+                          <Plus size={15} weight="bold" />
+                          新建并加入
+                        </button>
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
               {/* 导出 */}
               <div style={styles.toolbar}>
                 <motion.button
@@ -402,8 +560,8 @@ const styles: Record<string, React.CSSProperties> = {
     top: 12,
     left: 12,
     zIndex: 10,
-    width: 32,
-    height: 32,
+    width: 44,
+    height: 44,
     borderRadius: '50%',
     border: '1px solid rgba(255,255,255,0.14)',
     backgroundColor: 'rgba(0,0,0,0.45)',
@@ -420,8 +578,8 @@ const styles: Record<string, React.CSSProperties> = {
     top: 12,
     right: 12,
     zIndex: 10,
-    width: 34,
-    height: 34,
+    width: 44,
+    height: 44,
     borderRadius: '50%',
     border: '1px solid rgba(255,255,255,0.14)',
     backgroundColor: 'rgba(0,0,0,0.45)',
@@ -582,8 +740,8 @@ const styles: Record<string, React.CSSProperties> = {
     top: '50%',
     transform: 'translateY(-50%)',
     zIndex: 10,
-    width: 36,
-    height: 36,
+    width: 44,
+    height: 44,
     borderRadius: '50%',
     border: '1px solid rgba(255,255,255,0.16)',
     backgroundColor: 'rgba(0,0,0,0.45)',
@@ -600,6 +758,94 @@ const styles: Record<string, React.CSSProperties> = {
     display: 'flex',
     gap: 10,
     paddingTop: 14,
+  },
+  projectAction: {
+    width: '100%',
+    minHeight: 44,
+    marginTop: 18,
+    border: '1px solid var(--rule)',
+    borderRadius: 'var(--radius)',
+    backgroundColor: 'var(--bg)',
+    color: 'var(--ink)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    cursor: 'pointer',
+    fontSize: 13.5,
+    fontWeight: 600,
+  },
+  projectActionActive: {
+    borderColor: 'rgba(196,93,62,0.48)',
+    color: 'var(--accent)',
+    backgroundColor: 'rgba(196,93,62,0.08)',
+  },
+  projectPickerClip: {
+    overflow: 'hidden',
+  },
+  projectPicker: {
+    marginTop: 8,
+    padding: 10,
+    borderRadius: 'var(--radius)',
+    backgroundColor: 'var(--bg)',
+  },
+  projectOptions: {
+    display: 'grid',
+    gap: 6,
+    marginBottom: 8,
+  },
+  projectOption: {
+    minHeight: 44,
+    padding: '0 11px',
+    border: '1px solid var(--rule)',
+    borderRadius: 'var(--radius-sm)',
+    backgroundColor: 'var(--bg-raised)',
+    color: 'var(--ink-muted)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    cursor: 'pointer',
+    fontSize: 13,
+  },
+  projectOptionActive: {
+    color: 'var(--ink)',
+    borderColor: 'rgba(196,93,62,0.48)',
+    backgroundColor: 'rgba(196,93,62,0.1)',
+  },
+  projectCreate: {
+    display: 'flex',
+    gap: 6,
+  },
+  projectInput: {
+    minWidth: 0,
+    flex: 1,
+    minHeight: 44,
+    border: '1px solid var(--rule)',
+    borderRadius: 'var(--radius-sm)',
+    backgroundColor: 'var(--bg-raised)',
+    color: 'var(--ink)',
+    padding: '0 10px',
+    fontSize: 13,
+    outline: 'none',
+  },
+  projectCreateBtn: {
+    flexShrink: 0,
+    minHeight: 44,
+    padding: '0 11px',
+    border: 'none',
+    borderRadius: 'var(--radius-sm)',
+    backgroundColor: 'var(--accent)',
+    color: '#fff',
+    display: 'flex',
+    alignItems: 'center',
+    gap: 5,
+    cursor: 'pointer',
+    fontSize: 12.5,
+    fontWeight: 600,
+  },
+  projectCreateBtnDisabled: {
+    opacity: 0.42,
+    cursor: 'not-allowed',
   },
   exportBtn: {
     flex: 1,

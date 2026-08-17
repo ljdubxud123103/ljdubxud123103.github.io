@@ -5,19 +5,30 @@ interface ScreenshotCardProps {
   movie: Movie;
   screenshot: ScreenshotColor;
   onClick: (movie: Movie, screenshot: ScreenshotColor) => void;
+  eager?: boolean;
 }
 
-export default function ScreenshotCard({ movie, screenshot, onClick }: ScreenshotCardProps) {
+export default function ScreenshotCard({
+  movie,
+  screenshot,
+  onClick,
+  eager = false,
+}: ScreenshotCardProps) {
   return (
-    <motion.div
+    <motion.button
+      type="button"
       style={styles.card}
       whileTap={{ scale: 0.98 }}
       onClick={() => onClick(movie, screenshot)}
+      aria-label={`查看 ${movie.title} 截图`}
     >
       <img
         src={screenshot.url}
         alt={movie.title}
-        loading="lazy"
+        width={screenshot.width}
+        height={screenshot.height}
+        loading={eager ? 'eager' : 'lazy'}
+        fetchPriority={eager ? 'high' : 'auto'}
         decoding="async"
         style={styles.image}
       />
@@ -30,18 +41,23 @@ export default function ScreenshotCard({ movie, screenshot, onClick }: Screensho
           }}
         />
       </div>
-    </motion.div>
+    </motion.button>
   );
 }
 
 const styles: Record<string, React.CSSProperties> = {
   card: {
     position: 'relative',
+    display: 'block',
+    width: '100%',
+    padding: 0,
+    border: 'none',
     borderRadius: 'var(--radius)',
     overflow: 'hidden',
     backgroundColor: 'var(--bg-raised)',
     cursor: 'pointer',
     marginBottom: 8,
+    textAlign: 'left',
   },
   image: {
     width: '100%',

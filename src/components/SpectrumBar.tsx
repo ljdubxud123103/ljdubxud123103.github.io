@@ -1,180 +1,252 @@
-import { useRef, useState, useCallback } from 'react';
-import { motion } from 'framer-motion';
-import { X } from '@phosphor-icons/react';
+import { useMemo, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { CaretDown, Check, FunnelSimple } from '@phosphor-icons/react';
 import { useAppStore } from '@/store/appStore';
 
-function generateHueGradient(): string {
-  const stops: string[] = [];
-  for (let i = 0; i <= 360; i += 30) {
-    stops.push(`hsl(${i}, 62%, 52%) ${(i / 360) * 100}%`);
-  }
-  return `linear-gradient(to right, ${stops.join(', ')})`;
+const HUE_SWATCHES = [
+  { hue: 0, label: '红色' },
+  { hue: 30, label: '橙色' },
+  { hue: 60, label: '黄色' },
+  { hue: 90, label: '黄绿色' },
+  { hue: 120, label: '绿色' },
+  { hue: 150, label: '青绿色' },
+  { hue: 180, label: '青色' },
+  { hue: 210, label: '蓝色' },
+  { hue: 240, label: '靛蓝色' },
+  { hue: 270, label: '紫色' },
+  { hue: 300, label: '洋红色' },
+  { hue: 330, label: '玫红色' },
+] as const;
+
+function checkColor(hue: number): string {
+  return hue >= 35 && hue <= 180 ? '#0c0d0f' : '#fff';
 }
 
 export default function SpectrumBar() {
   const selectedHue = useAppStore(s => s.selectedHue);
   const setSelectedHue = useAppStore(s => s.setSelectedHue);
   const clearHueFilter = useAppStore(s => s.clearHueFilter);
+  const movies = useAppStore(s => s.movies);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const trackRef = useRef<HTMLDivElement>(null);
-  const [dragHue, setDragHue] = useState<number | null>(null);
-
-  const hueFromX = useCallback((clientX: number): number => {
-    const el = trackRef.current;
-    if (!el) return 0;
-    const rect = el.getBoundingClientRect();
-    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
-    return Math.round(ratio * 360);
-  }, []);
-
-  const displayHue = dragHue ?? selectedHue ?? 0;
   const hasFilter = selectedHue !== null;
-  const cursorLeft = (displayHue / 360) * 100;
-
-  const handlePointerDown = useCallback(
-    (e: React.PointerEvent<HTMLDivElement>) => {
-      e.preventDefault();
-      (e.currentTarget as HTMLDivElement).setPointerCapture(e.pointerId);
-      setDragHue(hueFromX(e.clientX));
-    },
-    [hueFromX],
+  const screenshotCount = useMemo(
+    () => movies.reduce((total, movie) => total + movie.screenshots.length, 0),
+    [movies],
   );
 
-  const handlePointerMove = useCallback(
-    (e: React.PointerEvent<HTMLDivElement>) => {
-      if (dragHue === null) return;
-      setDragHue(hueFromX(e.clientX));
-    },
-    [dragHue, hueFromX],
-  );
+  const chooseHue = (hue: number) => {
+    setSelectedHue(hue);
+    setIsOpen(false);
+  };
 
-  const handlePointerUp = useCallback(() => {
-    if (dragHue !== null) {
-      setSelectedHue(dragHue);
-    }
-    setDragHue(null);
-  }, [dragHue, setSelectedHue]);
+  const chooseAll = () => {
+    clearHueFilter();
+    setIsOpen(false);
+  };
 
   return (
     <div style={styles.wrap}>
-      <div style={styles.row}>
-        <span
+      <div style={styles.toolbar}>
+        <motion.button
+          type="button"
+          aria-expanded={isOpen}
+          aria-controls="hue-filter-panel"
+          onClick={() => setIsOpen((open) => !open)}
+          whileTap={{ scale: 0.97 }}
           style={{
-            ...styles.label,
-            color: hasFilter ? 'var(--ink)' : 'var(--ink-faint)',
+            ...styles.trigger,
+            ...(hasFilter ? styles.triggerActive : {}),
           }}
         >
-          色调
-        </span>
-        <span
-          style={{
-            ...styles.readout,
-            color: hasFilter ? 'var(--accent)' : 'var(--ink-faint)',
-          }}
-        >
-          {hasFilter ? `${displayHue}°` : '全部'}
-        </span>
-        {hasFilter && (
-          <motion.button
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            onClick={clearHueFilter}
-            aria-label="清除色调筛选"
-            whileTap={{ scale: 0.85 }}
-            style={styles.clearBtn}
+          <FunnelSimple size={15} weight={hasFilter ? 'fill' : 'regular'} />
+          <span>筛选</span>
+          {hasFilter && (
+            <span
+              aria-hidden="true"
+              style={{
+                ...styles.currentColor,
+                backgroundColor: `hsl(${selectedHue}, 62%, 52%)`,
+              }}
+            />
+          )}
+          <span style={styles.triggerValue}>{hasFilter ? `${selectedHue}°` : '全部'}</span>
+          <motion.span
+            aria-hidden="true"
+            animate={{ rotate: isOpen ? 180 : 0 }}
+            transition={{ duration: 0.18, ease: 'easeOut' }}
+            style={styles.caret}
           >
-            <X size={12} weight="bold" />
-          </motion.button>
-        )}
+            <CaretDown size={12} weight="bold" />
+          </motion.span>
+        </motion.button>
+
+        <span
+          style={{
+            ...styles.libraryCount,
+            color: hasFilter ? 'var(--ink-muted)' : 'var(--ink-faint)',
+          }}
+        >
+          {movies.length} 部 · {screenshotCount} 张
+        </span>
       </div>
 
-      <div
-        ref={trackRef}
-        onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={handlePointerUp}
-        onPointerCancel={handlePointerUp}
-        style={styles.track}
-      >
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            borderRadius: 999,
-            background: generateHueGradient(),
-            boxShadow:
-              'inset 0 0 0 1px rgba(255,255,255,0.08), 0 0 0 1px rgba(0,0,0,0.4)',
-          }}
-        />
-        {(hasFilter || dragHue !== null) && (
-          <div
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: `${cursorLeft}%`,
-              width: 22,
-              height: 22,
-              borderRadius: '50%',
-              transform: 'translate(-50%, -50%)',
-              border: '2.5px solid #fff',
-              backgroundColor: `hsl(${displayHue}, 62%, 52%)`,
-              boxShadow: '0 1px 6px rgba(0,0,0,0.6)',
-              pointerEvents: 'none',
-              transition:
-                dragHue === null
-                  ? 'left 0.2s ease, background-color 0.2s ease'
-                  : 'background-color 0.1s ease',
-            }}
-          />
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            id="hue-filter-panel"
+            aria-label="选择色调"
+            initial={{ opacity: 0, height: 0, filter: 'blur(4px)' }}
+            animate={{ opacity: 1, height: 'auto', filter: 'blur(0px)' }}
+            exit={{ opacity: 0, height: 0, filter: 'blur(4px)' }}
+            transition={{ duration: 0.2, ease: 'easeOut' }}
+            style={styles.panelClip}
+          >
+            <div style={styles.swatchGrid}>
+              <motion.button
+                type="button"
+                aria-label="显示全部色调"
+                aria-pressed={!hasFilter}
+                onClick={chooseAll}
+                whileTap={{ scale: 0.94 }}
+                style={{
+                  ...styles.allSwatch,
+                  ...(!hasFilter ? styles.swatchSelected : {}),
+                }}
+              >
+                全部
+              </motion.button>
+              {HUE_SWATCHES.map(({ hue, label }) => {
+                const selected = selectedHue === hue;
+                return (
+                  <motion.button
+                    key={hue}
+                    type="button"
+                    aria-label={`筛选${label}`}
+                    aria-pressed={selected}
+                    onClick={() => chooseHue(hue)}
+                    whileTap={{ scale: 0.92 }}
+                    style={{
+                      ...styles.colorSwatch,
+                      ...(selected ? styles.swatchSelected : {}),
+                      backgroundColor: `hsl(${hue}, 62%, 52%)`,
+                    }}
+                  >
+                    {selected && <Check size={12} weight="bold" color={checkColor(hue)} />}
+                    <span style={{ ...styles.swatchLabel, color: checkColor(hue) }}>
+                      {label.replace('色', '')}
+                    </span>
+                  </motion.button>
+                );
+              })}
+            </div>
+          </motion.div>
         )}
-      </div>
+      </AnimatePresence>
     </div>
   );
 }
 
 const styles: Record<string, React.CSSProperties> = {
   wrap: {
-    padding: '10px 16px 12px',
+    padding: '8px 16px 6px',
   },
-  row: {
+  toolbar: {
     display: 'flex',
     alignItems: 'center',
-    gap: 8,
-    marginBottom: 8,
-    height: 20,
+    justifyContent: 'space-between',
+    gap: 12,
   },
-  label: {
-    fontSize: 12,
+  trigger: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 6,
+    minHeight: 44,
+    padding: '0 10px',
+    border: '1px solid var(--rule)',
+    borderRadius: 'var(--radius-sm)',
+    backgroundColor: 'var(--bg-raised)',
+    color: 'var(--ink-muted)',
+    cursor: 'pointer',
+    fontSize: 12.5,
     fontWeight: 600,
-    letterSpacing: '0.04em',
-    transition: 'color 0.2s',
+    lineHeight: 1,
   },
-  readout: {
+  triggerActive: {
+    color: 'var(--ink)',
+    borderColor: 'rgba(196,93,62,0.48)',
+    backgroundColor: 'rgba(196,93,62,0.1)',
+  },
+  currentColor: {
+    width: 10,
+    height: 10,
+    borderRadius: 3,
+    border: '1px solid rgba(255,255,255,0.65)',
+  },
+  triggerValue: {
     fontFamily: 'var(--font-mono)',
-    fontSize: 12,
-    fontWeight: 600,
-    transition: 'color 0.2s',
+    fontSize: 10.5,
+    color: 'currentColor',
+    fontVariantNumeric: 'tabular-nums',
   },
-  clearBtn: {
+  caret: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: 20,
-    height: 20,
-    borderRadius: '50%',
-    border: 'none',
-    backgroundColor: 'rgba(196,93,62,0.18)',
-    color: 'var(--accent)',
+  },
+  libraryCount: {
+    fontFamily: 'var(--font-mono)',
+    fontSize: 10.5,
+    whiteSpace: 'nowrap',
+    fontVariantNumeric: 'tabular-nums',
+  },
+  panelClip: {
+    overflow: 'hidden',
+  },
+  swatchGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(7, minmax(34px, 1fr))',
+    gap: 7,
+    width: 'min(100%, 420px)',
+    marginTop: 8,
+    padding: 9,
+    borderRadius: 'var(--radius)',
+    backgroundColor: 'var(--bg-raised)',
+    border: '1px solid var(--rule)',
+  },
+  allSwatch: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 0,
+    height: 44,
+    borderRadius: 'var(--radius-sm)',
+    border: '1px solid rgba(255,255,255,0.13)',
+    backgroundColor: '#23252a',
+    color: 'var(--ink-muted)',
+    fontSize: 10.5,
+    fontWeight: 600,
     cursor: 'pointer',
-    padding: 0,
+  },
+  colorSwatch: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 0,
+    height: 44,
+    borderRadius: 'var(--radius-sm)',
+    border: '1px solid rgba(255,255,255,0.16)',
+    cursor: 'pointer',
+    flexDirection: 'column',
+    gap: 1,
+  },
+  swatchLabel: {
+    fontSize: 8,
+    fontWeight: 700,
     lineHeight: 1,
   },
-  track: {
-    position: 'relative',
-    height: 14,
-    cursor: 'pointer',
-    userSelect: 'none',
-    WebkitUserSelect: 'none',
-    touchAction: 'none',
+  swatchSelected: {
+    borderColor: '#fff',
+    boxShadow: '0 2px 7px rgba(0,0,0,0.35)',
   },
 };

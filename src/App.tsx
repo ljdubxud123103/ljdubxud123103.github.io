@@ -1,16 +1,18 @@
-import { HashRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import { HashRouter, Navigate, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FilmSlate, Clock, Heart } from '@phosphor-icons/react';
+import { FilmSlate, FolderOpen, Heart, ImageSquare } from '@phosphor-icons/react';
 import SpectrumBar from '@/components/SpectrumBar';
 import ScreenshotGrid from '@/components/ScreenshotGrid';
 import SearchBar from '@/components/SearchBar';
 import SearchDrawer from '@/components/SearchDrawer';
 import MovieDetail from '@/components/MovieDetail';
-import FavoritesPage from '@/components/FavoritesPage';
-import RecentPage from '@/components/RecentPage';
 import { useAppStore } from '@/store/appStore';
-import { getMovies, getHueIndex } from '@/utils/dataLoader';
+import { loadMovies } from '@/utils/dataLoader';
+
+const ColorMatchPage = lazy(() => import('@/components/ColorMatchPage'));
+const ProjectBoardsPage = lazy(() => import('@/components/ProjectBoardsPage'));
+const SavedPage = lazy(() => import('@/components/SavedPage'));
 
 function TabButton({
   icon,
@@ -26,45 +28,23 @@ function TabButton({
   return (
     <motion.button
       onClick={onClick}
-      whileTap={{ scale: 0.9 }}
-      style={{
-        flex: 1,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: 3,
-        border: 'none',
-        background: 'none',
-        cursor: 'pointer',
-        color: active ? 'var(--accent)' : 'var(--ink-muted)',
-        fontSize: 10,
-        fontWeight: active ? 600 : 500,
-        letterSpacing: '0.02em',
-        position: 'relative',
-        padding: 0,
-        transition: 'color 0.2s',
-        height: '100%',
-      }}
+      whileTap={{ scale: 0.94 }}
+      className={`app-nav__item${active ? ' is-active' : ''}`}
+      aria-current={active ? 'page' : undefined}
     >
       {icon}
       <span>{label}</span>
-      {active && (
-        <motion.div
-          layoutId="tab-indicator"
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: '50%',
-            transform: 'translateX(-50%)',
-            width: 18,
-            height: 2,
-            backgroundColor: 'var(--accent)',
-            borderRadius: '1px',
-          }}
-        />
-      )}
     </motion.button>
+  );
+}
+
+function GalleryPage() {
+  return (
+    <main className="gallery-page">
+      <SearchBar />
+      <SpectrumBar />
+      <ScreenshotGrid />
+    </main>
   );
 }
 
@@ -73,57 +53,54 @@ function MainLayout() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ minHeight: '100dvh', backgroundColor: 'var(--bg)' }}>
-      <div style={{ flex: 1, paddingBottom: 76 }}>
-        <SearchBar />
-        {location.pathname === '/' && <SpectrumBar />}
-        <Routes>
-          <Route path="/" element={<ScreenshotGrid />} />
-          <Route path="/recent" element={<RecentPage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
-        </Routes>
+    <div className="app-shell">
+      <div className="app-content">
+        <Suspense fallback={<div style={routeLoadingStyle}>载入中</div>}>
+          <Routes>
+            <Route path="/" element={<GalleryPage />} />
+            <Route path="/match" element={<ColorMatchPage />} />
+            <Route path="/projects" element={<ProjectBoardsPage />} />
+            <Route path="/saved" element={<SavedPage />} />
+            <Route path="/recent" element={<Navigate to="/saved" replace />} />
+            <Route path="/favorites" element={<Navigate to="/saved" replace />} />
+            <Route path="/library" element={<Navigate to="/saved" replace />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </div>
 
-      <nav
-        style={{
-          position: 'fixed',
-          bottom: 0,
-          left: 0,
-          right: 0,
-          height: 'calc(56px + env(safe-area-inset-bottom))',
-          display: 'flex',
-          paddingBottom: 'env(safe-area-inset-bottom)',
-          borderTop: '1px solid var(--rule)',
-          background: 'var(--bg-overlay)',
-          backdropFilter: 'blur(20px) saturate(1.4)',
-          WebkitBackdropFilter: 'blur(20px) saturate(1.4)',
-          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.04)',
-          zIndex: 40,
-        }}
-      >
+      <nav className="app-nav" aria-label="主要功能">
+        <div className="app-nav__brand" aria-hidden="true">
+          <span>C</span>
+        </div>
         <TabButton
           icon={<FilmSlate size={21} weight={location.pathname === '/' ? 'fill' : 'regular'} />}
-          label="浏览"
+          label="图库"
           active={location.pathname === '/'}
           onClick={() => navigate('/')}
         />
         <TabButton
-          icon={<Clock size={21} weight={location.pathname === '/recent' ? 'fill' : 'regular'} />}
-          label="最近"
-          active={location.pathname === '/recent'}
-          onClick={() => navigate('/recent')}
+          icon={<ImageSquare size={21} weight={location.pathname === '/match' ? 'fill' : 'regular'} />}
+          label="识色"
+          active={location.pathname === '/match'}
+          onClick={() => navigate('/match')}
+        />
+        <TabButton
+          icon={<FolderOpen size={21} weight={location.pathname === '/projects' ? 'fill' : 'regular'} />}
+          label="项目板"
+          active={location.pathname === '/projects'}
+          onClick={() => navigate('/projects')}
         />
         <TabButton
           icon={
             <Heart
               size={21}
-              weight={location.pathname === '/favorites' ? 'fill' : 'regular'}
-              color={location.pathname === '/favorites' ? 'var(--accent)' : undefined}
+              weight={location.pathname === '/saved' ? 'fill' : 'regular'}
             />
           }
           label="收藏"
-          active={location.pathname === '/favorites'}
-          onClick={() => navigate('/favorites')}
+          active={location.pathname === '/saved'}
+          onClick={() => navigate('/saved')}
         />
       </nav>
 
@@ -136,27 +113,41 @@ function MainLayout() {
 function App() {
   const loadData = useAppStore((s) => s.loadData);
   const isDataLoaded = useAppStore((s) => s.isDataLoaded);
+  const [loadError, setLoadError] = useState(false);
+  const [loadAttempt, setLoadAttempt] = useState(0);
 
   useEffect(() => {
-    const moviesData = getMovies();
-    const hueIndex = getHueIndex();
-    loadData(moviesData.movies, hueIndex);
-  }, [loadData]);
+    let cancelled = false;
+    setLoadError(false);
+
+    loadMovies()
+      .then((moviesData) => {
+        if (!cancelled) loadData(moviesData.movies, {});
+      })
+      .catch((error) => {
+        console.error('电影数据载入失败:', error);
+        if (!cancelled) setLoadError(true);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [loadAttempt, loadData]);
+
+  if (loadError) {
+    return (
+      <div style={loadStateStyle}>
+        <span>电影数据载入失败</span>
+        <button style={retryButtonStyle} onClick={() => setLoadAttempt((value) => value + 1)}>
+          重新载入
+        </button>
+      </div>
+    );
+  }
 
   if (!isDataLoaded) {
     return (
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          height: '100dvh',
-          fontSize: '14px',
-          color: 'var(--ink-faint)',
-          letterSpacing: '0.1em',
-          backgroundColor: 'var(--bg)',
-        }}
-      >
+      <div style={loadStateStyle}>
         CINEPALETTE
       </div>
     );
@@ -168,5 +159,40 @@ function App() {
     </HashRouter>
   );
 }
+
+const routeLoadingStyle: React.CSSProperties = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  minHeight: '50dvh',
+  color: 'var(--ink-faint)',
+  fontSize: 12,
+  letterSpacing: '0.08em',
+};
+
+const loadStateStyle: React.CSSProperties = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: 14,
+  height: '100dvh',
+  fontSize: 14,
+  color: 'var(--ink-faint)',
+  letterSpacing: '0.1em',
+  backgroundColor: 'var(--bg)',
+};
+
+const retryButtonStyle: React.CSSProperties = {
+  minHeight: 44,
+  padding: '0 16px',
+  border: '1px solid var(--rule)',
+  borderRadius: 'var(--radius-sm)',
+  backgroundColor: 'var(--bg-raised)',
+  color: 'var(--ink)',
+  cursor: 'pointer',
+  fontSize: 13,
+  letterSpacing: 0,
+};
 
 export default App;

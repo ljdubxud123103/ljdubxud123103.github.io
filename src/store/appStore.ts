@@ -1,5 +1,12 @@
 import { create } from 'zustand';
-import type { FavoriteItem, HueIndex, Movie, RecentItem, ScreenshotColor } from '@/types';
+import type {
+  FavoriteItem,
+  HueIndex,
+  Movie,
+  ProjectBoard,
+  RecentItem,
+  ScreenshotColor,
+} from '@/types';
 
 export function hueDistance(h1: number, h2: number): number {
   const diff = Math.abs(h1 - h2);
@@ -32,6 +39,19 @@ function saveRecent(recent: RecentItem[]): void {
   localStorage.setItem('cinepalette-recent', JSON.stringify(recent));
 }
 
+function loadProjectBoards(): ProjectBoard[] {
+  try {
+    const stored = localStorage.getItem('cinepalette-project-boards');
+    return stored ? (JSON.parse(stored) as ProjectBoard[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveProjectBoards(boards: ProjectBoard[]): void {
+  localStorage.setItem('cinepalette-project-boards', JSON.stringify(boards));
+}
+
 interface AppState {
   movies: Movie[];
   hueIndex: HueIndex;
@@ -60,6 +80,14 @@ interface AppState {
   recentItems: RecentItem[];
   addRecent: (movieId: string, screenshotId: string) => void;
   clearRecent: () => void;
+
+  projectBoards: ProjectBoard[];
+  createProjectBoard: (name: string) => string;
+  renameProjectBoard: (boardId: string, name: string) => void;
+  deleteProjectBoard: (boardId: string) => void;
+  addToProjectBoard: (boardId: string, movieId: string, screenshotId: string) => void;
+  removeFromProjectBoard: (boardId: string, movieId: string, screenshotId: string) => void;
+  isInProjectBoard: (boardId: string, movieId: string, screenshotId: string) => boolean;
 
   loadData: (movies: Movie[], hueIndex: HueIndex) => void;
 }
@@ -120,6 +148,79 @@ export const useAppStore = create<AppState>()((set, get) => ({
     saveRecent([]);
     set({ recentItems: [] });
   },
+
+  projectBoards: loadProjectBoards(),
+  createProjectBoard: (name) => {
+    const trimmedName = name.trim() || '未命名项目';
+    const id = `board-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const now = Date.now();
+    const updated = [
+      ...get().projectBoards,
+      { id, name: trimmedName, createdAt: now, updatedAt: now, items: [] },
+    ];
+    saveProjectBoards(updated);
+    set({ projectBoards: updated });
+    return id;
+  },
+  renameProjectBoard: (boardId, name) => {
+    const trimmedName = name.trim();
+    if (!trimmedName) return;
+    const updated = get().projectBoards.map((board) =>
+      board.id === boardId
+        ? { ...board, name: trimmedName, updatedAt: Date.now() }
+        : board,
+    );
+    saveProjectBoards(updated);
+    set({ projectBoards: updated });
+  },
+  deleteProjectBoard: (boardId) => {
+    const updated = get().projectBoards.filter((board) => board.id !== boardId);
+    saveProjectBoards(updated);
+    set({ projectBoards: updated });
+  },
+  addToProjectBoard: (boardId, movieId, screenshotId) => {
+    const now = Date.now();
+    const updated = get().projectBoards.map((board) => {
+      if (board.id !== boardId) return board;
+      if (
+        board.items.some(
+          (item) => item.movieId === movieId && item.screenshotId === screenshotId,
+        )
+      ) {
+        return board;
+      }
+      return {
+        ...board,
+        updatedAt: now,
+        items: [...board.items, { movieId, screenshotId, addedAt: now }],
+      };
+    });
+    saveProjectBoards(updated);
+    set({ projectBoards: updated });
+  },
+  removeFromProjectBoard: (boardId, movieId, screenshotId) => {
+    const updated = get().projectBoards.map((board) =>
+      board.id === boardId
+        ? {
+            ...board,
+            updatedAt: Date.now(),
+            items: board.items.filter(
+              (item) => !(item.movieId === movieId && item.screenshotId === screenshotId),
+            ),
+          }
+        : board,
+    );
+    saveProjectBoards(updated);
+    set({ projectBoards: updated });
+  },
+  isInProjectBoard: (boardId, movieId, screenshotId) =>
+    get().projectBoards.some(
+      (board) =>
+        board.id === boardId &&
+        board.items.some(
+          (item) => item.movieId === movieId && item.screenshotId === screenshotId,
+        ),
+    ),
 
   addFavorite: (movieId, screenshotId) => {
     const { favorites } = get();

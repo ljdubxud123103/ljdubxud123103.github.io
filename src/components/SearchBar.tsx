@@ -23,6 +23,7 @@ export default function SearchBar() {
           style={styles.input}
           type="text"
           placeholder="搜索电影或导演…"
+          aria-label="搜索电影或导演"
           value={searchQuery}
           onChange={handleChange}
           onFocus={() => setSearchOpen(true)}

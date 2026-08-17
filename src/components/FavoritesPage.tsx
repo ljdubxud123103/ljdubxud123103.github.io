@@ -12,7 +12,7 @@ interface FavoriteEntry {
   screenshot: ScreenshotColor;
 }
 
-export default function FavoritesPage() {
+export default function FavoritesPage({ embedded = false }: { embedded?: boolean }) {
   const openDetail = useAppStore(s => s.openDetail);
   const removeFavorite = useAppStore(s => s.removeFavorite);
   const { favoriteScreenshots, groupedByMovie, favoriteCount } = useFavorites();
@@ -68,7 +68,7 @@ export default function FavoritesPage() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.35, ease: 'easeOut' }}
-        style={S.emptyContainer}
+        style={{ ...S.emptyContainer, ...(embedded ? S.emptyContainerEmbedded : {}) }}
       >
         <Heart size={44} weight="thin" color="var(--ink-faint)" />
         <div style={S.emptyTitle}>还没有收藏的截图</div>
@@ -81,19 +81,16 @@ export default function FavoritesPage() {
     selectMode ? (
       <div
         style={{ ...S.checkbox, ...(isSelected(entry) ? S.checkboxChecked : {}) }}
-        onClick={e => {
-          e.stopPropagation();
-          toggleSelect(entry);
-        }}
+        aria-hidden="true"
       >
         {isSelected(entry) && <Check size={13} weight="bold" color="#fff" />}
       </div>
     ) : null;
 
   return (
-    <div style={S.page}>
-      <div style={S.header}>
-        <h2 style={S.title}>收藏夹</h2>
+    <div style={{ ...S.page, ...(embedded ? S.pageEmbedded : {}) }}>
+      <div style={{ ...S.header, ...(embedded ? S.headerEmbedded : {}) }}>
+        {!embedded && <h2 style={S.title}>收藏夹</h2>}
         <div style={S.headerActions}>
           {selectMode ? (
             <button style={S.selectBtn} onClick={handleCancelSelect}>
@@ -124,11 +121,13 @@ export default function FavoritesPage() {
       {viewMode === 'grid' ? (
         <div style={S.grid}>
           {favoriteScreenshotsList.map(entry => (
-            <motion.div
+            <motion.button
+              type="button"
               key={keyFor(entry)}
               style={S.gridItem}
               whileTap={{ scale: 0.97 }}
               onClick={() => handleClickEntry(entry)}
+              aria-label={selectMode ? `选择 ${entry.movie.title} 截图` : `查看 ${entry.movie.title} 截图`}
             >
               <img
                 src={entry.screenshot.url}
@@ -138,7 +137,7 @@ export default function FavoritesPage() {
                 style={S.gridImage}
               />
               {renderCheckbox(entry)}
-            </motion.div>
+            </motion.button>
           ))}
         </div>
       ) : (
@@ -149,11 +148,13 @@ export default function FavoritesPage() {
               <h3 style={S.groupTitle}>{entries[0].movie.title}</h3>
               <div style={S.groupRow}>
                 {entries.map(entry => (
-                  <motion.div
+                  <motion.button
+                    type="button"
                     key={keyFor(entry)}
                     style={S.groupItem}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleClickEntry(entry)}
+                    aria-label={selectMode ? `选择 ${entry.movie.title} 截图` : `查看 ${entry.movie.title} 截图`}
                   >
                     <img
                       src={entry.screenshot.url}
@@ -163,7 +164,7 @@ export default function FavoritesPage() {
                       style={S.groupImage}
                     />
                     {renderCheckbox(entry)}
-                  </motion.div>
+                  </motion.button>
                 ))}
               </div>
             </div>
@@ -202,11 +203,22 @@ const S: Record<string, React.CSSProperties> = {
     boxSizing: 'border-box',
   },
 
+  pageEmbedded: {
+    padding: 0,
+    paddingBottom: 24,
+    minHeight: 0,
+  },
+
   header: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginBottom: '16px',
+  },
+
+  headerEmbedded: {
+    justifyContent: 'flex-end',
+    marginBottom: 12,
   },
 
   title: {
@@ -265,6 +277,9 @@ const S: Record<string, React.CSSProperties> = {
     overflow: 'hidden',
     cursor: 'pointer',
     backgroundColor: 'var(--bg-raised)',
+    width: '100%',
+    padding: 0,
+    border: 0,
   },
 
   gridImage: {
@@ -309,6 +324,8 @@ const S: Record<string, React.CSSProperties> = {
     overflow: 'hidden',
     cursor: 'pointer',
     backgroundColor: 'var(--bg-raised)',
+    padding: 0,
+    border: 0,
   },
 
   groupImage: {
@@ -331,6 +348,7 @@ const S: Record<string, React.CSSProperties> = {
     alignItems: 'center',
     justifyContent: 'center',
     cursor: 'pointer',
+    pointerEvents: 'none',
   },
 
   checkboxChecked: {
@@ -386,6 +404,10 @@ const S: Record<string, React.CSSProperties> = {
     gap: 6,
     height: '70dvh',
     color: 'var(--ink-muted)',
+  },
+
+  emptyContainerEmbedded: {
+    height: '48dvh',
   },
 
   emptyTitle: {

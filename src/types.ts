@@ -2,6 +2,8 @@
 export interface ScreenshotColor {
   id: string;
   url: string;
+  width: number;
+  height: number;
   dominant_hue: number;      // 0-360
   dominant_color: string;    // #RRGGBB
   palette: string[];         // 5色调色板 [#RRGGBB, ...]
@@ -44,4 +46,18 @@ export interface RecentItem {
   movieId: string;
   screenshotId: string;
   viewedAt: number; // timestamp
+}
+
+export interface ProjectBoardItem {
+  movieId: string;
+  screenshotId: string;
+  addedAt: number;
+}
+
+export interface ProjectBoard {
+  id: string;
+  name: string;
+  createdAt: number;
+  updatedAt: number;
+  items: ProjectBoardItem[];
 }

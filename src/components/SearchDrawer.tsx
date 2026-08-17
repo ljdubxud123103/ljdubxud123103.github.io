@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MagnifyingGlass, X } from '@phosphor-icons/react';
 import { useAppStore } from '@/store/appStore';
@@ -13,6 +14,7 @@ export default function SearchDrawer() {
   const setSearchQuery = useAppStore(s => s.setSearchQuery);
   const openDetail = useAppStore(s => s.openDetail);
   const clearHueFilter = useAppStore(s => s.clearHueFilter);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   const handleClose = () => {
     setSearchOpen(false);
@@ -32,6 +34,40 @@ export default function SearchDrawer() {
     }
   };
 
+  useEffect(() => {
+    if (!isSearchOpen) return;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const focusInput = window.setTimeout(() => {
+      drawerRef.current?.querySelector<HTMLInputElement>('input')?.focus();
+    }, 0);
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setSearchOpen(false);
+        return;
+      }
+      if (event.key !== 'Tab' || !drawerRef.current) return;
+      const focusable = [...drawerRef.current.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      )];
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.clearTimeout(focusInput);
+      document.removeEventListener('keydown', handleKeyDown);
+      previousFocus?.focus();
+    };
+  }, [isSearchOpen, setSearchOpen]);
+
   return (
     <AnimatePresence mode="wait">
       {isSearchOpen && (
@@ -46,11 +82,15 @@ export default function SearchDrawer() {
           />
 
           <motion.div
+            ref={drawerRef}
             style={styles.drawer}
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="搜索电影"
           >
             <div style={styles.handleBar} />
 
@@ -60,9 +100,9 @@ export default function SearchDrawer() {
                 style={styles.searchInput}
                 type="text"
                 placeholder="搜索电影或导演…"
+                aria-label="搜索电影或导演"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                autoFocus
               />
               {searchQuery && (
                 <button style={styles.clearBtn} onClick={handleClear} aria-label="清除">
@@ -77,7 +117,8 @@ export default function SearchDrawer() {
               )}
 
               {searchResults.map((movie) => (
-                <motion.div
+                <motion.button
+                  type="button"
                   key={movie.id}
                   style={styles.card}
                   whileTap={{ scale: 0.98 }}
@@ -98,7 +139,7 @@ export default function SearchDrawer() {
                       {movie.director} · {movie.year}
                     </div>
                   </div>
-                </motion.div>
+                </motion.button>
               ))}
             </div>
           </motion.div>
@@ -191,6 +232,10 @@ const styles: Record<string, React.CSSProperties> = {
     borderRadius: 'var(--radius)',
     cursor: 'pointer',
     transition: 'background-color 0.15s',
+    width: '100%',
+    border: 0,
+    background: 'transparent',
+    textAlign: 'left',
   },
   thumbnail: {
     width: 72,

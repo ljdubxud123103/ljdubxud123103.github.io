@@ -104,7 +104,9 @@ function parseDetailPage(html) {
 
 // sharp 色彩分析
 async function analyzeBuffer(buf) {
-  const { data, info } = await sharp(buf).resize({ width: 64 }).raw().toBuffer({ resolveWithObject: true });
+  const image = sharp(buf);
+  const metadata = await image.metadata();
+  const { data, info } = await image.clone().resize({ width: 64 }).raw().toBuffer({ resolveWithObject: true });
   const { channels } = info;
   const freq = new Map();
   for (let i = 0; i < data.length; i += channels) {
@@ -153,6 +155,8 @@ async function analyzeBuffer(buf) {
   const v = mx;
 
   return {
+    width: metadata.width,
+    height: metadata.height,
     dominant_hue: Math.round(h),
     dominant_color: hex(dr, dg, db),
     palette: palette.map(([r, g, b]) => hex(r, g, b)),

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Clock } from '@phosphor-icons/react';
 import { useAppStore } from '@/store/appStore';
 
-export default function RecentPage() {
+export default function RecentPage({ embedded = false }: { embedded?: boolean }) {
   const openDetail = useAppStore(s => s.openDetail);
   const clearRecent = useAppStore(s => s.clearRecent);
   const recentItems = useAppStore(s => s.recentItems);
@@ -28,7 +28,7 @@ export default function RecentPage() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.35, ease: 'easeOut' }}
-        style={S.emptyContainer}
+        style={{ ...S.emptyContainer, ...(embedded ? S.emptyContainerEmbedded : {}) }}
       >
         <Clock size={44} weight="thin" color="var(--ink-faint)" />
         <div style={S.emptyTitle}>还没有浏览记录</div>
@@ -38,9 +38,9 @@ export default function RecentPage() {
   }
 
   return (
-    <div style={S.page}>
-      <div style={S.header}>
-        <h2 style={S.title}>最近浏览</h2>
+    <div style={{ ...S.page, ...(embedded ? S.pageEmbedded : {}) }}>
+      <div style={{ ...S.header, ...(embedded ? S.headerEmbedded : {}) }}>
+        {!embedded && <h2 style={S.title}>最近浏览</h2>}
         <button style={S.clearBtn} onClick={clearRecent}>
           清空
         </button>
@@ -48,11 +48,13 @@ export default function RecentPage() {
 
       <div style={S.grid}>
         {recentScreenshots.map(entry => (
-          <motion.div
+          <motion.button
+            type="button"
             key={`${entry.movie.id}::${entry.screenshot.id}`}
             style={S.gridItem}
             whileTap={{ scale: 0.97 }}
             onClick={() => openDetail(entry.movie, entry.screenshot)}
+            aria-label={`查看 ${entry.movie.title} 截图`}
           >
             <img
               src={entry.screenshot.url}
@@ -62,7 +64,7 @@ export default function RecentPage() {
               style={S.gridImage}
             />
             <div style={S.label}>{entry.movie.title}</div>
-          </motion.div>
+          </motion.button>
         ))}
       </div>
     </div>
@@ -76,11 +78,20 @@ const S: Record<string, React.CSSProperties> = {
     minHeight: 'calc(100dvh - 76px)',
     boxSizing: 'border-box',
   },
+  pageEmbedded: {
+    padding: 0,
+    paddingBottom: 24,
+    minHeight: 0,
+  },
   header: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginBottom: '16px',
+  },
+  headerEmbedded: {
+    justifyContent: 'flex-end',
+    marginBottom: 12,
   },
   title: {
     margin: 0,
@@ -110,6 +121,10 @@ const S: Record<string, React.CSSProperties> = {
     overflow: 'hidden',
     cursor: 'pointer',
     backgroundColor: 'var(--bg-raised)',
+    width: '100%',
+    padding: 0,
+    border: 0,
+    textAlign: 'left',
   },
   gridImage: {
     width: '100%',
@@ -140,6 +155,9 @@ const S: Record<string, React.CSSProperties> = {
     gap: 6,
     height: '70dvh',
     color: 'var(--ink-muted)',
+  },
+  emptyContainerEmbedded: {
+    height: '48dvh',
   },
   emptyTitle: {
     fontSize: 16,

@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-17T13:29:04.6523116+08:00",
+  "title": "Design System: CinePalette",
+  "extensions": {
+    "colorMeta": {
+      "cinema-black": {
+        "role": "neutral",
+        "displayName": "Cinema Black / 影院黑",
+        "tonalRamp": [
+          "hsl(220 11% 15%)",
+          "hsl(220 11% 26%)",
+          "hsl(220 11% 37%)",
+          "hsl(220 11% 48%)",
+          "hsl(220 11% 59%)",
+          "hsl(220 11% 70%)",
+          "hsl(220 11% 82%)",
+          "hsl(220 11% 94%)"
+        ]
+      },
+      "bench-black": {
+        "role": "neutral",
+        "displayName": "Bench Black / 台面黑",
+        "tonalRamp": [
+          "hsl(225 9% 15%)",
+          "hsl(225 9% 26%)",
+          "hsl(225 9% 37%)",
+          "hsl(225 9% 48%)",
+          "hsl(225 9% 59%)",
+          "hsl(225 9% 70%)",
+          "hsl(225 9% 82%)",
+          "hsl(225 9% 94%)"
+        ]
+      },
+      "elevated-charcoal": {
+        "role": "neutral",
+        "displayName": "Elevated Charcoal / 抬升炭灰",
+        "tonalRamp": [
+          "hsl(228 8% 15%)",
+          "hsl(228 8% 26%)",
+          "hsl(228 8% 37%)",
+          "hsl(228 8% 48%)",
+          "hsl(228 8% 59%)",
+          "hsl(228 8% 70%)",
+          "hsl(228 8% 82%)",
+          "hsl(228 8% 94%)"
+        ]
+      },
+      "glass-black": {
+        "role": "neutral",
+        "displayName": "Glass Black / 玻璃黑",
+        "tonalRamp": [
+          "hsla(220 11% 15% / 0.82)",
+          "hsla(220 11% 26% / 0.82)",
+          "hsla(220 11% 37% / 0.82)",
+          "hsla(220 11% 48% / 0.82)",
+          "hsla(220 11% 59% / 0.82)",
+          "hsla(220 11% 70% / 0.82)",
+          "hsla(220 11% 82% / 0.82)",
+          "hsla(220 11% 94% / 0.82)"
+        ]
+      },
+      "projector-white": {
+        "role": "neutral",
+        "displayName": "Projector White / 放映白",
+        "tonalRamp": [
+          "hsl(240 5% 15%)",
+          "hsl(240 5% 26%)",
+          "hsl(240 5% 37%)",
+          "hsl(240 5% 48%)",
+          "hsl(240 5% 59%)",
+          "hsl(240 5% 70%)",
+          "hsl(240 5% 82%)",
+          "hsl(240 5% 94%)"
+        ]
+      },
+      "silver-muted": {
+        "role": "neutral",
+        "displayName": "Muted Silver / 柔银灰",
+        "tonalRamp": [
+          "hsl(225 4% 15%)",
+          "hsl(225 4% 26%)",
+          "hsl(225 4% 37%)",
+          "hsl(225 4% 48%)",
+          "hsl(225 4% 59%)",
+          "hsl(225 4% 70%)",
+          "hsl(225 4% 82%)",
+          "hsl(225 4% 94%)"
+        ]
+      },
+      "silver-faint": {
+        "role": "neutral",
+        "displayName": "Faint Silver / 暗银灰",
+        "tonalRamp": [
+          "hsl(226 4% 15%)",
+          "hsl(226 4% 26%)",
+          "hsl(226 4% 37%)",
+          "hsl(226 4% 48%)",
+          "hsl(226 4% 59%)",
+          "hsl(226 4% 70%)",
+          "hsl(226 4% 82%)",
+          "hsl(226 4% 94%)"
+        ]
+      },
+      "hairline-white": {
+        "role": "neutral",
+        "displayName": "Hairline White / 发丝白",
+        "tonalRamp": [
+          "hsla(0 0% 15% / 0.07)",
+          "hsla(0 0% 26% / 0.07)",
+          "hsla(0 0% 37% / 0.07)",
+          "hsla(0 0% 48% / 0.07)",
+          "hsla(0 0% 59% / 0.07)",
+          "hsla(0 0% 70% / 0.07)",
+          "hsla(0 0% 82% / 0.07)",
+          "hsla(0 0% 94% / 0.07)"
+        ]
+      },
+      "warm-rust": {
+        "role": "primary",
+        "displayName": "Warm Rust / 暖锈",
+        "tonalRamp": [
+          "hsl(13 54% 15%)",
+          "hsl(13 54% 26%)",
+          "hsl(13 54% 37%)",
+          "hsl(13 54% 48%)",
+          "hsl(13 54% 59%)",
+          "hsl(13 54% 70%)",
+          "hsl(13 54% 82%)",
+          "hsl(13 54% 94%)"
+        ]
+      },
+      "warm-coral": {
+        "role": "primary",
+        "displayName": "Warm Coral / 柔珊瑚",
+        "tonalRamp": [
+          "hsl(14 82% 15%)",
+          "hsl(14 82% 26%)",
+          "hsl(14 82% 37%)",
+          "hsl(14 82% 48%)",
+          "hsl(14 82% 59%)",
+          "hsl(14 82% 70%)",
+          "hsl(14 82% 82%)",
+          "hsl(14 82% 94%)"
+        ]
+      },
+      "rust-shadow": {
+        "role": "primary",
+        "displayName": "Rust Shadow / 锈影",
+        "tonalRamp": [
+          "hsl(15 17% 15%)",
+          "hsl(15 17% 26%)",
+          "hsl(15 17% 37%)",
+          "hsl(15 17% 48%)",
+          "hsl(15 17% 59%)",
+          "hsl(15 17% 70%)",
+          "hsl(15 17% 82%)",
+          "hsl(15 17% 94%)"
+        ]
+      },
+      "rust-wash": {
+        "role": "primary",
+        "displayName": "Rust Wash / 锈色薄洗",
+        "tonalRamp": [
+          "hsla(13 54% 15% / 0.10)",
+          "hsla(13 54% 26% / 0.10)",
+          "hsla(13 54% 37% / 0.10)",
+          "hsla(13 54% 48% / 0.10)",
+          "hsla(13 54% 59% / 0.10)",
+          "hsla(13 54% 70% / 0.10)",
+          "hsla(13 54% 82% / 0.10)",
+          "hsla(13 54% 94% / 0.10)"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On Accent / 强调色上白",
+        "tonalRamp": [
+          "hsl(0 0% 15%)",
+          "hsl(0 0% 26%)",
+          "hsl(0 0% 37%)",
+          "hsl(0 0% 48%)",
+          "hsl(0 0% 59%)",
+          "hsl(0 0% 70%)",
+          "hsl(0 0% 82%)",
+          "hsl(0 0% 94%)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Tool Headline",
+        "purpose": "The single H1 that names the active tool."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Result groups, boards, and detail titles."
+      },
+      "body": {
+        "displayName": "Compact Body",
+        "purpose": "Task copy, metadata, fields, and controls."
+      },
+      "label": {
+        "displayName": "Control Label",
+        "purpose": "Navigation labels, filters, and short states."
+      },
+      "data": {
+        "displayName": "Measured Data",
+        "purpose": "HEX, HUE, SAT, BRI, scores, counts, and indices."
+      }
+    },
+    "shadows": [
+      {
+        "name": "raised-workbench",
+        "value": "0 14px 36px rgba(0, 0, 0, 0.34)",
+        "purpose": "Independent task containers such as the color-match workbench."
+      },
+      {
+        "name": "floating-dock",
+        "value": "0 8px 20px rgba(0, 0, 0, 0.34)",
+        "purpose": "The four-action mobile navigation dock only."
+      },
+      {
+        "name": "floating-control",
+        "value": "0 8px 22px rgba(0, 0, 0, 0.34)",
+        "purpose": "Temporary image-overlay actions such as upload or replace."
+      },
+      {
+        "name": "upward-sheet",
+        "value": "0 -12px 48px rgba(0, 0, 0, 0.6)",
+        "purpose": "Bottom sheets for search and screenshot detail."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "160ms ease-out",
+        "purpose": "Navigation color, border, and background state changes."
+      },
+      {
+        "name": "panel-ease",
+        "value": "200ms ease-out",
+        "purpose": "Palette panels, analysis results, and compact disclosure."
+      },
+      {
+        "name": "press-scale",
+        "value": "scale(0.94–0.98)",
+        "purpose": "Tactile confirmation for motion-enabled buttons and film frames."
+      },
+      {
+        "name": "sheet-spring",
+        "value": "spring(damping: 30–32, stiffness: 300)",
+        "purpose": "Search and detail sheets entering from the bottom edge."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "workbench-split",
+        "value": "680px"
+      },
+      {
+        "name": "desktop-left-rail",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Warm-rust 44px action for creating or confirming work.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg><span>新建</span></button>",
+      "css": ".ds-button-primary { display:inline-flex; min-height:44px; padding:0 12px; align-items:center; justify-content:center; gap:6px; border:0; border-radius:8px; background:var(--accent); color:#fff; cursor:pointer; font:600 13px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; transition:transform 160ms ease-out; } .ds-button-primary svg { width:16px; height:16px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; } .ds-button-primary:hover { background:var(--accent); } .ds-button-primary:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-button-primary:active { transform:scale(.97); }"
+    },
+    {
+      "name": "Quiet Image Action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Bordered glass-black action that sits over a film image.",
+      "html": "<button class=\"ds-button-quiet\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 16V4m0 0 4 4m-4-4L8 8M5 14v5h14v-5\"/></svg><span>选择图片</span></button>",
+      "css": ".ds-button-quiet { display:inline-flex; min-height:44px; padding:0 14px; align-items:center; gap:7px; border:1px solid rgba(255,255,255,.14); border-radius:9px; background:rgba(12,13,15,.9); color:var(--ink); box-shadow:0 8px 22px rgba(0,0,0,.34); cursor:pointer; font:600 13px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; transition:border-color 160ms ease-out,transform 160ms ease-out; } .ds-button-quiet svg { width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; } .ds-button-quiet:hover { border-color:rgba(255,255,255,.22); } .ds-button-quiet:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-button-quiet:active { transform:scale(.97); }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-default",
+      "description": "Compact search entry with subdued icon and cinema-black framing.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"6.5\"/><path d=\"m16 16 4 4\"/></svg><input type=\"search\" placeholder=\"搜索电影或导演…\" aria-label=\"搜索电影或导演\"></label>",
+      "css": ".ds-search { display:flex; align-items:center; gap:9px; padding:9px 12px; border:1px solid var(--rule); border-radius:var(--radius); background:var(--bg-raised); color:var(--ink-faint); } .ds-search svg { width:17px; height:17px; flex:0 0 auto; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; } .ds-search input { min-width:0; flex:1; border:0; outline:0; background:transparent; color:var(--ink); font:400 14.5px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; } .ds-search input::placeholder { color:var(--ink-faint); } .ds-search:hover { border-color:rgba(255,255,255,.12); } .ds-search:focus-within { outline:2px solid var(--accent-ink); outline-offset:2px; }"
+    },
+    {
+      "name": "Four Action Dock",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "The stable primary navigation: gallery, match, projects, and saved.",
+      "html": "<nav class=\"ds-dock\" aria-label=\"主要功能\"><button class=\"ds-dock__item is-active\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"2\"/><path d=\"M8 5v14M16 5v14\"/></svg><span>图库</span></button><button class=\"ds-dock__item\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><circle cx=\"9\" cy=\"9\" r=\"1.5\"/><path d=\"m6 17 4-4 3 3 2-2 3 3\"/></svg><span>识色</span></button><button class=\"ds-dock__item\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3.5 7.5h7l2-2h8v13h-17z\"/></svg><span>项目板</span></button><button class=\"ds-dock__item\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 20S4 15.5 4 9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.5 12 20 12 20Z\"/></svg><span>收藏</span></button></nav>",
+      "css": ".ds-dock { display:flex; width:min(100%,420px); height:58px; padding:4px; border:1px solid rgba(255,255,255,.08); border-radius:15px; background:rgba(21,22,25,.96); box-shadow:0 8px 20px rgba(0,0,0,.34); } .ds-dock__item { flex:1; display:flex; min-width:0; height:48px; padding:0 4px; border:0; border-radius:11px; align-items:center; justify-content:center; flex-direction:column; gap:2px; background:transparent; color:var(--ink-muted); cursor:pointer; font:550 10px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; transition:color 160ms ease-out,background-color 160ms ease-out,transform 160ms ease-out; } .ds-dock__item svg { width:21px; height:21px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; } .ds-dock__item:hover { color:var(--ink); } .ds-dock__item:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-dock__item:active { transform:scale(.94); } .ds-dock__item.is-active { color:var(--accent-ink); background:#29201d; }"
+    },
+    {
+      "name": "Active Hue Filter",
+      "kind": "chip",
+      "refersTo": "chip-active",
+      "description": "Measured filter state with icon, color sample, and mono hue value.",
+      "html": "<button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 6h16l-6 7v5l-4 2v-7z\"/></svg><span>筛选</span><i aria-hidden=\"true\"></i><code>30°</code><b aria-hidden=\"true\">⌄</b></button>",
+      "css": ".ds-filter { display:inline-flex; min-height:44px; padding:0 10px; align-items:center; gap:6px; border:1px solid rgba(196,93,62,.48); border-radius:6px; background:rgba(196,93,62,.1); color:var(--ink); cursor:pointer; font:600 12.5px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; transition:border-color 160ms ease-out,transform 160ms ease-out; } .ds-filter svg { width:15px; height:15px; fill:currentColor; stroke:currentColor; stroke-width:1.5; } .ds-filter i { width:10px; height:10px; border:1px solid rgba(255,255,255,.65); border-radius:3px; background:hsl(30 62% 52%); } .ds-filter code { color:currentColor; font:400 10.5px/1 ui-monospace,'SF Mono','Cascadia Code',Menlo,monospace; } .ds-filter b { font-size:12px; } .ds-filter:hover { border-color:rgba(196,93,62,.7); } .ds-filter:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-filter:active { transform:scale(.97); }"
+    },
+    {
+      "name": "Film Frame Card",
+      "kind": "card",
+      "refersTo": "film-frame-card",
+      "description": "Unframed film imagery with a restrained caption gradient and color dot.",
+      "html": "<button class=\"ds-frame-card\" type=\"button\" aria-label=\"查看电影截图\"><span class=\"ds-frame-card__image\" aria-hidden=\"true\"></span><span class=\"ds-frame-card__caption\"><strong>The Film Title</strong><i aria-hidden=\"true\"></i></span></button>",
+      "css": ".ds-frame-card { position:relative; display:block; width:260px; aspect-ratio:16/10; padding:0; overflow:hidden; border:0; border-radius:10px; background:var(--bg-raised); cursor:pointer; text-align:left; transition:transform 160ms ease-out; } .ds-frame-card__image { position:absolute; inset:0; background:linear-gradient(135deg,#233039 0%,#6b503f 44%,#17181b 100%); } .ds-frame-card__caption { position:absolute; right:0; bottom:0; left:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:26px 10px 9px; background:linear-gradient(to top,rgba(0,0,0,.72) 0%,rgba(0,0,0,.32) 62%,transparent 100%); } .ds-frame-card__caption strong { overflow:hidden; color:rgba(255,255,255,.94); font:600 11.5px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; letter-spacing:.01em; text-overflow:ellipsis; white-space:nowrap; } .ds-frame-card__caption i { flex:0 0 auto; width:11px; height:11px; border:1.5px solid rgba(255,255,255,.85); border-radius:50%; background:#b85437; box-shadow:0 1px 4px rgba(0,0,0,.4); } .ds-frame-card:hover { color:#fff; } .ds-frame-card:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-frame-card:active { transform:scale(.98); }"
+    },
+    {
+      "name": "Saved View Switcher",
+      "kind": "nav",
+      "refersTo": "segmented-active",
+      "description": "Secondary two-way switch for favorites and recent history inside Saved.",
+      "html": "<div class=\"ds-saved-switcher\" role=\"tablist\" aria-label=\"收藏内容\"><button class=\"is-active\" role=\"tab\" aria-selected=\"true\"><span>收藏截图</span><code>12</code></button><button role=\"tab\" aria-selected=\"false\"><span>最近浏览</span><code>8</code></button></div>",
+      "css": ".ds-saved-switcher { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px; width:min(100%,420px); padding:4px; border-radius:10px; background:var(--bg-raised); } .ds-saved-switcher button { display:flex; min-height:44px; padding:0 10px; border:0; border-radius:7px; align-items:center; justify-content:center; gap:7px; background:transparent; color:var(--ink-muted); cursor:pointer; font:600 12.5px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; transition:color 160ms ease-out,background-color 160ms ease-out,transform 160ms ease-out; } .ds-saved-switcher button code { color:var(--ink-faint); font:400 9px/1 ui-monospace,'SF Mono','Cascadia Code',Menlo,monospace; } .ds-saved-switcher button:hover { color:var(--ink); } .ds-saved-switcher button:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; } .ds-saved-switcher button:active { transform:scale(.98); } .ds-saved-switcher button.is-active { background:var(--bg-elevated); color:var(--ink); }"
+    },
+    {
+      "name": "Color Data Panel",
+      "kind": "custom",
+      "refersTo": "color-data-panel",
+      "description": "Five-color palette with mono HUE, SAT, and BRI readings used across match and detail.",
+      "html": "<section class=\"ds-color-panel\" aria-label=\"画面色彩数据\"><div class=\"ds-color-panel__palette\"><button style=\"--swatch:#1d2026\">#1D2026</button><button style=\"--swatch:#704535\">#704535</button><button style=\"--swatch:#b85437\">#B85437</button><button style=\"--swatch:#cfa58f\">#CFA58F</button><button style=\"--swatch:#ececee\">#ECECEE</button></div><div class=\"ds-color-panel__readings\"><span><small>HUE</small><strong>13°</strong></span><span><small>SAT</small><strong>54%</strong></span><span><small>BRI</small><strong>72%</strong></span></div></section>",
+      "css": ".ds-color-panel { width:min(100%,420px); color:var(--ink); } .ds-color-panel__palette { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); min-height:88px; overflow:hidden; border-radius:10px; } .ds-color-panel__palette button { display:flex; min-width:0; padding:7px 3px; border:0; align-items:flex-end; justify-content:center; background:var(--swatch); color:#fff; cursor:pointer; font:600 8px/1 ui-monospace,'SF Mono','Cascadia Code',Menlo,monospace; text-shadow:0 1px 3px rgba(0,0,0,.8); transition:transform 160ms ease-out; } .ds-color-panel__palette button:hover { transform:translateY(-2px); } .ds-color-panel__palette button:focus-visible { outline:2px solid var(--accent-ink); outline-offset:-3px; } .ds-color-panel__palette button:active { transform:translateY(0) scale(.98); } .ds-color-panel__readings { display:grid; grid-template-columns:repeat(3,1fr); margin-top:14px; } .ds-color-panel__readings span { display:flex; padding:0 12px; align-items:center; justify-content:space-between; border-right:1px solid var(--rule); } .ds-color-panel__readings span:first-child { padding-left:0; } .ds-color-panel__readings span:last-child { padding-right:0; border-right:0; } .ds-color-panel__readings small { color:var(--ink-faint); font:400 10px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; } .ds-color-panel__readings strong { color:var(--ink); font:600 13px/1 ui-monospace,'SF Mono','Cascadia Code',Menlo,monospace; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Film Edit Bench / 电影剪辑台",
+    "overview": "“电影剪辑台”把界面理解为一张正在工作的台面：用户来这里找画面、比颜色、归项目，而不是停留在一座被动陈列的图库。CinePalette 保持成熟世界的 Operate 模式，界面负责让任务路径清晰，不为重新塑造品牌而增加新的视觉体系。\n\n视觉重心始终落在电影截图上。近黑表面、克制暖色、紧凑控制和测量感等宽数据共同构成工作台；控件像剪辑工具一样退后，只有当前状态、关键动作和色彩读数获得强调。\n\n从图库到识色、从详情到项目板、再从收藏回到已保存工作，四个一级入口组成稳定的生产闭环。最近浏览留在收藏内部，避免用低价值永久历史导航稀释第一视口。",
+    "keyCharacteristics": [
+      "近黑电影工作台，以细微明度层级区分结构。",
+      "暖锈与柔珊瑚只用于当前状态、关键动作和反馈。",
+      "电影截图几乎无额外框饰，标题与色点贴近画面。",
+      "色相、饱和度、亮度与 HEX 使用紧凑等宽读数。",
+      "移动端是四入口浮动 dock，桌面端从 900px 起转为 78px 左轨。"
+    ],
+    "rules": [
+      {
+        "name": "The Active Tool Owns the Canvas Rule",
+        "body": "第一视口先呈现当前工具和它的主要内容，导航保持可达但不抢夺画面。",
+        "section": "overview"
+      },
+      {
+        "name": "The Warm Accent Is a Cue Rule",
+        "body": "暖色只标记当前、可执行与可保存的状态，不把内容区铺成品牌色面。",
+        "section": "colors"
+      },
+      {
+        "name": "The Image Leads, Data Measures Rule",
+        "body": "影片标题和任务标题使用无衬线，色彩数值与计数才使用等宽；不要让等宽字体覆盖整段正文。",
+        "section": "typography"
+      },
+      {
+        "name": "The Four Actions Rule",
+        "body": "一级导航永远保持四个高频生产动作；不要把最近浏览恢复成第五个永久入口。",
+        "section": "layout"
+      },
+      {
+        "name": "The Tonal Before Shadow Rule",
+        "body": "先用影院黑、台面黑、抬升炭灰和发丝边界表达层级，阴影只证明对象确实浮在画布之上。",
+        "section": "elevation"
+      },
+      {
+        "name": "The Radius Follows Function Rule",
+        "body": "控件越小圆角越紧，浮层越完整圆角越大；不要把所有对象统一成胶囊或同一种圆角。",
+        "section": "shapes"
+      },
+      {
+        "name": "The 44px Control Rule",
+        "body": "所有高频触控动作保持至少 44px 高或 44×44px，紧凑来自排版与间距而不是缩小可点击区域。",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the active tool and film imagery dominant in the first viewport.",
+      "Do use near-black tonal layers and hairline borders before adding elevation.",
+      "Do reserve warm rust and coral for current state, decisive actions, and feedback.",
+      "Do keep color values, counts, angles, and percentages in measured mono typography.",
+      "Do preserve the same four primary actions when the mobile dock becomes the desktop left rail."
+    ],
+    "donts": [
+      "Don't turn CinePalette into a passive gallery that stops at browsing.",
+      "Don't promote recent history into a fifth permanent navigation item.",
+      "Don't spread the warm accent across large backgrounds or decorative gradients.",
+      "Don't wrap film frames in ornamental cards, thick borders, or generic dashboard chrome.",
+      "Don't replace precise Chinese task copy and measurable color data with mood labels."
+    ]
+  }
+}

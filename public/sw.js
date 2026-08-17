@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinepalette-v3';
+const CACHE_NAME = 'cinepalette-v6';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(self.skipWaiting());
