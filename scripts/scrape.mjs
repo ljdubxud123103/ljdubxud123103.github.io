@@ -19,6 +19,7 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 const MAX_MOVIES = parseInt(process.argv[2] || '20', 10);
 const START_PAGE = parseInt(process.argv[3] || '1', 10);
+const REPLACE = process.argv.includes('--replace');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -175,9 +176,16 @@ function getHueBucket(hue) {
 // 主流程
 async function main() {
   console.log(`=== CinePalette 数据管线 ===`);
-  console.log(`目标电影数: ${MAX_MOVIES}, 起始页: ${START_PAGE}`);
+  console.log(`目标新增电影数: ${MAX_MOVIES}, 起始页: ${START_PAGE}, 模式: ${REPLACE ? '覆盖' : '追加'}`);
   mkdirSync(IMAGES_DIR, { recursive: true });
   mkdirSync(DATA_DIR, { recursive: true });
+
+  const moviesPath = join(DATA_DIR, 'movies.json');
+  const existingMovies = !REPLACE && existsSync(moviesPath)
+    ? JSON.parse(readFileSync(moviesPath, 'utf8')).movies || []
+    : [];
+  const existingSlugs = new Set(existingMovies.map((movie) => movie.slug));
+  console.log(`现有电影数: ${existingMovies.length}`);
 
   // 1. 收集电影列表（翻页）
   const allMovies = [];
@@ -196,7 +204,11 @@ async function main() {
     const movies = parseListPage(html);
     if (movies.length === 0) { console.log('  无更多电影，停止翻页'); break; }
     for (const m of movies) {
-      if (allMovies.length < MAX_MOVIES) allMovies.push(m);
+      const slug = slugify(m.title);
+      const queued = allMovies.some((movie) => slugify(movie.title) === slug);
+      if (!existingSlugs.has(slug) && !queued && allMovies.length < MAX_MOVIES) {
+        allMovies.push(m);
+      }
     }
     console.log(`  累计收集 ${allMovies.length} 部电影`);
     await sleep(1000);
@@ -206,14 +218,20 @@ async function main() {
   console.log(`\n共收集 ${allMovies.length} 部电影，开始抓取详情...`);
 
   // 2. 逐部抓取详情 + 下载 + 分析
-  const movies = [];
+  const movies = [...existingMovies];
   const hueIndex = {};
   for (let i = 0; i < 360; i += 15) hueIndex[`${i}-${Math.min(i + 14, 359)}`] = [];
+  for (const movie of existingMovies) {
+    for (const screenshot of movie.screenshots || []) {
+      const bucket = getHueBucket(screenshot.dominant_hue);
+      hueIndex[bucket].push(screenshot.id);
+    }
+  }
 
   for (let mi = 0; mi < allMovies.length; mi++) {
     const m = allMovies[mi];
     const slug = slugify(m.title);
-    console.log(`\n[${mi + 1}/${allMovies.length}] ${m.title} (${m.year}) [${slug}]`);
+    console.log(`\n[新增 ${mi + 1}/${allMovies.length}] ${m.title} (${m.year}) [${slug}]`);
 
     let detail;
     try {

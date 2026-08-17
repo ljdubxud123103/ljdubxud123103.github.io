@@ -24,13 +24,28 @@ const itemVariants = {
 
 const INITIAL_ITEM_COUNT = 48;
 const LOAD_BATCH_SIZE = 48;
+const WIDE_GALLERY_QUERY = '(min-width: 1100px)';
+
+function getColumnCount() {
+  if (typeof window === 'undefined') return 2;
+  return window.matchMedia(WIDE_GALLERY_QUERY).matches ? 3 : 2;
+}
 
 export default function ScreenshotGrid() {
   const movies = useAppStore(s => s.movies);
   const selectedHue = useAppStore(s => s.selectedHue);
   const openDetail = useAppStore(s => s.openDetail);
   const [visibleCount, setVisibleCount] = useState(INITIAL_ITEM_COUNT);
+  const [columnCount, setColumnCount] = useState(getColumnCount);
   const loadMoreRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const media = window.matchMedia(WIDE_GALLERY_QUERY);
+    const updateColumns = () => setColumnCount(media.matches ? 3 : 2);
+    updateColumns();
+    media.addEventListener('change', updateColumns);
+    return () => media.removeEventListener('change', updateColumns);
+  }, []);
 
   const items = useMemo(() => {
     const all: { movie: typeof movies[number]; screenshot: typeof movies[number]['screenshots'][number] }[] = [];
@@ -96,8 +111,18 @@ export default function ScreenshotGrid() {
   }, [hasMore, loadMore, items.length]);
 
   const visibleItems = items.slice(0, visibleCount);
-  const leftItems = visibleItems.filter((_, i) => i % 2 === 0);
-  const rightItems = visibleItems.filter((_, i) => i % 2 === 1);
+  const columns = useMemo(() => {
+    const nextColumns = Array.from({ length: columnCount }, () => [] as {
+      item: typeof visibleItems[number];
+      itemIndex: number;
+    }[]);
+
+    visibleItems.forEach((item, itemIndex) => {
+      nextColumns[itemIndex % columnCount].push({ item, itemIndex });
+    });
+
+    return nextColumns;
+  }, [columnCount, visibleItems]);
 
   if (items.length === 0) {
     return (
@@ -124,30 +149,20 @@ export default function ScreenshotGrid() {
           exit="exit"
           style={styles.grid}
         >
-          <div style={styles.column}>
-            {leftItems.map((item, index) => (
-              <motion.div key={item.screenshot.id} variants={itemVariants}>
-                <ScreenshotCard
-                  movie={item.movie}
-                  screenshot={item.screenshot}
-                  onClick={openDetail}
-                  eager={index < 2}
-                />
-              </motion.div>
-            ))}
-          </div>
-          <div style={styles.column}>
-            {rightItems.map((item, index) => (
-              <motion.div key={item.screenshot.id} variants={itemVariants}>
-                <ScreenshotCard
-                  movie={item.movie}
-                  screenshot={item.screenshot}
-                  onClick={openDetail}
-                  eager={index < 2}
-                />
-              </motion.div>
-            ))}
-          </div>
+          {columns.map((column, columnIndex) => (
+            <div key={columnIndex} style={styles.column}>
+              {column.map(({ item, itemIndex }) => (
+                <motion.div key={item.screenshot.id} variants={itemVariants}>
+                  <ScreenshotCard
+                    movie={item.movie}
+                    screenshot={item.screenshot}
+                    onClick={openDetail}
+                    eager={itemIndex < 9}
+                  />
+                </motion.div>
+              ))}
+            </div>
+          ))}
         </motion.div>
       </AnimatePresence>
       {hasMore && (

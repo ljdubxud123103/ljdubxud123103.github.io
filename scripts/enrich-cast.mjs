@@ -14,6 +14,16 @@ const CAST_PATCH = {
   'the-lady-vanishes-1938': ['Margaret Lockwood', 'Michael Redgrave', 'Paul Lukas', 'Dame May Whitty'],
   'kingdom-of-heaven-2005': ['Orlando Bloom', 'Eva Green', 'Jeremy Irons', 'Liam Neeson'],
   'body-of-lies-2008': ['Leonardo DiCaprio', 'Russell Crowe', 'Mark Strong', 'Golshifteh Farahani'],
+  'round-midnight-1986': ['Dexter Gordon', 'François Cluzet', 'Gabrielle Haker', 'Sandra Reaves-Phillips'],
+  'io-capitano-2023': ['Seydou Sarr', 'Moustapha Fall', 'Issaka Sawadogo', 'Hichem Yacoubi'],
+  'compaeros-1970': ['Franco Nero', 'Tomas Milian', 'Fernando Rey', 'Iris Berben'],
+  'the-reckless-moment-1949': ['James Mason', 'Joan Bennett', 'Geraldine Brooks', "Henry O'Neill"],
+  'vortex-2021': ['Dario Argento', 'Françoise Lebrun', 'Alex Lutz', 'Kylian Dheret'],
+  'el-cid-1961': ['Charlton Heston', 'Sophia Loren', 'Raf Vallone', 'Geneviève Page'],
+  'pulse-2001': ['Kumiko Asō', 'Haruhiko Katô', 'Koyuki', 'Kurume Arisaka'],
+  'the-decameron-1971': ['Franco Citti', 'Ninetto Davoli', 'Vincenzo Amato', 'Angela Luce'],
+  'the-big-4-2022': ['Abimana Aryasatya', 'Putri Marino', 'Lutesha', 'Arie Kriting'],
+  'the-last-of-sheila-1973': ['Richard Benjamin', 'Dyan Cannon', 'James Coburn', 'Joan Hackett'],
 };
 
 const data = JSON.parse(readFileSync(DATA_FILE, 'utf-8'));
