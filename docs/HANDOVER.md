@@ -4,8 +4,10 @@
 面向电影制片人的**按色调检索电影截图**参考工具：选色相 → 瀑布流浏览匹配截图 → 详情页查看色彩数据/色卡/同片其他截图，辅助拍摄现场的配色与构图参考。MVP 为 H5（PWA），验证稳定后再做原生 iOS。
 
 - 线上地址：https://ljdubxud123103.github.io/
-- 部署仓库：`ljdubxud123103/ljdubxud123103.github.io`（main 分支直接存放 dist 产物）
-- 最新提交：`ab27522`（已构建、推送、线上验证通过）
+- 部署仓库：`ljdubxud123103/ljdubxud123103.github.io`
+  - `main` 分支 = 构建产物（Pages 直接serve，勿放源码）
+  - `source` 分支 = **完整源码**（2026-08-17 已推送，含 src/、public/、data/、scripts/、docs/、package.json + 锁文件）
+- 最新部署提交（main）：`ab27522`；本地 `f:\cinepalette` 已是 git 仓库，本地 `main` 对应远程 `source` 分支
 
 ## 2. 目录结构
 ```
@@ -72,9 +74,10 @@ React 19 + TypeScript 5.8 + Vite 6 + Zustand 5 + Framer Motion 12 + react-router
 - 截图详情必须含：导演、上映年份、主演、同片其他截图
 - 先 H5（PWA），后原生 iOS
 - film-grab.com 抓取需代理 `127.0.0.1:7897`
-- **环境特殊**（shell 无 node/git/npx in PATH）：
+- **环境特殊**（本机 shell 无 node/git/npx in PATH）：
   - node：`C:\Users\27760\.trae-cn\binaries\node\versions\v24.14.0\node.exe`
   - git：`F:\ComfyUI\ComfyUI-aki-v3\git\cmd\git.exe`（凭据已存，可直推仓库）
-  - 本地项目 `f:\cinepalette` **不是 git 仓库**，无 .git；沙箱写文件仅允许 `C:\Users\27760` 下
-- **部署流程**：`vite build` → 克隆 Pages 仓库到 `C:\Users\27760\` 下 → 覆盖 `index.html`、`sw.js`、新增 `assets/*`、`git rm` 旧 hash bundle → commit + push（图片未变时不重推 images/）→ 等 ~2 分钟后线上验证新 hash 文件名
+  - 沙箱写文件仅允许 `C:\Users\27760` 下；`.gitignore` 已排除 node_modules/dist/.refs/.deploy-tmp
+- **新机器接手**：`git clone -b source https://github.com/ljdubxud123103/ljdubxud123103.github.io.git` → `npm install` → `npm run dev`
+- **部署流程**：源码提交推送到 `source` 分支 → `vite build` → 在 main 分支覆盖 `index.html`、`sw.js`、新增 `assets/*`、删除旧 hash bundle → push main（图片未变时不重推 images/）→ 等 ~2 分钟后线上验证新 hash 文件名
 - UI 深色电影感风格（--bg #0c0d0f 系、accent #c45d3e 橙红、mono 数据字体），用户为电影制片人，审美要求高
