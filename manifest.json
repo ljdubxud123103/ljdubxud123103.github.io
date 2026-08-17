@@ -4,8 +4,8 @@
   "description": "按色调检索电影截图，参考构图与配色",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f5f2",
-  "theme_color": "#c45d3e",
+  "background_color": "#0c0d0f",
+  "theme_color": "#0c0d0f",
   "orientation": "portrait-primary",
   "icons": [
     {
