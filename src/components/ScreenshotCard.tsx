@@ -17,12 +17,14 @@ export default function ScreenshotCard({
   return (
     <motion.button
       type="button"
+      className="screenshot-card"
       style={styles.card}
       whileTap={{ scale: 0.98 }}
       onClick={() => onClick(movie, screenshot)}
       aria-label={`查看 ${movie.title} 截图`}
     >
       <img
+        className="screenshot-card__image"
         src={screenshot.url}
         alt={movie.title}
         width={screenshot.width}
@@ -56,12 +58,10 @@ const styles: Record<string, React.CSSProperties> = {
     overflow: 'hidden',
     backgroundColor: 'var(--bg-raised)',
     cursor: 'pointer',
-    marginBottom: 8,
     textAlign: 'left',
   },
   image: {
     width: '100%',
-    height: 'auto',
     display: 'block',
   },
   caption: {

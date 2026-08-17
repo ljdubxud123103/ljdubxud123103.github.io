@@ -16,8 +16,8 @@ export default function SearchBar() {
   };
 
   return (
-    <div style={styles.wrapper}>
-      <div style={styles.container}>
+    <div className="gallery-search" style={styles.wrapper}>
+      <div className="gallery-search__container" style={styles.container}>
         <MagnifyingGlass size={17} color="var(--ink-faint)" style={{ flexShrink: 0 }} />
         <input
           style={styles.input}

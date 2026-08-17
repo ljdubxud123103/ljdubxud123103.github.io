@@ -46,7 +46,7 @@ export default function SpectrumBar() {
   };
 
   return (
-    <div style={styles.wrap}>
+    <div className="gallery-filter" style={styles.wrap}>
       <div style={styles.toolbar}>
         <motion.button
           type="button"
