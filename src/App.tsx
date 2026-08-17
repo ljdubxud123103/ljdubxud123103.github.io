@@ -1,12 +1,12 @@
 import { HashRouter, Navigate, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FilmSlate, FolderOpen, Heart, ImageSquare } from '@phosphor-icons/react';
 import SpectrumBar from '@/components/SpectrumBar';
 import ScreenshotGrid from '@/components/ScreenshotGrid';
 import SearchBar from '@/components/SearchBar';
 import SearchDrawer from '@/components/SearchDrawer';
 import MovieDetail from '@/components/MovieDetail';
+import { CineNavIcon, CinePaletteMark, type CineNavIconName } from '@/components/CinePaletteIcons';
 import { useAppStore } from '@/store/appStore';
 import { loadMovies } from '@/utils/dataLoader';
 
@@ -20,7 +20,7 @@ function TabButton({
   active,
   onClick,
 }: {
-  icon: React.ReactNode;
+  icon: CineNavIconName;
   label: string;
   active: boolean;
   onClick: () => void;
@@ -32,7 +32,10 @@ function TabButton({
       className={`app-nav__item${active ? ' is-active' : ''}`}
       aria-current={active ? 'page' : undefined}
     >
-      {icon}
+      <span className="app-nav__signal" aria-hidden="true" />
+      <span className="app-nav__icon" aria-hidden="true">
+        <CineNavIcon name={icon} active={active} />
+      </span>
       <span>{label}</span>
     </motion.button>
   );
@@ -71,33 +74,28 @@ function MainLayout() {
 
       <nav className="app-nav" aria-label="主要功能">
         <div className="app-nav__brand" aria-hidden="true">
-          <span>C</span>
+          <CinePaletteMark className="app-nav__brand-mark" />
         </div>
         <TabButton
-          icon={<FilmSlate size={21} weight={location.pathname === '/' ? 'fill' : 'regular'} />}
+          icon="library"
           label="图库"
           active={location.pathname === '/'}
           onClick={() => navigate('/')}
         />
         <TabButton
-          icon={<ImageSquare size={21} weight={location.pathname === '/match' ? 'fill' : 'regular'} />}
+          icon="match"
           label="识色"
           active={location.pathname === '/match'}
           onClick={() => navigate('/match')}
         />
         <TabButton
-          icon={<FolderOpen size={21} weight={location.pathname === '/projects' ? 'fill' : 'regular'} />}
+          icon="boards"
           label="项目板"
           active={location.pathname === '/projects'}
           onClick={() => navigate('/projects')}
         />
         <TabButton
-          icon={
-            <Heart
-              size={21}
-              weight={location.pathname === '/saved' ? 'fill' : 'regular'}
-            />
-          }
+          icon="saved"
           label="收藏"
           active={location.pathname === '/saved'}
           onClick={() => navigate('/saved')}
