@@ -6,6 +6,7 @@ import ScreenshotGrid from '@/components/ScreenshotGrid';
 import SearchBar from '@/components/SearchBar';
 import SearchDrawer from '@/components/SearchDrawer';
 import MovieDetail from '@/components/MovieDetail';
+import CineIntro from '@/components/CineIntro';
 import { CineNavIcon, CinePaletteMark, type CineNavIconName } from '@/components/CinePaletteIcons';
 import { useAppStore } from '@/store/appStore';
 import { loadMovies } from '@/utils/dataLoader';
@@ -134,27 +135,36 @@ function App() {
 
   if (loadError) {
     return (
-      <div style={loadStateStyle}>
-        <span>电影数据载入失败</span>
-        <button style={retryButtonStyle} onClick={() => setLoadAttempt((value) => value + 1)}>
-          重新载入
-        </button>
-      </div>
+      <>
+        <CineIntro />
+        <div style={loadStateStyle}>
+          <span>电影数据载入失败</span>
+          <button style={retryButtonStyle} onClick={() => setLoadAttempt((value) => value + 1)}>
+            重新载入
+          </button>
+        </div>
+      </>
     );
   }
 
   if (!isDataLoaded) {
     return (
-      <div style={loadStateStyle}>
-        CINEPALETTE
-      </div>
+      <>
+        <CineIntro />
+        <div style={loadStateStyle}>
+          CINEPALETTE
+        </div>
+      </>
     );
   }
 
   return (
-    <HashRouter>
-      <MainLayout />
-    </HashRouter>
+    <>
+      <CineIntro />
+      <HashRouter>
+        <MainLayout />
+      </HashRouter>
+    </>
   );
 }
 

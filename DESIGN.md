@@ -47,6 +47,7 @@ typography:
     lineHeight: 1
     letterSpacing: "0.14em"
 rounded:
+  pixel: "1px"
   small: "6px"
   segment: "7px"
   control: "8px"
@@ -89,16 +90,16 @@ components:
     backgroundColor: "transparent"
     textColor: "{colors.silver-muted}"
     typography: "{typography.label}"
-    rounded: "{rounded.nav}"
-    width: "60px"
-    height: "48px"
+    rounded: "{rounded.segment}"
+    width: "58px"
+    height: "50px"
   nav-item-active:
-    backgroundColor: "{colors.rust-shadow}"
-    textColor: "{colors.warm-coral}"
+    backgroundColor: "transparent"
+    textColor: "{colors.projector-white}"
     typography: "{typography.label}"
-    rounded: "{rounded.nav}"
-    width: "60px"
-    height: "48px"
+    rounded: "{rounded.segment}"
+    width: "58px"
+    height: "50px"
   film-frame-card:
     backgroundColor: "{colors.bench-black}"
     textColor: "{colors.on-accent}"
@@ -250,7 +251,11 @@ components:
 
 ### Navigation
 
-移动端是 64px 高的四入口 dock，每项使用 CinePalette 自有图标：胶片窗、三叶色彩光圈、分镜板与收藏片签；图标统一使用 1.65px 圆角笔画。当前项不再铺大块锈影底，而以红、金、青三段色标和局部实色强调。900px 起转为 78px 左轨，顶部显示由电影画幅构成的 `C` 与三段色彩组成的品牌标记；导航名称、顺序和层级在两种布局中保持不变。
+移动端是贴合屏幕底边的 61px 四入口控制条，不使用悬浮胶囊外框。四枚自有图标共享 1.5px 细圆角笔画和电影画幅几何：叠放画幅、取样框、分镜格与收藏片签。当前项只以放映白图标、文字和一枚 4px 珊瑚取样点确认，不使用大块选中底色或多色装饰条。900px 起转为 72px 左轨，顶部显示开放画幅 `C` 与单枚珊瑚取样方块组成的品牌标记；导航名称、顺序和层级在两种布局中保持不变。
+
+### Motion
+
+整页打开时播放一次约 1.5 秒的“片门开启”：一道横向放映光扫过，开放画幅标记完成描边，取样方块锁定，随后暗场沿竖向片门退去并显出图库。动画只在页面完整载入入口出现，路由切换不重复播放；全程只使用不循环的变换、透明度、裁切与单条扫描光，并为 `prefers-reduced-motion` 提供短淡出替代。
 
 ### Color Workbench
 
