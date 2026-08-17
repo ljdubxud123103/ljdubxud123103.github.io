@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CinePalette 二次开发决策报告 · 2026-08-17</title>
+<style>
+  :root {
+    --bg: #0c0d0f;
+    --bg2: #141518;
+    --bg3: #1a1c20;
+    --ink: #ececee;
+    --muted: #8a8d94;
+    --faint: #5c5f66;
+    --rule: rgba(255,255,255,0.08);
+    --accent: #c45d3e;
+    --accent-soft: rgba(196,93,62,0.14);
+    --ok: #6fbf8b;
+    --warn: #d9a441;
+    --bad: #d96b5a;
+    --mono: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.75;
+    font-size: 15px;
+  }
+  .page { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+
+  /* 封面 */
+  .cover { padding: 8px 0 36px; border-bottom: 1px solid var(--rule); margin-bottom: 40px; }
+  .kicker {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em;
+    color: var(--accent); text-transform: uppercase; margin-bottom: 14px;
+  }
+  h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; }
+  .sub { color: var(--muted); margin-top: 12px; font-size: 15px; max-width: 60ch; }
+
+  /* 结论卡 */
+  .verdict {
+    background: var(--bg2); border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 12px; padding: 24px 28px; margin: 32px 0 8px;
+  }
+  .verdict .v-label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em;
+    color: var(--faint); margin-bottom: 8px;
+  }
+  .verdict .v-main { font-size: 22px; font-weight: 750; line-height: 1.35; }
+  .verdict .v-main em { color: var(--accent); font-style: normal; }
+  .verdict .v-sub { color: var(--muted); font-size: 14px; margin-top: 8px; }
+
+  /* 章节 */
+  section { margin-top: 56px; }
+  .sec-num {
+    font-family: var(--mono); font-size: 11px; color: var(--accent);
+    letter-spacing: 0.18em; margin-bottom: 6px;
+  }
+  h2 { font-size: 22px; font-weight: 750; letter-spacing: -0.01em; margin-bottom: 18px; }
+
+  /* 诊断卡 */
+  .diag { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 640px) { .diag { grid-template-columns: 1fr; } }
+  .d-card {
+    background: var(--bg2); border: 1px solid var(--rule);
+    border-radius: 12px; padding: 18px 20px;
+  }
+  .d-card .d-tag {
+    display: inline-block; font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.1em; padding: 3px 8px; border-radius: 5px; margin-bottom: 10px;
+  }
+  .t-bug { color: var(--bad); background: rgba(217,107,90,0.12); }
+  .t-ux { color: var(--warn); background: rgba(217,164,65,0.12); }
+  .t-feat { color: var(--ok); background: rgba(111,191,139,0.12); }
+  .d-card h3 { font-size: 15.5px; font-weight: 700; margin-bottom: 6px; }
+  .d-card p { font-size: 13.5px; color: var(--muted); }
+  .d-card code {
+    font-family: var(--mono); font-size: 12px; color: var(--accent);
+    background: var(--accent-soft); padding: 1px 6px; border-radius: 4px;
+  }
+
+  /* 表格 */
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th {
+    text-align: left; font-family: var(--mono); font-size: 10.5px;
+    letter-spacing: 0.12em; color: var(--faint); font-weight: 600;
+    padding: 10px 12px; border-bottom: 1px solid var(--rule);
+  }
+  td { padding: 13px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td .repo { font-weight: 650; color: var(--ink); }
+  td .meta { font-family: var(--mono); font-size: 11.5px; color: var(--faint); margin-top: 3px; }
+  .pill {
+    display: inline-block; font-family: var(--mono); font-size: 10.5px;
+    padding: 2px 9px; border-radius: 99px; white-space: nowrap;
+  }
+  .p-go { color: var(--ok); background: rgba(111,191,139,0.1); border: 1px solid rgba(111,191,139,0.3); }
+  .p-warn { color: var(--warn); background: rgba(217,164,65,0.1); border: 1px solid rgba(217,164,65,0.3); }
+  .p-stop { color: var(--bad); background: rgba(217,107,90,0.1); border: 1px solid rgba(217,107,90,0.3); }
+  .p-mut { color: var(--muted); background: rgba(255,255,255,0.05); border: 1px solid var(--rule); }
+
+  /* Cinekive 对比 */
+  .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 6px; }
+  @media (max-width: 640px) { .vs { grid-template-columns: 1fr; } }
+  .vs-col { background: var(--bg2); border: 1px solid var(--rule); border-radius: 12px; padding: 20px 22px; }
+  .vs-col h3 { font-size: 15px; font-weight: 700; margin-bottom: 12px; }
+  .vs-col.cinekive h3 { color: var(--warn); }
+  .vs-col.ours h3 { color: var(--accent); }
+  .vs-col ul { list-style: none; }
+  .vs-col li {
+    font-size: 13.5px; color: var(--muted); padding: 6px 0 6px 22px; position: relative;
+    border-bottom: 1px dashed rgba(255,255,255,0.05);
+  }
+  .vs-col li:last-child { border-bottom: none; }
+  .vs-col li::before {
+    content: ''; position: absolute; left: 2px; top: 14px;
+    width: 8px; height: 2px; border-radius: 1px;
+  }
+  .vs-col.cinekive li::before { background: var(--warn); }
+  .vs-col.ours li::before { background: var(--accent); }
+
+  /* MVP 步骤 */
+  .steps { counter-reset: step; margin-top: 4px; }
+  .step {
+    position: relative; padding: 18px 20px 18px 64px;
+    background: var(--bg2); border: 1px solid var(--rule);
+    border-radius: 12px; margin-bottom: 10px;
+  }
+  .step::before {
+    counter-increment: step; content: counter(step, decimal-leading-zero);
+    position: absolute; left: 20px; top: 20px;
+    font-family: var(--mono); font-size: 15px; font-weight: 700; color: var(--accent);
+  }
+  .step h3 { font-size: 15.5px; font-weight: 700; margin-bottom: 5px; }
+  .step h3 .eta {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    color: var(--faint); margin-left: 8px; letter-spacing: 0.06em;
+  }
+  .step p { font-size: 13.5px; color: var(--muted); }
+
+  /* 色带示意 */
+  .spectrum-demo {
+    height: 10px; border-radius: 99px; margin: 18px 0 8px;
+    background: linear-gradient(to right,
+      hsl(0,62%,52%), hsl(30,62%,52%), hsl(60,62%,52%), hsl(90,62%,52%),
+      hsl(120,62%,52%), hsl(150,62%,52%), hsl(180,62%,52%), hsl(210,62%,52%),
+      hsl(240,62%,52%), hsl(270,62%,52%), hsl(300,62%,52%), hsl(330,62%,52%), hsl(360,62%,52%));
+    position: relative;
+  }
+  .spectrum-demo .cursor {
+    position: absolute; top: 50%; left: 62%; transform: translate(-50%,-50%);
+    width: 22px; height: 22px; border-radius: 50%;
+    border: 2.5px solid #fff; background: hsl(223,62%,52%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+  .demo-caption { font-family: var(--mono); font-size: 11px; color: var(--faint); text-align: center; letter-spacing: 0.08em; }
+
+  .note {
+    font-size: 13px; color: var(--faint); border-top: 1px solid var(--rule);
+    margin-top: 56px; padding-top: 16px;
+  }
+  .note code { font-family: var(--mono); color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="cover">
+    <div class="kicker">CinePalette · Decision Report</div>
+    <h1>开源调研与二次开发决策</h1>
+    <p class="sub">针对四个新问题（「最近」卡死、首页视觉、色轮安置、色卡下载、详情页滑动切换）的根因诊断，GitHub 开源项目调研，以及直接用 / 二次开发 / 自研的最终建议。</p>
+    <div class="verdict">
+      <div class="v-label">RECOMMENDATION · 最终建议</div>
+      <div class="v-main">基于现有 CinePalette <em>继续二次开发</em>，不建议换用任何开源项目。</div>
+      <div class="v-sub">核心需求已完成约 80%：公网 PWA 部署、1214 张图色彩数据、色调检索管线。本轮仅剩 1 个 bug 修复 + 3 个交互增强，合计半天工作量。最接近的活跃项目 Cinekive 是重型桌面 AI 应用，方向与「手机随时打开」相反。</div>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-num">01 · DIAGNOSIS</div>
+    <h2>四个问题的根因</h2>
+    <div class="diag">
+      <div class="d-card">
+        <span class="d-tag t-bug">BUG · 卡死根因已定位</span>
+        <h3>「最近」页无限重渲染</h3>
+        <p><code>useAppStore(s =&gt; s.getRecentScreenshots())</code> 在 selector 内调用函数，每次返回新数组引用。Zustand v5 基于 useSyncExternalStore，快照不稳定 → React 19 陷入渲染循环 → 页面卡死。首页 <code>getFilteredScreenshots()</code> 埋着同一颗雷。修法：订阅原始 state + useMemo 派生。</p>
+      </div>
+      <div class="d-card">
+        <span class="d-tag t-ux">UX · 视觉降权</span>
+        <h3>色轮常驻左栏喧宾夺主</h3>
+        <p>48px 常驻色轮占据视线但不总是被使用。解法：改为<strong>顶部横向全宽色带</strong>（8–10px 高），像一条安静的彩虹基准线横在搜索栏下。功能完整保留（拖动选色），视觉权重从「导航栏」降为「装饰性标尺」。首页因此获得完整双列宽度。</p>
+      </div>
+      <div class="d-card">
+        <span class="d-tag t-feat">FEATURE · 纯前端实现</span>
+        <h3>色卡一键下载 PNG</h3>
+        <p>详情页调色板新增下载按钮：Canvas 绘制 5 色竖版色卡（色块 + HEX 标注 + 电影名 / 导演 / 年份），<code>canvas.toBlob()</code> 导出 PNG。零新依赖，可直接分享到微信 / 剧组群。</p>
+      </div>
+      <div class="d-card">
+        <span class="d-tag t-feat">FEATURE · 复用现有依赖</span>
+        <h3>详情页左右滑动切换</h3>
+        <p>用已有的 framer-motion：图片容器 <code>drag="x"</code> + <code>onDragEnd</code> 判断阈值（±60px），向左滑切下一张、向右滑切上一张（同片序列）。零新依赖。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-num">02 · RESEARCH</div>
+    <h2>GitHub 开源项目调研</h2>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:34%">项目</th>
+          <th style="width:18%">维护状态</th>
+          <th style="width:26%">形态与部署</th>
+          <th>结论</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="repo">Gianluca-Improta/cinekive</span>
+            <div class="meta">102★ · MIT · Python+Next.js</div>
+          </td>
+          <td><span class="pill p-go">活跃 · 5天前更新</span></td>
+          <td>桌面安装包（Win/Mac/Linux）+ FastAPI + Qdrant 向量库 + SigLIP 语义搜索，原生引擎约 2GB</td>
+          <td><span class="pill p-warn">形态不符</span> 最强候选，详见下方对比</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="repo">photoprism/photoprism</span>
+            <div class="meta">37k★ · 自托管照片库</div>
+          </td>
+          <td><span class="pill p-go">活跃</span></td>
+          <td>Docker 部署，支持按颜色搜片，面向个人照片管理</td>
+          <td><span class="pill p-stop">方向不符</span> 照片管理器，非电影截图库；公网访问需自配域名+HTTPS</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="repo">adabedi/movies</span>
+            <div class="meta">1★ · React</div>
+          </td>
+          <td><span class="pill p-stop">停更 · 2019</span></td>
+          <td>电影海报配色展示 Demo</td>
+          <td><span class="pill p-stop">不可用</span></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="repo">DeeFrancois/movie-paletter</span>
+            <div class="repo" style="display:none"></div>
+            <div class="meta">1★ · Python</div>
+          </td>
+          <td><span class="pill p-stop">停更 · 2022</span></td>
+          <td>逐帧提取电影调色板 + 按主色搜帧，CLI 工具</td>
+          <td><span class="pill p-stop">不可用</span> 思路可参考（我们的 scrape.mjs 已实现同类功能）</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="repo">enield/filmpalettes</span>
+            <div class="meta">R 语言数据包</div>
+          </td>
+          <td><span class="pill p-mut">数据包</span></td>
+          <td>约 20 部经典电影调色板数据（wesanderson 风格）</td>
+          <td><span class="pill p-mut">仅数据</span> 无应用；我们已有 20 部 × 全片截图的更深数据</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="repo">AllastorV/Color-Cohesion-Analyzer</span>
+            <div class="meta">1★ · AGPL-3.0</div>
+          </td>
+          <td><span class="pill p-mut">2025</span></td>
+          <td>OKLab 色彩一致性分析工具（节点式界面）</td>
+          <td><span class="pill p-stop">不相关</span> 分析工具，非检索库；AGPL 协议有传染性</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <div class="sec-num">03 · HEAD-TO-HEAD</div>
+    <h2>最强候选 Cinekive vs 现有 CinePalette</h2>
+    <div class="vs">
+      <div class="vs-col cinekive">
+        <h3>Cinekive（换用它的代价）</h3>
+        <ul>
+          <li>桌面重型应用：原生引擎 ~2GB 下载，Windows 起步慢</li>
+          <li>手机只能「同 WiFi 局域网 URL」——你明确要求公网随时打开</li>
+          <li>核心卖点是 SigLIP AI 语义搜索（"neon night"文字找图），不是色相色轮精确检索</li>
+          <li>无预置片库：需要自己导入电影/截图，我们的 1214 张 film-grab 数据不通用</li>
+          <li>弃用现有全部代码（React PWA + 色彩管线 + 已部署站点）</li>
+          <li>可借鉴：moodboard 画布、craft 过滤器、自有素材导入</li>
+        </ul>
+      </div>
+      <div class="vs-col ours">
+        <h3>CinePalette（继续开发的底气）</h3>
+        <ul>
+          <li>已是公网 PWA：手机添加到主屏幕，任何网络随时打开</li>
+          <li>1214 张截图已带 HSV 色彩数据（主色 + 5 色板），管线可增量扩片</li>
+          <li>暗色放映室视觉刚按 Taste Skill 重做完毕</li>
+          <li>待办仅 4 项：1 个 bug + 3 个交互增强，预估合计 3–4 小时</li>
+          <li>零迁移成本：改完即推送，GitHub Pages 自动更新</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-num">04 · MVP PLAN</div>
+    <h2>最简 MVP：四步改造</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>修复「最近」卡死<span class="eta">~30 MIN</span></h3>
+        <p>RecentPage / FavoritesPage / ScreenshotGrid 全部改为订阅原始 state（recentItems、movies），用 useMemo 派生列表。一次修复三处隐患。</p>
+      </div>
+      <div class="step">
+        <h3>色轮迁至顶部横向色带<span class="eta">~1 H</span></h3>
+        <p>删除左侧常驻栏，首页顶部（搜索栏下方）放一条 10px 高全宽渐变带，可拖动选色，选中显示游标 + 色相读数 chip。瀑布流升级为完整宽度双列，首屏更干净。</p>
+        <div class="spectrum-demo"><div class="cursor"></div></div>
+        <div class="demo-caption">TOP SPECTRUM BAR · 拖动选色 · 视觉降权但功能保留</div>
+      </div>
+      <div class="step">
+        <h3>色卡下载 PNG<span class="eta">~1 H</span></h3>
+        <p>详情页调色板区加「下载色卡」按钮：Canvas 绘制竖版色卡（5 色块 + HEX + 影片信息），导出 PNG。零新依赖。</p>
+      </div>
+      <div class="step">
+        <h3>详情页滑动切换<span class="eta">~1 H</span></h3>
+        <p>framer-motion drag="x" 实现同片截图左右滑切，带位移动画与边界回弹；键盘 ←/→ 同步支持（桌面）。完成后构建推送，GitHub Pages 自动上线。</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="note">
+    调研方法：GitHub API 实时核验（stars / 最后推送 / 协议 / 技术栈）+ 仓库浅克隆阅读 README。候选源：GitHub 搜索「movie screenshot color palette」「search by color self-hosted」及 topics: color-palette / palette-generator。<br>
+    参考仓库本地副本：<code>f:\cinepalette\.refs\taste-skill</code> · <code>f:\cinepalette\.refs\cinekive</code> —— 报告生成于 2026-08-17。
+  </div>
+
+</div>
+</body>
+</html>
