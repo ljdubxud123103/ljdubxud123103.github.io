@@ -43,7 +43,7 @@ CinePalette 以真实电影截图和可计算的色彩数据为核心：参考�
 
 ## Evidence on Hand
 
-- `data/movies.json`：30 部电影、1843 张已分析截图及色板数据。
+- `data/movies.json`：40 部电影、2463 张已分析截图及色板数据。
 - `public/images/film-grab/`：本地电影截图资产。
 - 已有可运行的 React/Vite PWA、截图详情、收藏、最近浏览和导出功能。
 - 当前没有可用于宣传的用户评价、商业客户、准确率基准或授权声明，不得虚构。
