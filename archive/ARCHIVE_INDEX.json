@@ -371,6 +371,21 @@
       "sha256": "177069be1414341bbea244866cb407fbda97b1a497ab324df286470ecf2d3b9b"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/references/camera-guide/01-胶片与数字.jpg",
+      "bytes": 167326,
+      "sha256": "042a73c803826f54028e98423187f2ca430df9403ffc63250b2ef42f5b0b1484"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/references/camera-guide/02-同机身换镜头.jpg",
+      "bytes": 174552,
+      "sha256": "c59218d86a4c609366c9daa882ab4c392fded86fc01b121449837a03bb319569"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/references/camera-guide/READING.md",
+      "bytes": 1643,
+      "sha256": "17738924a4df6894443549c44aefecf61bd56a067ebac4d4cc42ff1d0c8f58a5"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/codex-clipboard-23a9d012-c181-4481-8988-15ec399c3f4e.png",
       "bytes": 1489105,
       "sha256": "ea03ee425fe2da41d077cb6626b0c1a95c7a652bbc7ef3e921efd9c1277d20f4"
