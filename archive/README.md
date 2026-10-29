@@ -1,6 +1,6 @@
 # 工作资料归档
 
-- [视频提示词 Skill v1.8](video-prompt-skill-kit/v1.8/README.md)：阅读版、27 个必读原文件、许可证与离线工具。
+- [视频提示词 Skill v1.9](video-prompt-skill-kit/v1.9/README.md)：阅读版、27 个必读原文件、许可证与离线工具。
 - [原始交付包](source-packages/Video-Prompt-Skill-Kit-v1.8-Reading.zip)：原始压缩包，未修改。
 - [2026-10-29 工作记录](records/2026-10-29/加载与测试状态.md)：实际加载、测试范围与限制。
 - [归档偏好](records/2026-10-29/归档偏好.md)：用户归档授权与偏好。

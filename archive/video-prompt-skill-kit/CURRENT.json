@@ -1,0 +1,11 @@
+{
+  "version": "1.9",
+  "skill": "v1.9/SKILL.md",
+  "loop": "v1.9/LOOP.md",
+  "reading_package": "../source-packages/Video-Prompt-Skill-Kit-v1.9-Reading.zip",
+  "source_version_preserved": "v1.8",
+  "installed_local": "/Users/apple/.codex/skills/seedance-yxw-complete",
+  "scope": "摄影截图与克制表演重新解析、同场接近30秒生成段、当前状态复检",
+  "validation": "v1.9/audit/VALIDATION.json",
+  "video_validation": "未实测"
+}

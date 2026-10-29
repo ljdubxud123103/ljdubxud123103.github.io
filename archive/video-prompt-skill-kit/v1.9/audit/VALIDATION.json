@@ -1,0 +1,29 @@
+{
+  "skill_version": "1.9",
+  "skill_frontmatter": "quick_validate passed",
+  "bundle_integrity": "verify_bundle passed",
+  "loop_sections_same_as_skill": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    14,
+    15,
+    16,
+    18
+  ],
+  "mandatory_original_files_unchanged": 27,
+  "research_repositories_unchanged": 9,
+  "references_and_images_accessible": true,
+  "decision_case_review": {
+    "count": 9,
+    "type": "规则应用案头复核，非独立模型评测"
+  },
+  "video_validation": "未进行真实视频测试",
+  "new_source_reading_claim": "无；未把散列校验写成重新实际加载原文"
+}

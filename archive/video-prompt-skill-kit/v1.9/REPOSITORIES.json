@@ -1,0 +1,320 @@
+{
+  "version": "1.9",
+  "date": "2026-10-29",
+  "mode": "read-required-original-files-before-use",
+  "repository_count": 9,
+  "repositories": [
+    {
+      "repository": "IcedDoggie/Micro-Expression-with-Deep-Learning",
+      "url": "https://github.com/IcedDoggie/Micro-Expression-with-Deep-Learning",
+      "commit": "2ae489bf1040b29a2b535fb4178d6e7bbe7bba49",
+      "snapshot_url": "https://codeload.github.com/IcedDoggie/Micro-Expression-with-Deep-Learning/zip/2ae489bf1040b29a2b535fb4178d6e7bbe7bba49",
+      "archive_sha256": "b5708ae0d23c355fa1c1201e6eb357fa9fdcd2e112505ea0519d43978539dcf9",
+      "archive_bytes": 61621180,
+      "source_file_count": 617,
+      "expanded_bytes": 72973471,
+      "directory": "repositories/IcedDoggie__Micro-Expression-with-Deep-Learning",
+      "license_files": [],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/IcedDoggie__Micro-Expression-with-Deep-Learning/README.md",
+          "bytes": 6647,
+          "sha256": "ee6e079b1a6c8c4f10b130e0a4da966764f573a235c294c5385b8c5cf255964b",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "Jia1018/CineGEN",
+      "url": "https://github.com/Jia1018/CineGEN",
+      "commit": "f63a073cd0f852b3a2f1c39506d34ae171939376",
+      "snapshot_url": "https://codeload.github.com/Jia1018/CineGEN/zip/f63a073cd0f852b3a2f1c39506d34ae171939376",
+      "archive_sha256": "4d9f4847ac769855b7a9dc47e47e3e3ec67cafb415d410f9f486cc8e12f955f2",
+      "archive_bytes": 10351240,
+      "source_file_count": 138,
+      "expanded_bytes": 10981109,
+      "directory": "repositories/Jia1018__CineGEN",
+      "license_files": [
+        "LICENSE"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/Jia1018__CineGEN/README.md",
+          "bytes": 11357,
+          "sha256": "11115a3ef8f813e43681d281e3da29a7bffce4ff950be7711b47170d519d2102",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/Jia1018__CineGEN/LICENSE",
+          "bytes": 19347,
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "TadasBaltrusaitis/OpenFace",
+      "url": "https://github.com/TadasBaltrusaitis/OpenFace",
+      "commit": "3d4b5cf8d96138be42bed229447f36cbb09a5a29",
+      "snapshot_url": "https://codeload.github.com/TadasBaltrusaitis/OpenFace/zip/3d4b5cf8d96138be42bed229447f36cbb09a5a29",
+      "archive_sha256": "292a054a33411fd1cffabb7eaebb8107c8528c16573c8c1c09fec10b9affaee4",
+      "archive_bytes": 609639765,
+      "source_file_count": 3672,
+      "expanded_bytes": 862975336,
+      "directory": "repositories/TadasBaltrusaitis__OpenFace",
+      "license_files": [
+        "Copyright.txt",
+        "OpenFace-license.txt"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/TadasBaltrusaitis__OpenFace/README.md",
+          "bytes": 5634,
+          "sha256": "8893e8dc0598c0f5ca1124b716121f7aecfbccc52d0afa736520186ed664081c",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/TadasBaltrusaitis__OpenFace/OpenFace-license.txt",
+          "bytes": 7450,
+          "sha256": "36c3769073a6d4abc55c28d7265aa68ade9f5add076cd5f08972f92c9438b608",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/TadasBaltrusaitis__OpenFace/Copyright.txt",
+          "bytes": 3896,
+          "sha256": "2a9a446fd82780bfa1b808ad246823c1027e82079ff471516dde26f0b0d99b07",
+          "encoding": "cp1252"
+        }
+      ]
+    },
+    {
+      "repository": "TencentARC/MotionCtrl",
+      "url": "https://github.com/TencentARC/MotionCtrl",
+      "commit": "6242d55414d3f4ad690bf0934889660f78e81b6e",
+      "snapshot_url": "https://codeload.github.com/TencentARC/MotionCtrl/zip/6242d55414d3f4ad690bf0934889660f78e81b6e",
+      "archive_sha256": "ce3bb308082e80f2039b308b872c683ddeba3011c2779a5f263a885a29d1bafb",
+      "archive_bytes": 123247009,
+      "source_file_count": 138,
+      "expanded_bytes": 146297156,
+      "directory": "repositories/TencentARC__MotionCtrl",
+      "license_files": [
+        "LICENSE"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/TencentARC__MotionCtrl/README.md",
+          "bytes": 8214,
+          "sha256": "5c57baa483acdb76f075f0dcdcc55ef922095187d5b99621640d3834debe3aa2",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/TencentARC__MotionCtrl/gradio_utils/camera_utils.py",
+          "bytes": 5250,
+          "sha256": "4990dc3e7e9d372280a4c8386525d8448da3aefeaedaa98f776b6fac1d015227",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/TencentARC__MotionCtrl/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "cosanlab/py-feat",
+      "url": "https://github.com/cosanlab/py-feat",
+      "commit": "4ebb4ecade769d02e962d18c5e6704f01045d931",
+      "snapshot_url": "https://codeload.github.com/cosanlab/py-feat/zip/4ebb4ecade769d02e962d18c5e6704f01045d931",
+      "archive_sha256": "7a769cd6640348e571528451e4be65d15bef7c19b4449c8c13144be57cee4ed4",
+      "archive_bytes": 33115665,
+      "source_file_count": 355,
+      "expanded_bytes": 48012731,
+      "directory": "repositories/cosanlab__py-feat",
+      "license_files": [
+        "LICENSE"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/cosanlab__py-feat/README.md",
+          "bytes": 4018,
+          "sha256": "fc326be7086f6e28596bc0de34e87a5ecd6774177a029cef53617ab54165de7b",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/docs/pages/au_reference.md",
+          "bytes": 11309,
+          "sha256": "c8d6281bae16c154b39e1cdf3df810f46ebc0af065d9ec0920154223d96ed35b",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/feat/utils/blendshape_to_au.py",
+          "bytes": 5596,
+          "sha256": "a9d65ccd69c682a45fedef9a60f31b68fcbe2422e7102e230c07694e6fc113c3",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/LICENSE",
+          "bytes": 3731,
+          "sha256": "4d093ef08d072547eeddc59898dcdc97273e3054d5c5ae5c2afc273176584427",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/LICENSES/PYFEAT-V1.md",
+          "bytes": 5691,
+          "sha256": "f88bfdfac9de6018943cd9603ad8616fc8066e3c41605c66903a320523c9d1e3",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/LICENSES/PYFEAT-V2.md",
+          "bytes": 6438,
+          "sha256": "1eb2d9c03a3f23b5ad98098018d538a5eb0c23ca8ccf1190b1853bdbdca8406b",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/cosanlab__py-feat/LICENSES/DATASETS.md",
+          "bytes": 13231,
+          "sha256": "5b5a335ed832dffe5265cfb540235a26c979cc2536b09fd4c3080405d5b9c264",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "google-ai-edge/mediapipe",
+      "url": "https://github.com/google-ai-edge/mediapipe",
+      "commit": "0e152b35eeea3cc9e8b55886428982b82de5925b",
+      "snapshot_url": "https://codeload.github.com/google-ai-edge/mediapipe/zip/0e152b35eeea3cc9e8b55886428982b82de5925b",
+      "archive_sha256": "d346827b984183639bde79b6885820d14a9ced52d707c33277ebab1b69e5083b",
+      "archive_bytes": 47714543,
+      "source_file_count": 4974,
+      "expanded_bytes": 76826860,
+      "directory": "repositories/google-ai-edge__mediapipe",
+      "license_files": [
+        "LICENSE"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/google-ai-edge__mediapipe/README.md",
+          "bytes": 8402,
+          "sha256": "31ea174fadbb71e4c7bfabde5b6d9cf17e79fa69adac20b0e737659bd5717748",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/face_landmarker.py",
+          "bytes": 97415,
+          "sha256": "69c822394b341e8fef4aea6351d4ef2285931cd7448a5c235c30a2a80f390412",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/hand_landmarker.py",
+          "bytes": 20748,
+          "sha256": "3c2cb5ca3add5589799655e996be3cfd64fbaedbb30e9f5aee16e13bfce7fef3",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/pose_landmarker.py",
+          "bytes": 21061,
+          "sha256": "bb49f0c12742e982130765720471d7963692f53e0b02c8df44419fb765d1eb79",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/google-ai-edge__mediapipe/LICENSE",
+          "bytes": 12331,
+          "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "hehao13/CameraCtrl",
+      "url": "https://github.com/hehao13/CameraCtrl",
+      "commit": "af45a7a0dbeedb7f6ed66aac4a9e5411a279f0d2",
+      "snapshot_url": "https://codeload.github.com/hehao13/CameraCtrl/zip/af45a7a0dbeedb7f6ed66aac4a9e5411a279f0d2",
+      "archive_sha256": "55b386a0bdaa297afb86ec1fe0a5c3942e6274720740f7cb85740cde9a70012d",
+      "archive_bytes": 21395794,
+      "source_file_count": 101,
+      "expanded_bytes": 21850463,
+      "directory": "repositories/hehao13__CameraCtrl",
+      "license_files": [
+        "LICENSE.txt"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/hehao13__CameraCtrl/README.md",
+          "bytes": 14027,
+          "sha256": "7bb01ed915c828963b3fde0a480daacd6405e9981581039b80d6445b9697a1ca",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/hehao13__CameraCtrl/cameractrl/data/dataset.py",
+          "bytes": 13974,
+          "sha256": "b149446ee3de59a9fe90452d3c3efba24e89a8cd3f9f6380179bdb4bf3af4a28",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/hehao13__CameraCtrl/LICENSE.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "linuxsino/iMiGUE",
+      "url": "https://github.com/linuxsino/iMiGUE",
+      "commit": "19362ef01fbc52a626a389ce20ae54f4e75cc37a",
+      "snapshot_url": "https://codeload.github.com/linuxsino/iMiGUE/zip/19362ef01fbc52a626a389ce20ae54f4e75cc37a",
+      "archive_sha256": "6a36fb6f87b204f9372393475e69ad7fe0dc9a3fc4ea92f5f13b5d9fbd454822",
+      "archive_bytes": 10535484,
+      "source_file_count": 8,
+      "expanded_bytes": 10659780,
+      "directory": "repositories/linuxsino__iMiGUE",
+      "license_files": [],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/linuxsino__iMiGUE/README.md",
+          "bytes": 5352,
+          "sha256": "575527c5e340bd1cbfb0d0e23a18db586be1c704125951443c13a5e780e50c8f",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    },
+    {
+      "repository": "sy77777en/CameraBench",
+      "url": "https://github.com/sy77777en/CameraBench",
+      "commit": "dd5740e44b925d7608b8ca109b51f3c49799f4ec",
+      "snapshot_url": "https://codeload.github.com/sy77777en/CameraBench/zip/dd5740e44b925d7608b8ca109b51f3c49799f4ec",
+      "archive_sha256": "9489362ec85a525a1a1fa4d370167976be9861347d98d54a67383512857d2f49",
+      "archive_bytes": 255495163,
+      "source_file_count": 39,
+      "expanded_bytes": 256426411,
+      "directory": "repositories/sy77777en__CameraBench",
+      "license_files": [
+        "LICENSE"
+      ],
+      "format": "pinned GitHub source snapshot; no .git history, no external weights/datasets/submodules fetched; symlink entries preserved as link-target text",
+      "required_files": [
+        {
+          "path": "repositories/sy77777en__CameraBench/README.md",
+          "bytes": 11096,
+          "sha256": "c60adb7d22a27e27f694247a2f79c66391ba77877f28c99b479b3132de2baa0e",
+          "encoding": "utf-8-sig"
+        },
+        {
+          "path": "repositories/sy77777en__CameraBench/LICENSE",
+          "bytes": 8072,
+          "sha256": "9088b58a577c4b228d86244d9cbc2951cb2db4ce90e8b35183fef70d1316bedc",
+          "encoding": "utf-8-sig"
+        }
+      ]
+    }
+  ]
+}
