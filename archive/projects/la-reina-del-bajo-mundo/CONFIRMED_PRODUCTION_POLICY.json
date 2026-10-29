@@ -14,6 +14,7 @@
     "costume": "用户确认：全部沿用现有对应人物造型；不创设Damián夹克、Vera白衬衫红领带及黑风衣新资产",
     "new_vo": "用户确认：Reportera D VO和El Zorro Blanco VO允许文字声源设定，不伪造音频绑定",
     "missing_assets": "用户要求先重新核对场景表，未授权延续21—25缺项例外",
-    "car_scene": "正在核对，已请求用户给出所指资产标签/行号"
-  }
+    "car_scene": "已由两张截图核实，现有资产名称轿车内；不再待确认"
+  },
+  "scene_inventory_authority": "两张用户确认已完成场景截图，共56项；详见COMPLETED_SCENE_ASSETS.json"
 }

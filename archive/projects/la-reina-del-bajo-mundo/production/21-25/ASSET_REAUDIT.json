@@ -20,6 +20,7 @@
     }
   ],
   "correction": "九个门口/走廊单元补锚@公寓大楼走廊，21-3补锚已有客厅；原有43次对白/VO、24段、122镜未改变",
-  "pending": "用户所指轿车内资产标签或行号；当前收到版本尚未找到该独立表项。26—30批次资产门禁未通过，尚未生成。",
-  "new_confirmations": "26—30沿用现有对应人物造型；Reportera D VO、El Zorro Blanco VO允许文字声源设定。"
+  "pending": "已解决：用户截图确认轿车内为现有资产；两图共56项，55项与Excel匹配，新增轿车内。",
+  "new_confirmations": "26—30沿用现有对应人物造型；Reportera D VO、El Zorro Blanco VO允许文字声源设定。",
+  "car_correction": "21-1A引用@轿车内，21-1B引用@汽车旅馆103房（外·夜）与@轿车内。"
 }

@@ -1286,7 +1286,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior luxury master bedroom, nighttime, contemporary Mexican high-end residential architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: oversized king bed with gold silk duvet and plush pillows centered against a feature wall, heavy wooden door with antique bronze handle, floor-to-ceiling curtained windows on one side.\n\nsecondary elements: bedside tables with crystal lamps casting warm pools of light, a full-length ornate mirror on one wall, scattered cream-colored silk robes and sash on the deep grey carpet, a large framed wedding portrait hanging prominently on the wall, a round side table with a decorative vase.\n\nground/floor: deep charcoal plush carpet, thick and soft, pristine condition.\n\nwalls & surfaces: warm taupe textured wallpaper with subtle damask pattern, dark wood wainscoting along the lower third, slightly gleaming under lamplight.\n\nceiling: smooth white ceiling with recessed ambient lighting set to dim warm glow, a small crystal chandelier centered above the bed area.\n\nlighting: warm bedside table lamps casting intimate pools of golden light, ambient recessed ceiling lights set very low ~2700K, soft natural falloff, realistic shadow behavior.\n\natmosphere: intimate, opulent, slightly decadent, tension lurking beneath luxury.\n\nenvironment condition: clean.\n\nbackground elements: glimpse of nighttime city lights through sheer curtain fabric, dark silhouette of distant trees through window.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 4,
+        "grid_column": 2,
+        "display_title": "场景 巴尔加斯庄园主卧（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1309,7 +1316,14 @@
         "D": "巴尔加斯庄园主卧（夜）",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change nighttime to daytime.\n\nlighting: bright natural sunlight streaming through floor-to-ceiling windows, illuminating the room with warm golden daylight ~5500K, sheer curtains diffusing light softly across the bed and carpet, soft natural falloff, realistic shadow behavior.\n\natmosphere: exposed, bright, quietly oppressive despite the daylight, the luxury feeling hollow.\n\nnatural color grading with warm.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 4,
+        "grid_column": 3,
+        "display_title": "从属场景 巴尔加斯庄园主卧（日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1330,7 +1344,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior storefront pastry shop window, daylight, contemporary Mexican urban commercial street.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: large clean glass display window of a boutique pastry shop named Dulce Tentación, white-framed storefront with a small striped awning above, glass door to one side.\n\nsecondary elements: inside the window display — a pink glazed strawberry cream cake on a crystal cake stand, assorted pastel macarons and petit fours arranged on tiered white porcelain trays, delicate paper doilies, small chalkboard price tags, warm interior bakery lighting visible through glass.\n\nground/floor: clean concrete sidewalk with subtle wet patches from recent rain, thin puddles reflecting storefront light.\n\nwalls & surfaces: cream-colored stucco exterior walls of the building, ornate iron window grilles on upper floors, hand-painted shop sign in cursive lettering.\n\nceiling: open sky above, no ceiling — partly cloudy bright daytime sky.\n\nlighting: bright diffused daylight ~5500K mixing with warm interior bakery display lights ~3000K visible through glass, soft natural falloff, realistic shadow behavior.\n\natmosphere: cheerful, inviting, sweet, a contrast of warmth against the cool wet street.\n\nenvironment condition: clean.\n\nbackground elements: adjacent shops along the street, parked cars, distant tree-lined avenue, urban Polanco neighborhood architecture.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 6,
+        "grid_column": 4,
+        "display_title": "场景 蛋糕店橱窗",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1351,7 +1372,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior cobblestone street after rain, overcast day, upscale Polanco neighborhood Mexico City.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: narrow cobblestone street flanked by elegant residential buildings with iron balconies, mature trees lining the sidewalk, wet stone pavement reflecting ambient light.\n\nsecondary elements: shallow puddles on uneven cobblestones reflecting building facades, parked luxury vehicles along the curb, ornate street lamps with glass globe fixtures, potted plants on balconies above.\n\nground/floor: wet gray cobblestone, glistening, shallow puddles with mirror-like reflections of the overcast sky.\n\nwalls & surfaces: cream and beige stucco building facades, wrought-iron balcony railings, dark wooden shutters on upper windows, some walls with climbing ivy.\n\nceiling: open overcast sky, heavy gray clouds with diffused silvery light breaking through.\n\nlighting: diffused overcast daylight ~6500K, wet surfaces creating specular reflections, soft natural falloff, realistic shadow behavior.\n\natmosphere: melancholic, elegant, contemplative, the stillness after a downpour.\n\nenvironment condition: clean.\n\nbackground elements: tree-lined avenue disappearing into soft mist, distant church tower silhouette, faint cityscape through haze.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 1,
+        "grid_column": 1,
+        "display_title": "场景 雨后街道",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1372,7 +1400,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior mansion second-floor corridor, nighttime, traditional Mexican elite residential architecture.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long narrow hallway with dark hardwood flooring partially covered by a deep burgundy Persian runner carpet, multiple closed wooden doors with ornate brass handles on both sides, the corridor ending at a prominent master bedroom door.\n\nsecondary elements: antique console tables with small decorative vases, framed oil paintings in gilded frames along the walls, a pair of wall-mounted brass sconces casting warm semicircles of light, a grandfather clock near the far end.\n\nground/floor: dark walnut hardwood with a long burgundy and gold patterned runner carpet, polished, well-maintained.\n\nwalls & surfaces: dark cream plaster walls with subtle wood molding trim at chair-rail height, rich mahogany door frames, aged but well-kept.\n\nceiling: white plastered ceiling with dark wood crown molding, brass wall sconces providing the primary illumination, no overhead fixtures.\n\nlighting: warm brass wall sconces every few meters ~2800K, creating pools of amber light with deep shadows between, soft natural falloff, realistic shadow behavior.\n\natmosphere: oppressive, secretive, foreboding, the quiet before a revelation.\n\nenvironment condition: clean.\n\nbackground elements: the corridor extends to a vanishing point at the master bedroom door, a faint glow of warm light seeping from under the door crack.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 1,
+        "grid_column": 2,
+        "display_title": "场景 庄园二楼走廊",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1393,7 +1428,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior bridal boutique fitting room, daylight, elegant contemporary Mexican commercial interior.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: spacious private fitting room with a full-length three-panel mirror as the centerpiece, a raised circular pedestal in front of the mirror, ivory curtain drapes framing the space on two sides.\n\nsecondary elements: a white lace wedding gown hanging on a velvet padded hanger near the mirror, a delicate tulle veil draped over a small side table, a bouquet of white roses resting on a cushioned bench, scattered pearl-headed pins on a tray, a champagne flute on the side table.\n\nground/floor: plush ivory carpet, thick and pristine, soft underfoot texture.\n\nwalls & surfaces: soft blush pink textured wallpaper with subtle floral pattern, white lacquered wood trim and baseboards, gilt-framed fashion sketches on the walls.\n\nceiling: smooth white ceiling with a central crystal teardrop chandelier and recessed spotlights aimed at the mirror area.\n\nlighting: bright diffused natural daylight from a frosted side window ~5000K mixed with warm spotlight accents ~3200K focused on the pedestal and mirror, soft natural falloff, realistic shadow behavior.\n\natmosphere: pristine, solemn, emotionally charged, beauty masking inner turmoil.\n\nenvironment condition: clean.\n\nbackground elements: beyond the fitting room curtain, a glimpse of the boutique showroom with rows of white gowns on racks.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 1,
+        "grid_column": 3,
+        "display_title": "场景 婚纱店试衣间",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1414,7 +1456,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior historic Catholic church, daylight, traditional Mexican colonial religious architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long central nave with rows of dark wooden pews on either side, a crimson red carpet runner extending from the entrance to the elevated altar, ornate gilded altarpiece (retablo) at the far end, stone columns supporting arched ceilings.\n\nsecondary elements: tall stained-glass windows depicting religious scenes casting colored light across the pews, floral arrangements of white lilies and roses at the end of each pew row, wrought-iron candelabras with lit white taper candles, a simple wooden chair positioned near the altar.\n\nground/floor: aged stone tile floor partially covered by a plush red carpet runner, the stone showing centuries of wear with a warm patina.\n\nwalls & surfaces: cream-colored stone walls with carved religious relief panels, gold leaf detailing on column capitals and archways, slight wear and patina from age.\n\nceiling: high barrel-vaulted stone ceiling with painted celestial motifs in faded blue and gold, wrought-iron chandeliers hanging at intervals.\n\nlighting: brilliant shafts of multicolored light pouring through tall stained-glass windows ~5500K daylight filtered through colored glass, supplemented by warm candlelight ~2500K from candelabras, soft natural falloff, realistic shadow behavior.\n\natmosphere: sacred, solemn, grand yet hollow, ceremonial beauty masking emptiness.\n\nenvironment condition: worn.\n\nbackground elements: the gilded altar with crucifix and floral displays, distant sacristy door partially visible behind the altar.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 1,
+        "grid_column": 4,
+        "display_title": "场景 教堂",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1435,7 +1484,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior corporate tower lobby, daylight, modern high-end Mexican business architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: expansive double-height lobby with floor-to-ceiling glass curtain walls, a sleek curved reception desk in polished dark stone, a revolving glass entrance door, stainless steel elevator bank on the far wall with illuminated floor indicators.\n\nsecondary elements: a large white presentation easel board positioned in the center of the lobby, leather lounge sofas and a glass coffee table in a seating area, a soft-cork bulletin board on one column, potted tropical plants in minimalist concrete planters, security turnstiles near the elevator bank.\n\nground/floor: highly polished light gray marble, mirror-like reflections of the ceiling lights and glass walls, immaculate.\n\nwalls & surfaces: floor-to-ceiling tempered glass panels with thin dark metal frames, interior walls clad in pale travertine stone with brushed steel accents, corporate logo discretely embossed in gold on the reception wall.\n\nceiling: high double-height ceiling with recessed linear LED strips and suspended geometric light fixtures in brushed aluminum.\n\nlighting: abundant natural daylight flooding through glass curtain walls ~5500K, supplemented by neutral white recessed LEDs ~4000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: corporate, sterile, imposing, a stage for public humiliation.\n\nenvironment condition: clean.\n\nbackground elements: through the glass walls, a view of the Paseo de la Reforma boulevard with trees and passing traffic, distant skyscrapers.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 2,
+        "grid_column": 1,
+        "display_title": "场景 集团大楼大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1456,7 +1512,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior executive office high-rise, daylight, modern Mexican corporate architecture with panoramic city views.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: large corner office with a massive dark walnut executive desk positioned before floor-to-ceiling windows, high-backed leather swivel chair behind the desk, a smaller conference area with two leather guest chairs.\n\nsecondary elements: scattered documents and file folders on the desk surface, a flat-screen monitor on one side, a crystal whiskey decanter and glass on a side credenza, framed corporate awards on the wall, a potted ficus tree in the corner.\n\nground/floor: dark hardwood flooring with a large area rug in muted geometric pattern, polished and well-maintained.\n\nwalls & surfaces: light gray textured wall panels with brushed aluminum trim, one accent wall in dark walnut matching the desk, corporate art pieces in modern frames.\n\nceiling: dropped ceiling with recessed LED panel lights and a central decorative pendant fixture in brushed chrome.\n\nlighting: brilliant natural daylight pouring through panoramic windows ~5500K, casting long shadows across the desk, supplemented by neutral recessed ceiling lights ~4000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: authoritative, tense, the seat of crumbling power.\n\nenvironment condition: clean.\n\nbackground elements: sweeping panoramic view of Paseo de la Reforma through floor-to-ceiling windows — the Angel of Independence monument visible in the distance, high-rise towers, boulevard tree canopy.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 2,
+        "grid_column": 2,
+        "display_title": "场景 董事长办公室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1477,7 +1540,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior corporate office corridor and workspace, daylight, modern Mexican business tower interior.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long corporate corridor with glass-walled offices on both sides, polished floor leading to a large corner office at the far end, elevator bank visible at the corridor intersection.\n\nsecondary elements: sleek workstations visible through glass partitions, ergonomic office chairs, document trays and monitors on desks, a water cooler station, fire extinguisher mounted on the wall, potted snake plants at intervals.\n\nground/floor: polished pale gray porcelain tile, clean and reflective, with subtle directional patterns.\n\nwalls & surfaces: clear tempered glass office partitions with frosted horizontal bands for privacy, brushed aluminum door frames, off-white drywall sections between offices.\n\nceiling: standard drop ceiling with linear LED troffer lights providing even illumination, exposed HVAC ducts painted white at the corridor intersections.\n\nlighting: bright overhead fluorescent-style LED panels ~4500K, natural daylight entering through end-of-corridor windows casting long perspective shadows, soft natural falloff, realistic shadow behavior.\n\natmosphere: sterile, corporate, utilitarian, a place of ruthless hierarchy.\n\nenvironment condition: clean.\n\nbackground elements: through the far windows, a partial view of Paseo de la Reforma avenue, distant building facades and tree canopies.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 2,
+        "grid_column": 3,
+        "display_title": "场景 集团办公室与走廊",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1498,7 +1568,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior corporate archive storage room, nighttime, industrial-utilitarian Mexican office building basement.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: narrow rectangular room lined with floor-to-ceiling gray metal filing cabinets in parallel rows, a heavy reinforced steel door at the entrance with a visible deadbolt lock mechanism, exposed concrete support columns.\n\nsecondary elements: labeled drawer handles on each cabinet, a few cardboard storage boxes stacked on the floor between rows, a bare metal work table with a desk lamp, scattered yellow manila folders, a wall-mounted fire alarm panel with a red indicator light.\n\nground/floor: bare polished concrete floor, cold gray tone, minor scuff marks from heavy furniture movement.\n\nwalls & surfaces: exposed concrete walls painted institutional gray-white, some areas showing minor chipping, metal conduit running along the upper perimeter.\n\nceiling: exposed concrete ceiling with industrial fluorescent tube fixtures in protective wire cages, some flickering slightly, exposed cable trays and water pipes.\n\nlighting: harsh overhead fluorescent tubes ~5000K casting flat unflattering light with sharp shadows between cabinet rows, a single warm desk lamp ~3000K on the work table, soft natural falloff, realistic shadow behavior.\n\natmosphere: claustrophobic, utilitarian, secretive, a place where things are hidden.\n\nenvironment condition: dusty.\n\nbackground elements: the rows of cabinets recede into a vanishing point, the heavy steel door dominates the entrance wall.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 2,
+        "grid_column": 4,
+        "display_title": "场景 档案室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1519,7 +1596,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior urban street in heavy rain, nighttime, contemporary Mexico City commercial district.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: wide asphalt avenue with lane markings barely visible under sheets of rain, closed storefronts with metal roll-down shutters on both sides, a single yellow taxi cab parked at the curb with headlights on and wipers active.\n\nsecondary elements: deep puddles across the road surface reflecting neon signs and streetlights, rain streaks visible against backlit signage, a bus stop shelter with a dim fluorescent light, trash bins chained to lamp posts, wet newspaper pages plastered to the sidewalk.\n\nground/floor: wet black asphalt with standing water and flowing rivulets, mirror-like reflections of overhead lights creating elongated color streaks.\n\nwalls & surfaces: concrete and stucco building facades, some with peeling paint, metal shutters in gray and green, a few illuminated pharmacy and convenience store signs in green and red neon.\n\nceiling: open night sky, heavy rain clouds obscuring any stars, the sky a deep charcoal gray.\n\nlighting: scattered neon signage in red, green, and blue providing the primary colored illumination, yellow sodium streetlights ~2200K, taxi headlights cutting through rain curtains ~4000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: desolate, melancholic, noir-like isolation, the city at its most vulnerable.\n\nenvironment condition: worn.\n\nbackground elements: the street disappearing into a curtain of rain and haze, distant traffic lights glowing amber and red, blurred high-rise silhouettes.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 3,
+        "grid_column": 1,
+        "display_title": "场景 雨夜街道",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1540,7 +1624,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior opulent private study, nighttime, traditional Mexican elite hacienda-style residential architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: large rectangular study with floor-to-ceiling dark mahogany bookshelves lining three walls, a massive carved wooden executive desk positioned before a roaring stone fireplace, a high-backed oxblood leather wingback chair behind the desk.\n\nsecondary elements: a crystal whiskey decanter and tumbler on the desk, a lit Cuban cigar resting in a bronze ashtray, an old rotary dial telephone on a side table, scattered legal documents and folders, antique brass desk lamp, a damaged wine glass shattered on the floor near the fireplace, framed family photographs on the mantelpiece.\n\nground/floor: dark walnut hardwood with a large Persian rug in deep red and navy tones, showing slight wear paths.\n\nwalls & surfaces: floor-to-ceiling mahogany shelving packed with leather-bound volumes, exposed sections of dark hunter green wallpaper with gold filigree pattern, wood panel wainscoting.\n\nceiling: coffered dark wood ceiling with a central brass and crystal chandelier set to low light, crown molding with carved acanthus leaf detail.\n\nlighting: warm flickering fireplace flames ~2200K casting dancing shadows across the room, a single brass desk lamp ~2800K creating a focused pool of warm light on the desk surface, chandelier at very low output, soft natural falloff, realistic shadow behavior.\n\natmosphere: oppressive, patriarchal, old-money decay, a fortress of crumbling power.\n\nenvironment condition: clean.\n\nbackground elements: through a gap in heavy velvet curtains, a sliver of nighttime city lights visible, the fireplace mantel displays a clock showing late hour.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 3,
+        "grid_column": 2,
+        "display_title": "场景 家主书房（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1563,7 +1654,14 @@
         "D": "家主书房（夜）",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change nighttime to daytime.\n\nlighting: warm natural daylight filtering through gaps in heavy velvet curtains creating dramatic shafts of golden light across the desk and bookshelves ~4500K, fireplace unlit with cold gray ash, the brass desk lamp turned off, soft natural falloff, realistic shadow behavior.\n\natmosphere: exposed, stern, the weight of patriarchal authority visible under harsh daylight.\n\nnatural color grading with warm.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 3,
+        "grid_column": 3,
+        "display_title": "从属场景 家主书房（日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1584,7 +1682,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior private chess room in elite residence, nighttime, refined Mexican old-money estate interior.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: intimate wood-paneled room with a central round table bearing an ornate wooden chess set with pieces mid-game, two high-backed leather armchairs facing each other across the table, heavy velvet curtains on the far wall.\n\nsecondary elements: a crystal brandy snifter on a small side table, a humidor box with brass fittings, a standing floor lamp with a green glass banker shade, dark oil paintings in heavy gold frames on the walls, a Persian rug beneath the chess table.\n\nground/floor: dark stained oak hardwood with a circular deep burgundy Persian rug centered under the chess table, rich patina.\n\nwalls & surfaces: rich dark walnut wood paneling from floor to ceiling, inset bookshelves with leather-bound volumes and small bronze statuettes, warm brown leather detailing.\n\nceiling: low dark coffered wood ceiling with a single brass pendant lamp hanging directly over the chess table, casting a focused cone of light.\n\nlighting: concentrated warm pendant light ~2800K directly over the chess board creating a dramatic spotlight effect, the surrounding room falling into deep shadow, green banker lamp glow as secondary fill, soft natural falloff, realistic shadow behavior.\n\natmosphere: tense, predatory, intellectual menace, a room where fates are decided.\n\nenvironment condition: clean.\n\nbackground elements: heavy curtains suggesting hidden windows, the depth of the bookshelves creating visual density, doorway partially visible in shadow.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 3,
+        "grid_column": 4,
+        "display_title": "场景 米兰达宅邸棋室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1605,7 +1710,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior highway at night in heavy rain, nighttime, Mexican interstate highway infrastructure.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: wide multi-lane asphalt highway stretching into the darkness, concrete median barrier dividing opposing lanes, overhead green reflective highway signs reading MÉXICO 57D QUERÉTARO SALIDA 3 KM, tall highway lamp posts lining the road.\n\nsecondary elements: thick curtains of rain illuminated by headlights, spray mist rising from the wet road surface, reflective lane markers glowing under light, a distant toll booth structure barely visible through rain haze, metal guardrails along the shoulder.\n\nground/floor: wet black asphalt with standing water, deep tire track channels visible, reflective road markings in white and yellow glowing under light.\n\nwalls & surfaces: concrete median barriers in light gray, metal guardrails with reflective strips, highway sign posts in galvanized steel.\n\nceiling: open night sky completely obscured by heavy storm clouds, no stars visible, deep black void above.\n\nlighting: harsh sodium highway lamps ~2200K creating amber pools at regular intervals, green reflective signs glowing under approaching headlights, rain creating a diffusion curtain around every light source, soft natural falloff, realistic shadow behavior.\n\natmosphere: urgent, isolating, dangerous, the relentless forward motion through darkness.\n\nenvironment condition: worn.\n\nbackground elements: the highway vanishes into a wall of rain and darkness, distant red tail lights of other vehicles creating elongated streaks, faint glow of a distant city on the horizon.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 4,
+        "grid_column": 1,
+        "display_title": "场景 雨夜高速",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1626,7 +1738,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior two-story budget motel, daylight, vintage Mexican roadside motel architecture.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a two-story stucco motel building painted light blue with an external painted metal staircase in matching blue leading to the second floor walkway, numbered room doors — prominently featuring door 103 with a gold metal number plate, wooden-framed windows with faded curtains.\n\nsecondary elements: a concrete parking area in front with faded white parking lines, a small ice machine alcove, a vending machine with a glowing front panel, potted cacti and succulents along the ground floor walkway, a weathered wooden bench near the staircase base, overhead power lines.\n\nground/floor: cracked concrete parking lot surface with patches of oil stains and minor weed growth in cracks, slightly dusty.\n\nwalls & surfaces: light blue stucco exterior with visible hairline cracks and minor paint peeling near the base, brown wooden door and window frames showing age, metal staircase railings with light surface rust.\n\nceiling: open sky — bright blue with scattered white cumulus clouds, full afternoon sun.\n\nlighting: bright direct afternoon sunlight ~5800K casting crisp shadows from the staircase and building features, warm reflected light bouncing off the blue stucco walls, soft natural falloff, realistic shadow behavior.\n\natmosphere: humble, exposed, defiant simplicity against the backdrop of wealth.\n\nenvironment condition: worn.\n\nbackground elements: adjacent low-rise commercial buildings, distant palm trees and power lines, a stretch of road visible with a parked car.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 6,
+        "grid_column": 2,
+        "display_title": "场景 汽车旅馆103房（外·日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1649,7 +1768,14 @@
         "D": "汽车旅馆103房（外·日）",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change daytime to nighttime.\n\nlighting: motel neon sign MOTEL VISTA PACÍFICO casting cold blue and red glow across the building facade ~6500K neon blue with ~3000K warm accent from a single exterior wall light near door 103, puddles on the parking lot reflecting neon colors, soft natural falloff, realistic shadow behavior.\n\natmosphere: lonely, noir, vulnerable, a temporary refuge in the darkness.\n\nnatural color grading with cool.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 6,
+        "grid_column": 3,
+        "display_title": "从属场景 汽车旅馆103房（外·夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1670,7 +1796,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior budget motel room, daylight filtered through curtains, Mexican roadside motel interior.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: small rectangular room with a double bed against the back wall covered in a faded floral bedspread, a nightstand with a retro table lamp, a small wooden desk and chair against the side wall, a narrow bathroom door partially visible.\n\nsecondary elements: scattered photographs and documents on the desk surface, a black iPhone on the nightstand next to a glass of water, a cardboard moving box on the floor half-open with clothing visible inside, cheap framed landscape print on the wall, a wall-mounted TV turned off, thin beige curtains filtering daylight.\n\nground/floor: worn beige carpet with floral pattern, slightly stained, showing foot traffic paths.\n\nwalls & surfaces: off-white textured wallpaper with subtle vertical stripe pattern, minor discoloration near the ceiling line, brown wooden door frame and trim showing age.\n\nceiling: popcorn-textured white ceiling with a single flush-mount dome light fixture, a smoke detector with a blinking green LED.\n\nlighting: muted daylight filtering through thin beige curtains ~4500K creating a soft diffused glow, the retro table lamp turned off, overhead dome light off, soft natural falloff, realistic shadow behavior.\n\natmosphere: humble, confined, a war room disguised as poverty.\n\nenvironment condition: worn.\n\nbackground elements: through the curtain fabric, vague silhouettes of the parking lot and neighboring building, muffled sense of the outside world.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 5,
+        "grid_column": 1,
+        "display_title": "场景 汽车旅馆103房（内·日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1693,7 +1826,14 @@
         "D": "汽车旅馆103房（内·日）",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change daytime to nighttime.\n\nlighting: warm retro table lamp on nightstand ~2800K casting a small amber pool of light, cold blue-white glow from a laptop screen on the desk ~6500K, faint red neon glow seeping through the curtains from the motel sign outside, soft natural falloff, realistic shadow behavior.\n\natmosphere: conspiratorial, intense, a hunter planning in solitude.\n\nnatural color grading with cool.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 5,
+        "grid_column": 2,
+        "display_title": "从属场景 汽车旅馆103房（内·夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1714,7 +1854,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior motel second-floor open walkway, nighttime, vintage Mexican roadside motel architecture.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: open-air metal and concrete walkway on the second floor of a two-story motel, metal railing painted light blue on the exterior side, a row of numbered room doors with brass plates (103 visible), thin industrial carpet runner along the walkway.\n\nsecondary elements: a single bare-bulb wall fixture casting harsh light near one doorway, a fire extinguisher mounted on the wall, a dented metal ice bucket left near a door, a splintered section of door frame near room 103, scuff marks on the carpet.\n\nground/floor: thin patterned industrial carpet on concrete, showing wear and minor stains, slightly gritty texture.\n\nwalls & surfaces: blue-painted stucco exterior wall showing minor cracks, brown painted metal door frames, numbered brass plates slightly tarnished.\n\nceiling: open to the night sky on the railing side, a corrugated metal overhang protecting the walkway from rain, underside showing minor rust.\n\nlighting: single harsh incandescent bare-bulb wall fixture ~2700K near one doorway, the motel neon sign casting faint blue ambient glow from below, darkness dominating most of the walkway, soft natural falloff, realistic shadow behavior.\n\natmosphere: dangerous, claustrophobic despite being open-air, ambush territory.\n\nenvironment condition: worn.\n\nbackground elements: looking over the railing — the parking lot below with a few parked cars, the neon MOTEL VISTA PACÍFICO sign glowing, distant streetlights.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 5,
+        "grid_column": 3,
+        "display_title": "场景 汽车旅馆走廊（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1735,7 +1882,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior estate entrance gate and forecourt, daylight, Mexican elite hacienda-style residential compound.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: imposing wrought-iron double gate flanked by tall stone pillars topped with decorative finials, a long paved driveway leading from the gate toward a grand stone mansion visible in the distance, manicured hedge walls on both sides of the drive.\n\nsecondary elements: gold-lettered name plate on one pillar, security camera mounted atop the left pillar, a guard booth to the side with tinted windows, ornamental coach lanterns on each pillar, a line of trimmed cypress trees along the driveway creating a formal corridor effect.\n\nground/floor: smooth gray flagstone paving for the driveway, pristine condition with geometric patterns, green grass borders on either side.\n\nwalls & surfaces: cut limestone pillars with carved acanthus details, wrought-iron gate with intricate scroll and spear-tip finials painted black, stone perimeter wall extending on both sides with climbing ivy.\n\nceiling: open sky — bright with scattered high cirrus clouds, warm sunlight.\n\nlighting: bright direct sunlight ~5500K casting defined shadows from the gate structure and pillars, warm bounce light from the pale stone surfaces, soft natural falloff, realistic shadow behavior.\n\natmosphere: grand, imposing, fortress-like formality masking corruption within.\n\nenvironment condition: clean.\n\nbackground elements: the mansion facade visible at the end of the long driveway, mature oak trees flanking the property, distant rolling hills and blue sky.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 6,
+        "grid_column": 1,
+        "display_title": "场景 庄园铁门与前庭",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1758,7 +1912,14 @@
         "D": "庄园铁门与前庭",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change daytime to nighttime.\n\nlighting: cold white security floodlights mounted on gate pillars ~5000K illuminating the gate and immediate driveway, warm amber coach lanterns on the pillars ~2800K, distant mansion windows glowing warm yellow, a pair of vehicle headlights casting harsh white beams onto the gate surface, soft natural falloff, realistic shadow behavior.\n\natmosphere: ominous, fortress-under-siege, secrets arriving in darkness.\n\nnatural color grading with cool.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 6,
+        "grid_column": 2,
+        "display_title": "从属场景 庄园铁门与前庭（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1779,7 +1940,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior street food cart and sidewalk seating, daylight, contemporary Mexico City Reforma boulevard setting.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a colorful food truck parked at the curb with a serving window, fold-out metal counter, and hand-painted menu board, a cluster of white plastic folding chairs and a small folding table set up on the sidewalk adjacent to the truck.\n\nsecondary elements: stacks of paper napkins and condiment bottles on the table, a trash bin nearby, a hand-painted sign reading TORTAS on the truck side, string lights draped over the serving area, a portable gas stove visible through the service window.\n\nground/floor: gray concrete sidewalk with minor cracks and a metal drain grate, asphalt road surface at the curb edge.\n\nwalls & surfaces: the food truck exterior painted in bright orange and green with cartoon food graphics, nearby building wall in beige stucco serving as a backdrop.\n\nceiling: open sky — bright blue with a few white clouds, midday sun high overhead.\n\nlighting: bright overhead midday sun ~5800K, warm reflections bouncing off the truck's colorful metal surfaces, subtle shade under the truck's awning, soft natural falloff, realistic shadow behavior.\n\natmosphere: casual, populist, defiant normalcy, street-level power play.\n\nenvironment condition: clean.\n\nbackground elements: directly across the street — the imposing glass curtain wall of Torre Vargas reflecting the sky, the corporate lobby partially visible through glass doors, tree-lined boulevard in between.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 6,
+        "grid_column": 3,
+        "display_title": "场景 大楼对面街角餐车",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1800,7 +1968,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior prestigious law firm lobby, daylight, high-end contemporary Mexican professional office architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: grand double-height reception lobby with dark charcoal marble feature wall bearing gold-embossed lettering NAVA Y ASOCIADOS, a sleek reception desk in dark stone and brass, leather waiting sofas arranged around a glass coffee table, polished elevator bank with brass doors on the far wall.\n\nsecondary elements: a stack of business and lifestyle magazines on the glass coffee table, a tall sculptural flower arrangement in a black vase on the reception desk, recessed display niches with legal awards and crystal trophies, a security turnstile, subtle directional signage in brass.\n\nground/floor: highly polished dark gray marble with white veining, mirror-like reflections, immaculate condition.\n\nwalls & surfaces: dark charcoal marble accent wall with gold lettering, remaining walls in lighter warm gray limestone, brushed brass trim details throughout.\n\nceiling: double-height ceiling with recessed linear LED lighting in warm white, suspended geometric brass light fixtures, clean architectural lines.\n\nlighting: abundant daylight from tall side windows ~5000K, supplemented by warm recessed ceiling LEDs ~3500K, brass fixtures providing accent highlights, soft natural falloff, realistic shadow behavior.\n\natmosphere: authoritative, elite, intimidating luxury, a temple of legal power.\n\nenvironment condition: clean.\n\nbackground elements: through side windows, glimpses of the Reforma skyline, elevator floor indicators glowing, a distant view down a hallway toward offices.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 6,
+        "grid_column": 4,
+        "display_title": "场景 律师事务所大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1821,7 +1996,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior top-floor law office, daylight, high-end contemporary Mexican legal firm architecture with panoramic views.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: spacious corner office with a wide dark walnut desk positioned before massive floor-to-ceiling windows, a high-backed black leather executive chair, two client chairs in dark leather facing the desk, built-in walnut bookshelves on the interior wall.\n\nsecondary elements: neat stacks of legal documents and yellow case files on the desk, a black leather-bound notebook, a gold Parker pen, a brass desk nameplate reading EMILIANO NAVA, a calculator, a small potted succulent, framed law degrees on the wall.\n\nground/floor: dark walnut engineered hardwood, clean and polished, a subtle geometric area rug beneath the desk area.\n\nwalls & surfaces: interior walls in warm taupe paint with walnut built-in shelving, full glass curtain wall on two sides providing panoramic views.\n\nceiling: clean white ceiling with recessed LED downlights and a single modern pendant fixture above the desk in brushed brass.\n\nlighting: brilliant natural daylight flooding through panoramic windows ~5500K, warm desk lamp providing focused task light ~3200K, soft natural falloff, realistic shadow behavior.\n\natmosphere: commanding, intellectual, refined power, a mind at work.\n\nenvironment condition: clean.\n\nbackground elements: spectacular panoramic view of Paseo de la Reforma skyline through floor-to-ceiling glass — Angel of Independence column, modern skyscrapers, tree-lined boulevard far below.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 7,
+        "grid_column": 1,
+        "display_title": "场景 律师事务所办公室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1842,7 +2024,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior gala venue entrance with red carpet, nighttime, Mexican hacienda-style estate adapted for luxury event.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: grand stone hacienda entrance with an arched colonnade, a crimson red carpet stretching from the driveway to the main doorway, ornamental stone steps leading up to carved wooden double doors, wrought-iron lanterns flanking the entrance.\n\nsecondary elements: velvet rope stanchions lining the red carpet, floral arrangements of white roses and greenery on pedestals, paparazzi-style flash reflectors on tripod stands positioned along the carpet, a valet podium with a brass bell, luxury vehicles parked in the circular drive.\n\nground/floor: smooth stone driveway transitioning to the red carpet, the carpet plush and pristine, stone steps worn from decades of use.\n\nwalls & surfaces: warm sandstone hacienda facade with carved archways and decorative ironwork balconies, climbing bougainvillea in deep magenta on one wall.\n\nceiling: open night sky, deep navy blue with visible stars, the hacienda roofline with traditional clay tiles silhouetted.\n\nlighting: warm golden uplighting on the hacienda facade ~3000K from ground-mounted spotlights, string lights draped along the colonnade ~2700K, bright camera flash positions creating localized bursts of white light ~5500K, soft natural falloff, realistic shadow behavior.\n\natmosphere: glamorous, performative, a stage for power and humiliation.\n\nenvironment condition: clean.\n\nbackground elements: the hacienda's second story with lit windows, mature trees surrounding the property, distant hills under starlight.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 7,
+        "grid_column": 2,
+        "display_title": "场景 晚宴庄园（外·夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1863,7 +2052,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior grand gala ballroom, nighttime, Mexican hacienda-style estate converted for a luxury annual event.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: vast rectangular ballroom with high vaulted ceilings supported by stone arches, a raised stage at the far end with a microphone stand and a large projection screen behind it, round banquet tables draped in white linen arranged across the floor, a tall champagne tower pyramid on a central display table.\n\nsecondary elements: crystal chandeliers hanging at intervals along the ceiling, floral centerpieces of white roses and gold candelabras on each table, a DJ booth to one side, a large banner reading GALA DE OTOÑO UNA NOCHE DE ENCANTO, silver service trays and champagne flutes arranged on a long side buffet, blue theatrical stage lighting rigs.\n\nground/floor: dark polished hardwood dance floor in the center surrounded by thick patterned carpet under the table areas, well-maintained.\n\nwalls & surfaces: exposed stone walls with tapestries and gilded mirrors at intervals, arched doorways with heavy velvet curtains in deep burgundy.\n\nceiling: high vaulted ceiling with exposed stone arches and dark wooden beams, crystal chandeliers fully lit providing sparkle, theatrical blue-tinted uplighting along the vault lines.\n\nlighting: warm crystal chandelier light ~3000K as primary ambient, cool blue theatrical uplights along walls ~6000K, focused white spotlights on the stage ~5000K, golden candlelight from table candelabras ~2500K, soft natural falloff, realistic shadow behavior.\n\natmosphere: extravagant, theatrical, a battlefield disguised as a celebration.\n\nenvironment condition: clean.\n\nbackground elements: the stage with the projection screen displaying a blue gradient standby image, floor-to-ceiling windows on one side showing the night garden.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 7,
+        "grid_column": 3,
+        "display_title": "场景 晚宴庄园（内·夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1884,7 +2080,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior quiet residential street at night after rain, nighttime, upscale Mexican suburban neighborhood.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: narrow tree-lined residential street with mature oaks creating a canopy, a single ornate cast-iron street lamp casting a warm amber pool of light, a vintage black luxury sedan parked at the curb beneath the lamp.\n\nsecondary elements: wet cobblestone surface reflecting the amber lamplight, fallen leaves scattered on the wet pavement, a high stone perimeter wall of the nearby estate running along one side, wrought-iron fence sections visible.\n\nground/floor: wet cobblestone with deep puddles reflecting the lone streetlight, dark and glistening.\n\nwalls & surfaces: tall sandstone perimeter wall of the adjacent estate covered partially in ivy, the street's opposite side showing residential facades behind iron gates.\n\nceiling: open night sky with scattered clouds, faint moonlight breaking through, deep blue-black.\n\nlighting: single warm amber cast-iron street lamp ~2500K creating a concentrated pool of golden light, faint cool moonlight ~7000K filtering through cloud gaps, car body reflecting ambient light, soft natural falloff, realistic shadow behavior.\n\natmosphere: melancholic, cinematic solitude, the weight of unspoken truths.\n\nenvironment condition: clean.\n\nbackground elements: the street disappearing into darkness in both directions, faint glow of distant houses through gates, silhouette of the estate mansion behind the wall.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 7,
+        "grid_column": 4,
+        "display_title": "场景 庄园外街道（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1905,7 +2108,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior estate entrance gate, nighttime, traditional Mexican upper-class residential compound.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: imposing electronically-operated black wrought-iron double gate between tall white marble pillars, a gold-lettered nameplate reading SALDAÑA mounted on one pillar, a tree-lined gravel driveway stretching beyond the gate toward a distant lit mansion.\n\nsecondary elements: ground-mounted spotlights aimed at the pillars, a small intercom panel set into one pillar, decorative stone urns atop each pillar, mature trees forming a natural archway over the driveway, pathway lanterns lining the drive.\n\nground/floor: compacted fine gravel driveway beyond the gate, polished concrete apron in front of the gate, clean.\n\nwalls & surfaces: white marble pillars with carved classical detailing, black wrought-iron gate with vertical bars and family crest motif, a low stone perimeter wall extending on both sides.\n\nceiling: open night sky, clear with scattered stars, deep navy blue.\n\nlighting: warm ground-mounted uplights on the marble pillars ~3000K, pathway lanterns casting amber pools along the drive ~2700K, distant mansion windows glowing warm yellow, soft natural falloff, realistic shadow behavior.\n\natmosphere: stately, cold formality, a family name about to be broken.\n\nenvironment condition: clean.\n\nbackground elements: the tree-lined driveway receding into the distance, a faint glow from the mansion at the far end, surrounding darkness of the estate grounds.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 8,
+        "grid_column": 1,
+        "display_title": "场景 萨尔达尼亚家正门",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1928,7 +2138,14 @@
         "D": "萨尔达尼亚家正门",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change nighttime to overcast daytime.\n\nlighting: diffused overcast daylight ~6000K casting flat even illumination with minimal shadows, the gold nameplate SALDAÑA broken in two halves lying on the ground near the pillar base, a white moving truck with TRANSPORTES DEL GOLFO lettering parked inside the gate, soft natural falloff, realistic shadow behavior.\n\natmosphere: bleak, final, the dismantling of a family legacy under gray skies.\n\nnatural color grading with desaturated.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 8,
+        "grid_column": 2,
+        "display_title": "从属场景 萨尔达尼亚家正门（日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1949,7 +2166,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior formal family dining room, daylight, traditional Mexican upper-class residential interior.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long formal dining room dominated by a heavy dark oak banquet table seating twelve, high-backed carved wooden chairs with upholstered seats, a large china cabinet along one wall displaying fine porcelain, a bay window at the far end.\n\nsecondary elements: porcelain tea set and fine china plates on the table, a crystal centerpiece bowl, brass candlesticks, a wooden pool cue leaning against one chair, scattered legal documents on the table surface, shattered glass and broken ceramic pieces on the floor near one end, overturned wooden chairs.\n\nground/floor: warm honey-toned hardwood flooring, well-maintained but with visible scratches near the table legs, a runner rug partially displaced.\n\nwalls & surfaces: cream-colored plaster walls with dark wood crown molding and chair rail, family oil portraits in gilded frames, a built-in glass-fronted china cabinet in dark walnut.\n\nceiling: white plaster ceiling with an ornate brass and crystal chandelier centered above the table, decorative plaster ceiling medallion.\n\nlighting: bright natural daylight entering through the bay window and side windows ~5500K, supplemented by the chandelier set to moderate brightness ~3200K, soft natural falloff, realistic shadow behavior.\n\natmosphere: tense, confrontational, formality shattered by violence.\n\nenvironment condition: damaged but NOT extreme.\n\nbackground elements: through the bay window, a view of the estate garden with manicured hedges and mature trees.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 8,
+        "grid_column": 3,
+        "display_title": "场景 萨尔达尼亚家餐厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1970,7 +2194,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior modern luxury high-rise apartment, nighttime, contemporary upscale Mexico City residential architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: open-plan living room with floor-to-ceiling panoramic windows spanning the entire wall, offering a sweeping view of Paseo de la Reforma lit up at night, a minimalist L-shaped sectional sofa in dark charcoal fabric, a marble-topped coffee table, a large flat-screen TV mounted on a dark wood accent wall, a bookshelf unit.\n\nsecondary elements: a brown kraft paper envelope and an old pocket watch on the coffee table, a sticky note in yellow, a MacBook laptop on a side desk, a glass of red wine, architectural floor lamp with warm light, potted fiddle-leaf fig plant in a concrete planter, a black metal film reel canister.\n\nground/floor: warm oak engineered hardwood with a large cream and gray geometric area rug, pristine.\n\nwalls & surfaces: smooth white walls with one dark walnut wood accent wall behind the TV, floor-to-ceiling glass on the window wall, minimal art — one abstract charcoal sketch in a black frame.\n\nceiling: clean white ceiling with recessed LED spotlights and a single pendant lamp in brass and frosted glass over the coffee table area.\n\nlighting: warm recessed spotlights ~3000K creating focused pools, architectural floor lamp ~2800K, the dominant light source being the spectacular city nightscape visible through the glass — thousands of amber and white city lights creating ambient fill, soft natural falloff, realistic shadow behavior.\n\natmosphere: sleek, contemplative, a war room disguised as luxury.\n\nenvironment condition: clean.\n\nbackground elements: through the panoramic windows — the glittering Paseo de la Reforma skyline, Angel of Independence illuminated in gold, streams of red and white car lights on the boulevard far below, distant skyscrapers.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 9,
+        "grid_column": 1,
+        "display_title": "场景 高层公寓客厅（夜）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -1993,7 +2224,14 @@
         "D": "高层公寓客厅（夜）",
         "E": "Using the provided reference image as the exact scene.\nRetain the same place from the reference image:\nSame set, same camera angles.\n\nAdjustments to lighting and shadows: Change nighttime to daytime.\n\nlighting: brilliant natural daylight flooding through the panoramic windows ~5500K, casting sharp defined shadows from furniture across the oak floor, the city skyline visible in crisp detail under blue sky, warm interior tones enhanced by sunlight bouncing off wood surfaces, soft natural falloff, realistic shadow behavior.\n\natmosphere: open, exposed, strategic calm under bright scrutiny.\n\nnatural color grading with warm.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 9,
+        "grid_column": 2,
+        "display_title": "从属场景 高层公寓客厅（日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2014,7 +2252,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior high-rise balcony overlooking city, nighttime, contemporary Mexico City luxury residential tower.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a narrow rectangular balcony with a sleek glass and brushed steel railing, polished stone floor, sliding glass door leading back into the illuminated apartment interior visible behind.\n\nsecondary elements: a single modern outdoor chair in dark metal, a small round table, a potted ornamental grass plant in a concrete planter at one corner.\n\nground/floor: polished dark stone tile, clean, slightly reflective under ambient city light.\n\nwalls & surfaces: building exterior wall in smooth concrete on one side, glass railing on the open side providing an unobstructed view, the apartment interior visible through the sliding door.\n\nceiling: open night sky above, deep dark blue with a few scattered stars, city light pollution creating a warm amber haze on the horizon.\n\nlighting: ambient city light from below creating a soft warm upward glow on the balcony underside ~3500K, cool night air with no direct artificial light on the balcony itself, warm light spilling from the apartment interior through the glass door ~3000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: exposed, vulnerable, a precipice between power and solitude.\n\nenvironment condition: clean.\n\nbackground elements: spectacular 270-degree panoramic view of Paseo de la Reforma — illuminated skyscrapers, the Angel of Independence, streams of vehicle lights, distant mountains silhouetted against the horizon glow.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图2",
+        "grid_row": 9,
+        "grid_column": 3,
+        "display_title": "场景 高层公寓阳台",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2035,7 +2280,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior high-rise apartment building corridor, nighttime, modern upscale Mexico City residential tower.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long straight corridor with polished light marble flooring, evenly spaced apartment doors in dark wood with brushed steel handles and illuminated unit numbers, recessed ceiling spotlights providing even illumination.\n\nsecondary elements: a deep green painted apartment door marked 8B prominently visible, a small decorative console table against one wall with a potted orchid, a fire extinguisher cabinet flush-mounted in the wall, subtle directional emergency exit signage.\n\nground/floor: light beige polished marble with subtle veining, mirror-like reflections of the ceiling lights, pristine.\n\nwalls & surfaces: smooth warm beige plaster walls with brushed aluminum door frames, subtle texture, clean.\n\nceiling: clean white dropped ceiling with recessed LED spotlights at regular intervals providing uniform illumination.\n\nlighting: even warm-white recessed LED spots ~3500K creating a uniformly lit corridor with soft shadows, a small LED accent light built into each door number plate, soft natural falloff, realistic shadow behavior.\n\natmosphere: sterile, quiet, the calm before confrontation.\n\nenvironment condition: clean.\n\nbackground elements: the corridor extends to both ends with slight perspective convergence, elevator doors visible at the far end with a glowing call button.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 4,
+        "grid_column": 4,
+        "display_title": "场景 公寓大楼走廊",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2056,7 +2308,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior formal courtroom, daylight, contemporary Mexican federal judiciary architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: rectangular courtroom with an elevated judge's bench in dark walnut on a raised platform, a witness stand to one side, prosecution and defense tables facing the bench, a gallery of wooden spectator pews behind a low dividing rail.\n\nsecondary elements: Mexican national emblem mounted on the wall behind the judge's seat, a large flat-screen display on a rolling stand for evidence presentation, a wooden gavel and sound block on the bench, microphones at each station, file folders and legal binders on the tables, an electronic red-letter sign reading SESIÓN DEL CONSEJO on the back wall.\n\nground/floor: polished dark wood parquet flooring, well-maintained, a thin red carpet runner in the central aisle.\n\nwalls & surfaces: warm beige limestone walls with dark wood paneling along the lower half, brass wall sconces, official seals and framed documents mounted on the walls.\n\nceiling: high coffered ceiling in dark stained wood with recessed fluorescent panels providing even illumination, ceiling-mounted security cameras.\n\nlighting: bright overhead fluorescent-style LED panels ~4500K providing flat institutional light, supplemented by natural daylight from high clerestory windows on one side ~5500K, brass wall sconces adding warm accent ~3000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: solemn, authoritative, the machinery of justice in motion.\n\nenvironment condition: clean.\n\nbackground elements: the spectator gallery recedes into depth, exit doors visible at the back, the judge's bench dominates the forward view.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 1,
+        "grid_column": 3,
+        "display_title": "场景 法庭",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2077,7 +2336,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior courthouse grand staircase and colonnade, daylight, neoclassical Mexican government judicial architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: wide sweeping marble staircase leading down from a colonnaded portico with tall Corinthian columns, heavy bronze double doors at the top of the stairs, the courthouse name inscribed in stone above the entrance.\n\nsecondary elements: bronze handrails along the staircase, stone planters with trimmed boxwood at the base, metal press barrier stanchions positioned along the lower steps, flagpoles with Mexican flag and state flag flanking the entrance.\n\nground/floor: white marble steps with subtle gray veining, wide treads, clean and polished, the bottom landing transitioning to a stone-paved plaza.\n\nwalls & surfaces: cream limestone facade with fluted Corinthian columns, carved stone pediment with allegorical relief sculptures above the entrance, the stone showing warm patina from age.\n\nceiling: open sky — bright blue with scattered clouds, strong direct sunlight.\n\nlighting: bright direct sunlight ~5800K creating sharp shadows from the columns across the stairs, warm reflected light from the limestone facade, soft natural falloff, realistic shadow behavior.\n\natmosphere: monumental, public, the intersection of law and spectacle.\n\nenvironment condition: clean.\n\nbackground elements: the courthouse plaza below with mature trees, distant street traffic, urban skyline beyond.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 1,
+        "grid_column": 4,
+        "display_title": "场景 法院大楼台阶",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2098,7 +2364,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior grand estate living hall, nighttime, traditional Mexican elite hacienda residential architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: large formal reception hall with a massive stone fireplace as the centerpiece, a roaring fire within, a full-wall decorative mirror with ornate gilded frame above the mantel — the mirror showing a spiderweb crack pattern, heavy velvet curtains on tall windows.\n\nsecondary elements: family oil portraits in heavy gold frames lining the walls, antique upholstered armchairs and a settee arranged before the fireplace, a crystal chandelier overhead, broken mirror shards scattered on the floor beneath the main mirror, an overturned crystal glass near the fireplace, dark wooden side tables with brass fixtures.\n\nground/floor: dark walnut hardwood with a large formal area rug in deep burgundy and gold tones, mirror shards glinting on the rug surface.\n\nwalls & surfaces: warm cream plaster walls with dark wood wainscoting, gilded picture frames, heavy burgundy velvet curtains framing the windows.\n\nceiling: high ceiling with ornate plaster molding and a large crystal chandelier at reduced brightness, exposed dark wood beams.\n\nlighting: dramatic warm fireplace flames ~2200K as the dominant light source casting dancing shadows across all surfaces, chandelier at very low dim ~2500K, faint cool moonlight ~7000K seeping through curtain gaps, soft natural falloff, realistic shadow behavior.\n\natmosphere: decayed grandeur, volatile, a dynasty crumbling from within.\n\nenvironment condition: damaged but NOT extreme.\n\nbackground elements: tall curtained windows suggesting the dark garden beyond, the hallway entrance partially visible in shadow.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 2,
+        "grid_column": 1,
+        "display_title": "场景 庄园大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2119,7 +2392,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior police interrogation room, nighttime, Mexican federal law enforcement facility.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: small windowless rectangular room with a heavy stainless steel table bolted to the floor at center, two metal chairs on opposite sides, a thick gray reinforced steel door with a small wire-glass observation window, a horizontal restraint bar welded to the table edge.\n\nsecondary elements: a single overhead industrial pendant lamp creating a harsh cone of light directly over the table, a wall-mounted security camera with a red recording LED, a one-way mirror panel on one wall, a metal evidence tray on the table, scuff marks on the chair legs.\n\nground/floor: bare gray sealed concrete floor, cold and utilitarian, minor scuff marks and scratches.\n\nwalls & surfaces: bare institutional gray-green painted concrete block walls, no decoration, the one-way mirror set flush into one wall, conduit running along the ceiling edge.\n\nceiling: exposed concrete ceiling with a single industrial pendant lamp fixture hanging low over the table, an air vent grille, exposed conduit.\n\nlighting: single harsh overhead pendant lamp ~5000K creating a dramatic cone of stark white light on the table surface with deep shadows everywhere else, faint green tint from the wall paint reflecting, soft natural falloff, realistic shadow behavior.\n\natmosphere: oppressive, claustrophobic, interrogative dread.\n\nenvironment condition: worn.\n\nbackground elements: the heavy steel door dominates one wall, the one-way mirror reflects the room's cold lighting, the far wall disappears into shadow.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 2,
+        "grid_column": 2,
+        "display_title": "场景 审讯室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2140,7 +2420,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior government law enforcement building entrance, nighttime in rain, contemporary Mexican federal building architecture.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: a modern government building facade with heavy tinted glass double doors, wide concrete steps leading down to the sidewalk, a large illuminated sign reading FISCALÍA AGENCIA CENTRAL in blue neon mounted above the entrance.\n\nsecondary elements: metal handrails along the steps, a security booth window to one side, a flagpole with a limp wet flag, concrete bollards at the sidewalk edge, a covered canopy over the entrance.\n\nground/floor: wet concrete steps and sidewalk glistening with rain, shallow puddles reflecting the blue neon sign, the asphalt road surface at the curb.\n\nwalls & surfaces: smooth gray concrete and dark tinted glass facade, the building extending upward with rows of lit office windows, minimal decoration.\n\nceiling: open night sky, heavy rain falling, clouds lit from below by city light pollution creating an amber overcast dome.\n\nlighting: cold blue neon sign ~6500K as the dominant visual element reflecting in the wet surfaces, warm amber light spilling from the lobby through the glass doors ~3200K, scattered sodium streetlights ~2200K in the distance, soft natural falloff, realistic shadow behavior.\n\natmosphere: institutional, desolate, the cold face of authority in the rain.\n\nenvironment condition: clean.\n\nbackground elements: the rain-slicked street stretching into the night, distant traffic lights, blurred headlights of passing vehicles, urban skyline obscured by rain.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with cool.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 2,
+        "grid_column": 3,
+        "display_title": "场景 警察局大楼门口",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2161,7 +2448,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior press conference hall, daylight, contemporary Mexican corporate event venue.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a wide rectangular conference hall with a raised podium at the front bearing a lectern with dual microphones, a large backdrop panel with a blue circular logo and text, rows of folding chairs in neat lines facing the podium, side aisles for media access.\n\nsecondary elements: multiple professional camera tripods positioned in the back rows, portable flash units on light stands along the sides, a LCD projector screen to one side of the podium, bottled water and notepads on a press table in the front row, a mixing console for audio near the back wall.\n\nground/floor: commercial-grade gray carpet tiles, clean and functional, cable covers running along the floor edges.\n\nwalls & surfaces: neutral beige acoustic-paneled walls with subtle sound-dampening texture, a large branded backdrop banner behind the podium in blue and white.\n\nceiling: suspended acoustic ceiling tiles with recessed fluorescent troffer lights and a row of track-mounted spotlights aimed at the podium area.\n\nlighting: bright overhead fluorescent panels ~4500K for general illumination, focused warm spotlights ~3500K on the podium and lectern area, some daylight entering from side fire-exit doors, soft natural falloff, realistic shadow behavior.\n\natmosphere: formal, charged, a theater of public warfare.\n\nenvironment condition: clean.\n\nbackground elements: the exit doors at the back of the hall, a corridor visible through glass panels, the branded backdrop filling the front wall.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 2,
+        "grid_column": 4,
+        "display_title": "场景 发布会现场",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2182,7 +2476,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior abandoned junkyard lot, nighttime, Mexican urban periphery industrial wasteland.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: flat open dirt lot surrounded by rusted chain-link fencing topped with barbed wire, a single tall mercury vapor street lamp casting a harsh cone of bluish-white light in the center, abandoned vehicle shells and stacked tires scattered around the perimeter.\n\nsecondary elements: piles of rusted scrap metal, a collapsed wooden pallet stack, weeds growing through cracked concrete foundations, a bent no-trespassing sign wired to the fence, pools of oily standing water reflecting the lamplight.\n\nground/floor: hard-packed dirt with patches of cracked concrete, oil stains, tire ruts, scattered gravel and broken glass.\n\nwalls & surfaces: rusty chain-link fence panels with bent and torn sections, concrete block remnants of a demolished structure on one side, corrugated metal sheeting leaning against the fence.\n\nceiling: open night sky, scattered stars visible, thin clouds, deep black beyond the lamp's reach.\n\nlighting: single harsh mercury vapor street lamp ~5500K creating a stark bluish-white pool of light with extreme contrast to the surrounding darkness, faint amber glow on the horizon from distant city lights, soft natural falloff, realistic shadow behavior.\n\natmosphere: desolate, dangerous, an arena for violence at the edge of civilization.\n\nenvironment condition: damaged but NOT extreme.\n\nbackground elements: distant city glow on the horizon, silhouettes of power line towers, the darkness of undeveloped land beyond the fence.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 3,
+        "grid_column": 1,
+        "display_title": "场景 城郊废车场",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2203,7 +2504,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior neighborhood grocery store, daylight, typical Mexican urban corner market.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: small rectangular store with metal shelving units in parallel rows stocked with canned goods, packaged foods, and household products, a checkout counter near the entrance with a cash register, a refrigerated drink cooler along the back wall.\n\nsecondary elements: hand-written price tags on shelf edges, a rotating bread display rack, stacked fruit crates near the entrance, a small magazine rack, overhead fluorescent tube lights in protective diffusers, security mirror in the corner.\n\nground/floor: beige ceramic tile floor, slightly scuffed, functional and clean.\n\nwalls & surfaces: off-white painted concrete block walls, product promotional posters and brand stickers, a painted store name LA ESQUINA visible on the interior wall above the entrance.\n\nceiling: exposed drop ceiling with fluorescent tube light fixtures in rows, some ceiling tiles slightly discolored from age.\n\nlighting: bright overhead fluorescent tubes ~5000K providing flat even illumination throughout, supplemented by daylight entering through the glass entrance door, the refrigerator cooler casting a slight blue-white glow, soft natural falloff, realistic shadow behavior.\n\natmosphere: ordinary, everyday, the mundane before the storm.\n\nenvironment condition: clean.\n\nbackground elements: through the glass entrance door, a view of the street outside with parked cars and neighboring storefronts.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 3,
+        "grid_column": 2,
+        "display_title": "场景 社区超市",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2224,7 +2532,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior upscale restaurant entrance, nighttime, high-end contemporary Mexican dining establishment.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a modern building entrance with heavy metal-framed glass double doors, a bold gold-lettered illuminated sign reading EL CÁLIZ above the entrance, a short crimson red carpet leading from the curb to the doors, flanked by brass stanchions.\n\nsecondary elements: two potted topiary trees in large stone planters flanking the entrance, a small valet podium in brass and dark wood, warm exterior wall sconces, a discreet menu display case in glass and brass.\n\nground/floor: polished dark stone paving at the entrance, transitioning to the crimson carpet, the curb edge visible at the street side.\n\nwalls & surfaces: dark stone and brushed metal facade, tinted glass panels flanking the door, the gold EL CÁLIZ sign in backlit raised lettering.\n\nceiling: architectural canopy in dark metal extending over the entrance area, with recessed warm downlights.\n\nlighting: warm golden backlit signage ~3000K, warm exterior wall sconces ~2800K, recessed canopy downlights creating a welcoming pool of light at the entrance, the street beyond falling into darkness, soft natural falloff, realistic shadow behavior.\n\natmosphere: exclusive, alluring, a gilded trap.\n\nenvironment condition: clean.\n\nbackground elements: the dark street beyond with distant tail lights, the restaurant building extending upward with lit upper-floor windows.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 3,
+        "grid_column": 3,
+        "display_title": "场景 金樽餐厅正门",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2245,7 +2560,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior upscale restaurant private dining hall, nighttime, high-end contemporary Mexican fine dining interior.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a grand dining hall with dark wood-paneled walls and a high ceiling, a single long formal table draped in crisp white linen positioned centrally, ornate high-backed dining chairs lining both sides, a bank of floor-to-ceiling windows on one wall showing the city nightscape.\n\nsecondary elements: a flickering white taper candle in a crystal holder at the center of the table, a red wine glass and a wine bottle, silver cutlery set for one place setting, a folded white napkin, an elevator door visible at the far wall, brass candelabras on the wall as decorative accents.\n\nground/floor: dark stained oak hardwood, polished to a mirror sheen, reflecting candlelight.\n\nwalls & surfaces: rich dark walnut wood paneling with brass picture rail, floor-to-ceiling windows with sheer curtains partially drawn, ornate gilt-framed mirrors between wall panels.\n\nceiling: high ceiling with dark coffered wood panels, a row of small crystal chandeliers at reduced brightness, architectural cove lighting along the perimeter.\n\nlighting: single candle flame at the table creating an intimate warm glow ~2000K, very low chandelier ambient ~2500K, city nightscape through the windows providing blue-white ambient fill, soft natural falloff, realistic shadow behavior.\n\natmosphere: theatrical, predatory elegance, a stage set for reckoning.\n\nenvironment condition: clean.\n\nbackground elements: through the floor-to-ceiling windows, the illuminated Mexico City skyline — skyscrapers, car lights, urban glow.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 3,
+        "grid_column": 4,
+        "display_title": "场景 金樽餐厅大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2266,7 +2588,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior modern shopping mall atrium and corridor, daylight, contemporary Mexican urban commercial center.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: wide three-story shopping mall corridor with a glass atrium roof letting in natural daylight, a transparent glass elevator shaft in the center of the atrium, polished stone balustrades on upper floors, storefronts with illuminated signs on each level.\n\nsecondary elements: decorative indoor palm trees in large planters, bench seating along the corridor, escalators connecting floors, illuminated store window displays, directional signage, a central fountain or sculpture at the atrium base.\n\nground/floor: polished cream marble flooring with geometric inlay patterns, mirror-like reflections of the skylight above, pristine.\n\nwalls & surfaces: glass storefronts with metal frames, painted plaster columns between shops, upper-floor glass balustrades with brushed steel railings.\n\nceiling: spectacular glass atrium roof letting in diffused natural daylight, structural steel framework visible, creating dramatic light patterns on the floors below.\n\nlighting: abundant natural daylight from the glass atrium roof ~5500K, supplemented by warm store lighting ~3000K spilling into the corridor, neutral overhead corridor LEDs ~4000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: open, commercial, deceptively normal, surveillance territory.\n\nenvironment condition: clean.\n\nbackground elements: multiple levels of the mall visible through the atrium, the glass elevator cab visible in the shaft, distant shopfronts receding into depth.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 4,
+        "grid_column": 1,
+        "display_title": "场景 购物中心走廊",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2287,7 +2616,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior clandestine workshop hideout, nighttime, improvised underground Mexican urban safe house.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a small cluttered room with bare concrete walls, a large cork pinboard mounted on the main wall covered with photographs connected by red string, a metal work desk with a printer and scattered documents, a single overhead bulb.\n\nsecondary elements: multiple surveillance-style photographs of a woman pinned to the corkboard with colored pushpins, red string connecting various photos and notes, a black smartphone and a red marker pen on the desk, a stack of printed portraits, a brown baseball cap placed on the desk corner, a yellow sticky note with the number 7 written in red.\n\nground/floor: bare concrete floor with dust, a few crumpled paper balls, cable extensions running along the baseboard.\n\nwalls & surfaces: raw unfinished concrete walls with water stains and minor cracks, the corkboard as the visual centerpiece, exposed electrical wiring.\n\nceiling: low bare concrete ceiling with a single bare incandescent bulb hanging from a wire, exposed water pipes and conduit.\n\nlighting: single bare incandescent bulb ~2700K creating harsh downward light with extreme shadows in corners, faint blue light from the printer display, the red marker writing catching the light, soft natural falloff, realistic shadow behavior.\n\natmosphere: obsessive, predatory, a hunter's den.\n\nenvironment condition: dusty.\n\nbackground elements: the pinboard dominates the visual field, the room corners fade into deep shadow, a closed metal door barely visible in the darkness.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 4,
+        "grid_column": 2,
+        "display_title": "场景 织网人暗室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2308,7 +2644,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior luxury yacht deck on a lake, nighttime, Mexican high-end recreational watercraft at Valle de Bravo.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: the stern deck of a large luxury motor yacht, a formal dining table set for two with white linen, crystal wine glasses, silver candelabra with lit candles, a champagne bucket with ice, teak wood decking, polished stainless steel railings.\n\nsecondary elements: leather cushioned bench seating along the gunwales, coiled rope lines neatly stored, navigation light fixtures in red and green on the rails, a bottle of champagne in the ice bucket, folded linen napkins.\n\nground/floor: polished teak wood deck planking with dark caulking lines, clean and maintained, slightly glistening from evening dew.\n\nwalls & surfaces: polished stainless steel railings and fittings, white fiberglass hull visible at the edges, the yacht's upper superstructure in white with tinted windows.\n\nceiling: open night sky, deep navy blue with scattered stars, the Milky Way faintly visible away from the shore lights.\n\nlighting: warm candlelight from the candelabra ~2200K as the primary table light, subtle warm deck accent lights recessed in the gunwales ~2700K, faint ambient glow from the yacht cabin interior through windows ~3000K, distant shore lights reflecting on the water, soft natural falloff, realistic shadow behavior.\n\natmosphere: seductive, conspiratorial, luxury concealing a pact of destruction.\n\nenvironment condition: clean.\n\nbackground elements: the calm dark lake surface reflecting scattered shore lights, distant forested hills silhouetted against the night sky, the faint outline of lakeside villas.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 4,
+        "grid_column": 3,
+        "display_title": "场景 游艇甲板",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2329,7 +2672,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior grand judicial corridor, daylight, neoclassical Mexican high-court architecture.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: long high-ceilinged stone corridor with tall fluted columns along one side creating dramatic light and shadow, heavy double wooden doors with brass fittings at the far end bearing a carved judicial coat of arms above, stone floor extending to the vanishing point.\n\nsecondary elements: ornate brass wall sconces between columns (unlit during daytime), a carved stone bench along one wall, a small side table used by court attendants, subtle directional signage in brass lettering.\n\nground/floor: polished light limestone floor tiles with subtle fossil patterns, showing centuries of foot traffic wear, clean.\n\nwalls & surfaces: warm limestone walls with neoclassical carved moldings and cornices, the columns in smooth polished stone, the heavy wooden doors dark with age and brass hardware green with patina.\n\nceiling: high barrel-vaulted stone ceiling with clerestory windows on the column side allowing shafts of daylight to enter, creating dramatic bars of light across the floor.\n\nlighting: brilliant shafts of natural daylight ~5500K entering through tall side windows between columns creating sharp alternating bands of light and shadow on the stone floor, supplemented by ambient bounce light from limestone surfaces, soft natural falloff, realistic shadow behavior.\n\natmosphere: imposing, solemn, the weight of judgment bearing down.\n\nenvironment condition: worn.\n\nbackground elements: the heavy double doors at the corridor's end dominate the vanishing point, side alcoves with additional doors, a distant view through a window of blue sky.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 1,
+        "grid_column": 2,
+        "display_title": "场景 高等法庭走廊",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2350,7 +2700,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior grand council tribunal chamber, daylight, ornate Mexican neoclassical high-court architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a large semicircular tribunal chamber with an elevated judge's platform at the front bearing a massive carved wooden bench, tiered semicircular seating for council members rising on either side, a central defendant's podium with a wooden privacy screen behind it, a formal prosecution and defense area.\n\nsecondary elements: microphones at each seat and at the podium, a large multimedia projection screen to one side, brass wall-mounted reading lamps on the jury tiers, thick legal binders and water carafes on the judge's bench, a wooden gavel and block, national and judicial flags flanking the judge's seat.\n\nground/floor: dark polished marble with subtle veining, a red carpet runner leading from the entrance to the defendant's podium.\n\nwalls & surfaces: cream limestone walls with dark wood wainscoting, gilded judicial emblems carved into the stone above the judge's platform, arched windows with frosted glass providing diffused light.\n\nceiling: high domed ceiling with painted allegorical mural, a large brass and crystal chandelier at the dome's center, decorative plaster molding around the dome base.\n\nlighting: diffused natural daylight from frosted arched windows ~5000K, warm chandelier light ~3000K, focused spotlights on the judge's bench and defendant's podium ~4000K, soft natural falloff, realistic shadow behavior.\n\natmosphere: grandiose, ceremonial, the ultimate arena of power.\n\nenvironment condition: clean.\n\nbackground elements: the tiered seating rising into shadow, the entrance doors at the back, the multimedia screen showing a blue standby display.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 5,
+        "grid_column": 1,
+        "display_title": "场景 高等法庭庭审大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2371,7 +2728,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior luxury hotel conference hall, daylight, high-end Mexican hospitality event architecture.\n\nwide-angle slightly elevated shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: grand hotel ballroom converted for a press conference, a raised stage with a polished wooden lectern bearing dual microphones, a large branded backdrop reading CUMBRE FUTURO GLOBAL 2025 CONFERENCIA DE PRENSA, rows of upholstered theater-style seating facing the stage.\n\nsecondary elements: professional video cameras on tripods at the back, flash photography stands along the sides, a press credentials table near the entrance, crystal chandeliers overhead, flower arrangements on pedestal stands flanking the stage, bottled water on the lectern.\n\nground/floor: plush patterned hotel carpet in deep burgundy and gold, clean, footfall-dampening.\n\nwalls & surfaces: warm beige fabric-paneled walls with gilded trim, tall curtained windows on one side, the branded backdrop taking up the entire back of the stage.\n\nceiling: high ornate hotel ballroom ceiling with crystal chandeliers, decorative plaster medallions, recessed lighting.\n\nlighting: bright overhead chandeliers ~3500K, professional stage lighting rigs providing focused white light ~5000K on the lectern and stage area, natural daylight supplementing through side windows ~5500K, soft natural falloff, realistic shadow behavior.\n\natmosphere: formal, high-stakes, a crucible of public exposure.\n\nenvironment condition: clean.\n\nbackground elements: the branded backdrop dominates the stage area, exit doors visible at the back, the hotel corridor glimpsed through double doors.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with neutral.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 5,
+        "grid_column": 2,
+        "display_title": "场景 晚宴酒店大厅",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2392,7 +2756,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior industrial shipping dock at night in fog, nighttime, Mexican port industrial zone Veracruz.\n\nwide-angle eye-level shot, ground level, emphasizing spatial depth and environmental layout.\n\nprimary structure: long narrow corridors formed by towering stacks of intermodal shipping containers in dark blue, rust red, and forest green, wet concrete dock surface with painted lane markings, a tall overhead crane structure visible above the container stacks, fog rolling in from the water.\n\nsecondary elements: a single powerful spotlight mounted on a crane boom casting a harsh cone of white light straight down onto the dock surface, bollards and mooring cleats at the dock edge, thick mooring ropes coiled on the ground, puddles of standing rainwater reflecting the spotlight, a rusty metal staircase leading to an elevated platform between container stacks.\n\nground/floor: wet industrial concrete dock surface with oil stains, painted yellow lane markings partially worn away, standing water in low spots reflecting light.\n\nwalls & surfaces: corrugated steel shipping containers stacked two to three high forming canyon-like corridors, surfaces showing rust streaks, dents, and peeling paint with identification numbers stenciled in white.\n\nceiling: open night sky, heavy fog limiting visibility to approximately 50 meters, the crane superstructure disappearing into the mist above.\n\nlighting: single intense overhead crane spotlight ~6000K creating a dramatic cone of stark white light with the surrounding dock in near-total darkness, fog diffusing the light into a visible beam, distant sodium dock lamps ~2200K barely penetrating the fog as amber orbs, soft natural falloff, realistic shadow behavior.\n\natmosphere: menacing, claustrophobic despite being outdoors, noir-industrial, a killing ground.\n\nenvironment condition: worn.\n\nbackground elements: the fog obscures the far end of the dock, the dark water visible at the dock edge, silhouettes of a cargo ship's hull in the mist, distant port infrastructure lights as faint amber dots.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 5,
+        "grid_column": 3,
+        "display_title": "场景 七号码头",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2413,7 +2784,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nInterior prison visitation room, daylight, Mexican federal penitentiary facility.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: a narrow elongated room divided lengthwise by a thick bulletproof glass partition, metal countertops on both sides of the glass at seated height, bolted-down metal stools on each side, wall-mounted telephone handsets in beige plastic at each visitation station.\n\nsecondary elements: security cameras mounted in ceiling corners with red recording LEDs, a reinforced steel door on the visitor side, a separate steel door on the inmate side, a corrections officer's observation desk at the far end, fluorescent tube lights overhead, a clock on the wall.\n\nground/floor: bare institutional gray sealed concrete floor, scuff marks from furniture, clean but cold.\n\nwalls & surfaces: pale institutional green painted concrete block walls, the bulletproof glass partition with wire mesh embedded, metal conduit running along the ceiling line.\n\nceiling: exposed concrete ceiling with flush-mounted fluorescent panel lights in protective cages, security camera mounts, air vent grilles.\n\nlighting: harsh overhead fluorescent panels ~5000K providing flat even institutional light, no natural daylight — windowless room, the glass partition creating subtle reflections, soft natural falloff, realistic shadow behavior.\n\natmosphere: dehumanizing, cold, separated by glass — a barrier between freedom and captivity.\n\nenvironment condition: clean.\n\nbackground elements: the long row of identical visitation stations receding to the observation desk, the steel doors on both sides suggesting the parallel worlds of visitor and prisoner.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with desaturated.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 5,
+        "grid_column": 4,
+        "display_title": "场景 监狱探视室",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "场景",
@@ -2434,7 +2812,14 @@
         "C": "主场景",
         "E": "360-degree equirectangular panorama, full spherical VR projection, 360x180 field of view, seamless edge-to-edge wrap-around image for VR headset viewing.\nHDRI spherical panorama, equirectangular format, seamless edges, photorealistic 8K, high dynamic range.\n\nExterior luxury high-rise apartment building entrance, daylight, contemporary upscale Mexico City residential tower.\n\nwide-angle eye-level shot, waist height, emphasizing spatial depth and environmental layout.\n\nprimary structure: modern glass and steel high-rise tower entrance with a wide covered portico, heavy frameless glass double doors, polished stone columns flanking the entrance, a circular driveway with a central landscaped island.\n\nsecondary elements: a doorman's podium in brass and dark wood near the entrance, concrete planters with manicured topiary, recessed ground lighting along the walkway, building number displayed in brushed steel lettering, a security intercom panel.\n\nground/floor: polished dark granite entrance walkway, clean, the circular driveway in smooth asphalt with painted curbs.\n\nwalls & surfaces: glass curtain wall of the tower rising above, ground-floor facade in polished dark stone with brushed steel accents, the glass doors reflecting the surrounding cityscape.\n\nceiling: the portico overhang in dark concrete with recessed warm downlights, open sky beyond.\n\nlighting: bright direct sunlight ~5800K illuminating the entrance plaza, warm portico downlights ~3000K creating welcoming pools under the overhang, glass surfaces reflecting sky and sunlight, soft natural falloff, realistic shadow behavior.\n\natmosphere: secure, prestigious, a fortress of modern wealth.\n\nenvironment condition: clean.\n\nbackground elements: the tower rising overhead with reflective glass panels, tree-lined Paseo de la Reforma visible beyond the driveway, distant buildings.\n\nstrictly empty environment — no people, no silhouettes, no reflections of humans in glass, mirrors, or metal surfaces.\n\nreal-world material behavior — accurate reflections, realistic textures, natural light diffusion.\n\nno exaggerated cinematic effects, no neon cyberpunk glow, no fantasy lighting, no game-engine rendering look.\n\nno CGI texture, no stylization, no artificial sharpness.\n\nnatural color grading with warm.\n\n8K ultra-detailed realism, professional architectural or film-set photography quality."
       },
-      "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+      "binding_state": "文本资产索引；尚无图片或音频绑定确认",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 6,
+        "grid_column": 1,
+        "display_title": "场景 高层公寓入口处（外·日）",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     },
     {
       "category": "道具",
@@ -2987,6 +3372,28 @@
         "E": "Professional commercial product photography, pure white seamless background, #FFFFFF hex code background, isolated object, no shadows on floor, studio softbox lighting setup, 8K ultra high definition, sharp focus on intricate details.\n\nProp type: Council membership badge, heraldic insignia pin.\n\nObject description: A single shield-shaped metallic badge displayed face-up, slightly angled to show the relief details and pin clasp on the back.\n\nPrimary structure: Shield-shaped badge approximately 5cm tall and 4cm wide, cast in heavy metal with raised border rim. Central design features a detailed torch motif flanked by symmetrical floral scrollwork, all in high relief. Banner scroll at the bottom of the shield bearing inscribed text.\n\nSecondary elements: Dual-tone finish with black enamel fill in the background fields and polished gold-tone metal for the raised design elements. Pin clasp mechanism on the reverse side. Small loop at the top of the shield for optional chain attachment.\n\nMaterials & Textures: Heavy zinc alloy casting with gold electroplate on raised surfaces showing warm bright gold mirror finish. Black hard enamel fill in recessed areas with glossy smooth surface flush with the metal edges. Fine detail on the torch flame showing individual tongues of fire in the casting. Floral scrollwork shows hand-finished tooling marks. Reverse shows raw unplated metal with industrial casting texture and spring-loaded pin clasp mechanism.\n\nMarkings & Inscriptions: Inscribed text on bottom banner scroll reading \"MIEMBRO DEL CONSEJO\" in capital serif letters.\n\nLighting: Clean, diffused studio lighting, 5600K daylight balanced, high-key photography style. Soft, even illumination to eliminate harsh shadows and reveal material micro-details.\n\nStrictly isolated object --- No ground plane, no environment, no hands, no display stands. Object floating in pure white void.\n\nReal-world material behavior --- Accurate gold electroplate mirror reflections, black enamel glossy surface, cast metal edge detail, pin clasp mechanism.\n\nNo CGI texture, no video game rendering, no stylized outlines.\n\n8K photorealistic macro detail, film prop cataloging quality."
       },
       "binding_state": "文本资产索引；尚无图片或音频绑定确认"
+    },
+    {
+      "category": "场景",
+      "source_file": "用户提供场景资产截图 codex-clipboard-2c35221d-740d-48f1-b5aa-acfc95ec52f9.png",
+      "sheet": null,
+      "row": null,
+      "name_original": "轿车内",
+      "reference_label": "@轿车内",
+      "fields": {
+        "资产名称": "轿车内",
+        "视觉来源": "第一张截图左上第一格，标题“场景 轿车内”",
+        "使用边界": "资产环境；不作为人物站位或机位控制图"
+      },
+      "cells_original": {},
+      "binding_state": "用户截图证实已存在场景资产；以原标签引用，不伪造Mixed编号",
+      "completed_asset_confirmation": {
+        "source": "截图1",
+        "grid_row": 1,
+        "grid_column": 1,
+        "display_title": "场景 轿车内",
+        "confirmed_by": "用户明确声明当前已有且已做好"
+      }
     }
   ]
 }

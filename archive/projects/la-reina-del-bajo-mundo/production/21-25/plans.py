@@ -169,3 +169,8 @@ for u in PLANS:
   u['scene']='高层公寓客厅（夜）；公寓大楼走廊'
  if u['id']=='21-3A':
   u['scene']='高层公寓客厅（夜）；公寓入口（文字设定·夜）'
+
+# User screenshots directly establish the existing car-interior asset.
+for u in PLANS:
+ if u['id']=='21-1A':u['scene']='轿车内'
+ if u['id']=='21-1B':u['scene']='汽车旅馆103房（外·夜）；轿车内'
