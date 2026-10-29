@@ -276,6 +276,41 @@
       "sha256": "9292eebafc63daac3eb585e619b522d24be88a06ec12c969c96d6370c1158638"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/83-2_合并30s提示词.txt",
+      "bytes": 9731,
+      "sha256": "b6a2fd475d1f3568c187e9bb264723739ba10e6482e849c06666e5c2d324e3eb"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/CHECK.json",
+      "bytes": 317,
+      "sha256": "6172b7d605b46bffbbc1af03f0ad1544370829f08cdab322c1a9e0822ad258fd"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/METHOD_REVIEW.md",
+      "bytes": 999,
+      "sha256": "8a963f1cb13996049b115caf9dab7a73cde6310d6f3b6e638bea113b4af15e78"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/SOURCE_ROWS.json",
+      "bytes": 13172,
+      "sha256": "1aa0fbe35e0e32758d91dc9b9656724d06579d16832aeba006d4de25b37b19cf"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/build.py",
+      "bytes": 8846,
+      "sha256": "af31a00e200611f729de9fabf4d82da0717859ba8ac75e183f62f4f2f1ee325e"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/用户偏好与本次纠正.md",
+      "bytes": 529,
+      "sha256": "7fb5e0dd752151da136be7cdb552024a74678f304fc4a7a63fc834bec2a4505a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/用户情绪参考截图.jpg",
+      "bytes": 292127,
+      "sha256": "824ec79d90a40d2573ca70ba45188726735b55ee00f13c9712096e7ac8f2dace"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/RECHECK.md",
       "bytes": 3008,
       "sha256": "d09e172300c1151db6916fc3969c49286a4b05c4f92b53f2d3eabb781014f545"

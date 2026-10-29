@@ -1,0 +1,18 @@
+{
+  "scope": [
+    "83-2A",
+    "83-2B"
+  ],
+  "output": "83-2，一条完整30秒视频",
+  "original_seconds": [
+    12.5,
+    13.5
+  ],
+  "seconds": 30,
+  "shots": 8,
+  "speech_count": 2,
+  "speech_source": "Renata",
+  "speech_text_exact": true,
+  "no_workbook_modified": true,
+  "video_validation": "未实测"
+}
