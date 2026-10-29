@@ -1,0 +1,200 @@
+{
+  "scope": "31—33集文本与结构核对，尚待导出后复核；不是实际成片验证",
+  "episodes": [
+    31,
+    32,
+    33
+  ],
+  "storyboards": 14,
+  "shots": 84,
+  "seconds": 271.0,
+  "source_blocks_covered": 116,
+  "dialogue_count": 30,
+  "vo_count": 0,
+  "os_count": 1,
+  "speech_missing": 0,
+  "source_block_missing": 0,
+  "checks": [
+    {
+      "storyboard": "31-1A",
+      "seconds": 12,
+      "shots": 4,
+      "speech_source_indices": [],
+      "dialogue_count": 0,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 3
+    },
+    {
+      "storyboard": "31-2A",
+      "seconds": 16,
+      "shots": 5,
+      "speech_source_indices": [
+        521,
+        524
+      ],
+      "dialogue_count": 2,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "31-3A",
+      "seconds": 9,
+      "shots": 3,
+      "speech_source_indices": [],
+      "dialogue_count": 0,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 3
+    },
+    {
+      "storyboard": "31-3B",
+      "seconds": 21.5,
+      "shots": 7,
+      "speech_source_indices": [
+        534,
+        539
+      ],
+      "dialogue_count": 1,
+      "vo_count": 0,
+      "os_count": 1,
+      "max_shot_seconds": 3.5
+    },
+    {
+      "storyboard": "31-3C",
+      "seconds": 15.5,
+      "shots": 5,
+      "speech_source_indices": [],
+      "dialogue_count": 0,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "32-1A",
+      "seconds": 22.5,
+      "shots": 7,
+      "speech_source_indices": [
+        551,
+        553,
+        555,
+        557
+      ],
+      "dialogue_count": 4,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "32-1B",
+      "seconds": 23.0,
+      "shots": 7,
+      "speech_source_indices": [
+        562,
+        564,
+        567
+      ],
+      "dialogue_count": 3,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "32-1C",
+      "seconds": 23.0,
+      "shots": 7,
+      "speech_source_indices": [
+        570,
+        572,
+        574,
+        576
+      ],
+      "dialogue_count": 4,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "32-1D",
+      "seconds": 26.0,
+      "shots": 8,
+      "speech_source_indices": [
+        578,
+        580,
+        582
+      ],
+      "dialogue_count": 3,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "33-1A",
+      "seconds": 17,
+      "shots": 5,
+      "speech_source_indices": [
+        596
+      ],
+      "dialogue_count": 1,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "33-1B",
+      "seconds": 19,
+      "shots": 6,
+      "speech_source_indices": [
+        600,
+        602,
+        603,
+        605,
+        607
+      ],
+      "dialogue_count": 5,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "33-1C",
+      "seconds": 16.5,
+      "shots": 5,
+      "speech_source_indices": [
+        610,
+        611,
+        613
+      ],
+      "dialogue_count": 3,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "33-1D",
+      "seconds": 28,
+      "shots": 8,
+      "speech_source_indices": [
+        616,
+        618,
+        620,
+        622
+      ],
+      "dialogue_count": 4,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    },
+    {
+      "storyboard": "33-2A",
+      "seconds": 22,
+      "shots": 7,
+      "speech_source_indices": [],
+      "dialogue_count": 0,
+      "vo_count": 0,
+      "os_count": 0,
+      "max_shot_seconds": 4
+    }
+  ]
+}

@@ -9,22 +9,23 @@
     27,
     28,
     29,
-    30
-  ],
-  "pending_episodes": [
+    30,
     31,
     32,
     33
   ],
-  "storyboards": 45,
-  "shots": 235,
-  "dialogue_count": 78,
+  "pending_episodes": [],
+  "storyboards": 59,
+  "shots": 319,
+  "dialogue_count": 108,
   "vo_count": 10,
   "desktop_output": "/Users/apple/Desktop/前夫黑道酵母_分镜_21-33.xlsx",
-  "loop": "production/26-30/REVIEW_LOOP.md",
-  "workbook_verification": "production/26-30/WORKBOOK_VERIFICATION.json",
+  "loop": "production/31-33/REVIEW_LOOP.md",
+  "workbook_verification": "production/31-33/WORKBOOK_VERIFICATION.json",
   "spatial_control": "文字控制，无尾帧或站位图",
   "video_validation": "未实测",
-  "asset_exception": "缺项文字设计授权目前仅21—25集",
-  "seconds": 761.5
+  "asset_exception": "21—25既有授权；31—33酒店正门外景与衔尾蛇纹章文件夹按用户明确答复文字设计",
+  "seconds": 1032.5,
+  "os_count": 1,
+  "full_project_check": "production/31-33/PROJECT_FINAL_CHECK.json"
 }

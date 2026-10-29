@@ -1,0 +1,35 @@
+{
+  "result": "passed",
+  "episodes": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "source_nonempty_blocks": 551,
+  "raw_docx_equals_baseline": true,
+  "original_column_complete_in_order": true,
+  "approved_source_corrections": [
+    135
+  ],
+  "storyboards": 59,
+  "shots": 319,
+  "seconds": 1032.5,
+  "dialogue": 108,
+  "VO": 10,
+  "OS": 1,
+  "speech_occurrences": 119,
+  "exact_speech_source_kind_order_and_punctuation": true,
+  "each_prompt_voice_occurrence_once": true,
+  "video_validation": "未实测",
+  "sha256": "e1e92a98c7204ceb7f15164724967da19d3f5316db6fc1cd32e24179a232b85d"
+}

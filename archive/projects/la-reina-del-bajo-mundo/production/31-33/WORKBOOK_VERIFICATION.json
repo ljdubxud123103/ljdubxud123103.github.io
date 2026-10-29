@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "scope": "31—33集文本、导出读回与格式核对",
+  "previous_rows_preserved": 45,
+  "appended_rows": 14,
+  "data_rows_total": 59,
+  "worksheet_count": 1,
+  "frozen_panes": "A2",
+  "exact_values": true,
+  "fonts_alignment_borders_number_formats_preserved": true,
+  "widths_and_heights_preserved": true,
+  "asset_policy": "现有精确标签；酒店外景和衔尾蛇文件夹须以ASSET_DECISION.json用户裁定为据，无虚假@绑定",
+  "previews_reviewed": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "video_validation": "未实测",
+  "sha256": "e1e92a98c7204ceb7f15164724967da19d3f5316db6fc1cd32e24179a232b85d"
+}

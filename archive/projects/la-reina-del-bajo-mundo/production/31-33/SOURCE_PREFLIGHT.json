@@ -1,0 +1,27 @@
+{
+  "scope": [
+    31,
+    32,
+    33
+  ],
+  "source_blocks": 116,
+  "speech_occurrences": 31,
+  "dialogue": 30,
+  "OS": 1,
+  "asset_tables_rechecked": [
+    "人物49项",
+    "道具26项",
+    "已完成场景截图56项"
+  ],
+  "existing_matches": [
+    "Vera黑色晚宴装",
+    "Tiburcio常服",
+    "晚宴酒店大厅",
+    "高层公寓阳台",
+    "高层公寓客厅（日）",
+    "Escolta A常服"
+  ],
+  "pending_user": [],
+  "state": "用户已确认两项文字设计；本批完成并通过导出核对",
+  "decision": "ASSET_DECISION.json"
+}
