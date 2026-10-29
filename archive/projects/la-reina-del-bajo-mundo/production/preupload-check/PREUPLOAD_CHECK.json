@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "input": "当前桌面实际XLSX，直接读取；未用rows.json或speech_mapping.json作为输出基线",
+  "workbook_sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256",
+  "rows": 59,
+  "shots": 324,
+  "seconds": 1045.0,
+  "raw_docx_blocks": 551,
+  "speech_occurrences": 119,
+  "dialogue": 108,
+  "VO": 10,
+  "OS": 1,
+  "max_shot_seconds": 4.0,
+  "max_segment_seconds": 29.0,
+  "original_text_exact": true,
+  "actual_G_and_F_voice_text_order_kind_checked": true,
+  "original_template_columns_font_alignment_border_row_height_checked": true,
+  "asset_anchor_names_checked": true,
+  "duration_sums_and_voice_intervals_checked": true,
+  "no_new_changes": true,
+  "video_validation": "未进行真实视频验证"
+}

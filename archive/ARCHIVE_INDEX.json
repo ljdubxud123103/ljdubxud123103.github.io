@@ -321,6 +321,21 @@
       "sha256": "701e3601b293342db3a9e3682b8336c0c391ac5c13d26b1af9458d741507ee36"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/preupload-check/PREUPLOAD_CHECK.json",
+      "bytes": 765,
+      "sha256": "a9e9e3e52df26f79118bede58ed9d27d0f0658cbe04e4e22cffd0482412522c0"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/preupload-check/README.md",
+      "bytes": 628,
+      "sha256": "5cfc735436780b7072cd85897387f9c0520b7fd2d1f570f5f38fd52d2c610694"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/preupload-check/check.py",
+      "bytes": 5621,
+      "sha256": "177069be1414341bbea244866cb407fbda97b1a497ab324df286470ecf2d3b9b"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/codex-clipboard-23a9d012-c181-4481-8988-15ec399c3f4e.png",
       "bytes": 1489105,
       "sha256": "ea03ee425fe2da41d077cb6626b0c1a95c7a652bbc7ef3e921efd9c1277d20f4"
