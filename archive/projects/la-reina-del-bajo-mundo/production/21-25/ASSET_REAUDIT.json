@@ -1,0 +1,25 @@
+{
+  "scope": "对原始场景表全部55项的资产名、描述、类型、从属、提示词重新核对",
+  "source_file": "场景_20261028211408192.xlsx",
+  "source_sha256": "f8a9ec109bc1ce228858f8049c8cfd25c643deb09d5f8c7e4315ffd38c45d8f4",
+  "verified_rows": [
+    {
+      "row": 17,
+      "asset": "雨夜高速",
+      "evidence": "B列提到轿车疾驰；E列明确Exterior highway at night in heavy rain，为外景，不能自动当轿车内绑定"
+    },
+    {
+      "row": 34,
+      "asset": "高层公寓客厅（夜）",
+      "evidence": "E列已包含brown kraft paper envelope、sticky note in yellow、black metal film reel canister；不再笼统称其为全新缺项"
+    },
+    {
+      "row": 37,
+      "asset": "公寓大楼走廊",
+      "evidence": "E列包含门口及远端电梯；23-2A/B、24-4A、25-1A/B/C、25-2A/B/C已改用此原标签，并结合公寓客厅文字确定门内部分"
+    }
+  ],
+  "correction": "九个门口/走廊单元补锚@公寓大楼走廊，21-3补锚已有客厅；原有43次对白/VO、24段、122镜未改变",
+  "pending": "用户所指轿车内资产标签或行号；当前收到版本尚未找到该独立表项。26—30批次资产门禁未通过，尚未生成。",
+  "new_confirmations": "26—30沿用现有对应人物造型；Reportera D VO、El Zorro Blanco VO允许文字声源设定。"
+}

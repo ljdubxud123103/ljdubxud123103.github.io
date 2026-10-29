@@ -17,8 +17,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/CONFIRMED_PRODUCTION_POLICY.json",
-      "bytes": 798,
-      "sha256": "ef5f1edfcd132ec1c87aa2d1f26e8764b60c75251f71f66c4003e9cbd9d3a9c6"
+      "bytes": 1267,
+      "sha256": "aa0358eb0ff1281ba31fcff1c5d25c079268aab91c2e74996049a41b0f76f257"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/PRODUCTION_REQUEST.md",
@@ -72,8 +72,13 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_21-33.xlsx",
-      "bytes": 39305,
-      "sha256": "7ae86bdfc95e262ae4b164e16cba9639a39653dcf15247d390842b6895f8cbfe"
+      "bytes": 39222,
+      "sha256": "5d3b124e6beb4ea0e9772723350bb4f10c069e143226ff62bd7dd94b09e5bf32"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/ASSET_REAUDIT.json",
+      "bytes": 1367,
+      "sha256": "fafd905b24389aee26b0613a380b7f129790a50ee1ea28e0498d41349557f5a6"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/REVIEW_LOOP.md",
@@ -92,18 +97,18 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/build_content.py",
-      "bytes": 9064,
-      "sha256": "b5ef1a5d1dbd75f1afc2a1aac1b909327f5d9423e84980f2b4aaf9353bdae4d2"
+      "bytes": 9114,
+      "sha256": "54a316fca8f8c46f15e5141abf1d2614d1757374f8360c8d10be39df75382a0c"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/plans.py",
-      "bytes": 38673,
-      "sha256": "5fbfc45ab6acc14ec15719c332d00e265649c80c73f53269aaa143278677fdb0"
+      "bytes": 39035,
+      "sha256": "101141d07b2668ea69c95d0ee4abe003ca0cea4d025ea96b21b7b94b7535566f"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/rows.json",
-      "bytes": 178154,
-      "sha256": "9a4aa69d762a19990a80bc98150a616803c1d6ca5b8f4419ea78baeff2962d15"
+      "bytes": 177417,
+      "sha256": "33040683b9e4faa24a0fe87e6685f657ed9066114cfefcedaa872247a8224eba"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/speech_mapping.json",

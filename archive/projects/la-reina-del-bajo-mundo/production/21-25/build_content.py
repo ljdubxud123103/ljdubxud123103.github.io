@@ -48,9 +48,9 @@ for u in PLANS:
    if v['name']=='Ramón' and v['source_index']>=257:delivery='疼痛下的急促声演，原定呼喊词照原文发出，不再叠加额外叫声'
    audio+=f'{v["start"]:.1f}s—{v["end"]:.1f}s，{label(v["asset"])}（{v["kind"]}，{delivery}）：「{v["text"]}」\n'
  else:audio+='\n本段无原定对白或旁白，不新增发声。'
- anchors='场景：'+label(u['scene'])+'\n角色：'+'；'.join(label(n) for n in u['chars'])
+ anchors='场景：'+'；'.join(label(n) for n in u['scene'].split('；'))+'\n角色：'+'；'.join(label(n) for n in u['chars'])
  if u['props']:anchors+='\n道具：'+'；'.join(label(n) for n in u['props'])
- if any(n not in known for n in [u['scene'],*u['props']]):anchors+='\n未带@的本段场景或物件按已授权的文字设计执行，保持下述位置、数量和状态。'
+ if any(n not in known for n in [*u['scene'].split('；'),*u['props']]):anchors+='\n未带@的本段场景或物件按已授权的文字设计执行，保持下述位置、数量和状态。'
  prompt=contract['style_lock_reference_first_row']+'\n\n[场景基调]\n'+u['scene']+'，9:16竖屏。'+u['light']+'\n\n[音轨规则]\n'+audio.rstrip()+'\n\n[锚定列表]\n'+anchors+'\n\n[空间布局总览]\n'+u['map']+'全部人物位置以门、桌、窗及通道为固定参照；反打只改变相机观察方向，不改变人物实际所在位置。本段由这些文字建立初始状态。\n\n'+f'[运镜时间线（{len(u["shots"])}个硬切分镜）]\n'
  for i,sh in enumerate(u['shots']):
   a=starts[i];b=a+sh['duration'];active=[v for v in voice if v['start']<b and v['end']>a]

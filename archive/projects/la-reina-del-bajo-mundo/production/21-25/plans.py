@@ -162,3 +162,10 @@ u['shots'].insert(0,s(2.5,'两人手部中景/书桌南侧','固定，完整看�
 u=next(u for u in PLANS if u['id']=='22-1A');u['shots'][0]['action']=u['shots'][0]['action'].replace('红光落在Vera肩胛到背部的衣料上','红光自后颈沿衣料滑向肩胛与背部')
 u=next(u for u in PLANS if u['id']=='22-3A');u['map']=u['map'].replace('Escolta A在门边画外，不据此安排其发声或动作。','')
 u=next(u for u in PLANS if u['id']=='24-1A');u['map']+='Vera的米色风衣此刻暂搭在沙发旁衣凳上，外套仍属原人物资产，未新增第二件。'
+
+# Source-table re-audit: existing corridor asset covers door area and visible elevator.
+for u in PLANS:
+ if u['id'] in ['23-2A','23-2B','24-4A','25-1A','25-1B','25-1C','25-2A','25-2B','25-2C']:
+  u['scene']='高层公寓客厅（夜）；公寓大楼走廊'
+ if u['id']=='21-3A':
+  u['scene']='高层公寓客厅（夜）；公寓入口（文字设定·夜）'
