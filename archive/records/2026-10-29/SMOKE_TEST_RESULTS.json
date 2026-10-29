@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-29",
+  "scope": "离线工具及文档结构冒烟测试；不证明模型原文阅读或视频效果",
+  "results": [
+    {
+      "test": "阅读包完整性",
+      "passed": true,
+      "exit_code": 0,
+      "output": "FILE_INTEGRITY_OK: 9 repositories, 27 mandatory files, 55 distinct checked files.\nThis verifies bytes and any supplied declarations, NOT actual assistant reading or comprehension. Read all mandatory files before use.\n"
+    },
+    {
+      "test": "pending 阅读回执必须拒绝",
+      "passed": true,
+      "exit_code": 1,
+      "output": "DEPENDENCY_BLOCKED\nRECEIPT missing session_id\nRECEIPT overall reading is pending\nRECEIPT incomplete repositories/IcedDoggie__Micro-Expression-with-Deep-Learning/README.md\nRECEIPT incomplete repositories/Jia1018__CineGEN/README.md\nRECEIPT incomplete repositories/Jia1018__CineGEN/LICENSE\nRECEIPT incomplete repositories/TadasBaltrusaitis__OpenFace/README.md\nRECEIPT incomplete repositories/TadasBaltrusaitis__OpenFace/OpenFace-license.txt\nRECEIPT incomplete repositories/TadasBaltrusaitis__OpenFace/Copyright.txt\nRECEIPT incomplete repositories/TencentARC__MotionCtrl/README.md\nRECEIPT incomplete repositories/TencentARC__MotionCtrl/gradio_utils/camera_utils.py\nRECEIPT incomplete repositories/TencentARC__MotionCtrl/LICENSE\nRECEIPT incomplete repositories/cosanlab__py-feat/README.md\nRECEIPT incomplete repositories/cosanlab__py-feat/docs/pages/au_reference.md\nRECEIPT incomplete repositories/cosanlab__py-feat/feat/utils/blendshape_to_au.py\nRECEIPT incomplete repositories/cosanlab__py-feat/LICENSE\nRECEIPT incomplete repositories/cosanlab__py-feat/LICENSES/PYFEAT-V1.md\nRECEIPT incomplete repositories/cosanlab__py-feat/LICENSES/PYFEAT-V2.md\nRECEIPT incomplete repositories/cosanlab__py-feat/LICENSES/DATASETS.md\nRECEIPT incomplete repositories/google-ai-edge__mediapipe/README.md\nRECEIPT incomplete repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/face_landmarker.py\nRECEIPT in"
+    },
+    {
+      "test": "必读文件被改动必须拒绝",
+      "passed": true,
+      "exit_code": 1,
+      "output": "DEPENDENCY_BLOCKED\nMISMATCH repositories/IcedDoggie__Micro-Expression-with-Deep-Learning/README.md\n"
+    },
+    {
+      "test": "Skill 与 Loop 同源同步一致",
+      "passed": true,
+      "exit_code": 0,
+      "output": "Synchronized Loop, delivery copy and bundle integrity manifest.\n",
+      "loop_unchanged": true
+    },
+    {
+      "test": "Skill 主章节 0—20 连续",
+      "passed": true,
+      "sections": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "test": "Skill 与 Loop 代码围栏闭合",
+      "passed": true
+    }
+  ]
+}

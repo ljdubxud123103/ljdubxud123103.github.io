@@ -1,0 +1,724 @@
+SOURCE: repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/face_landmarker.py
+COMMIT: 0e152b35eeea3cc9e8b55886428982b82de5925b
+ENCODING: utf-8-sig
+PART: 4/5
+SHA256_OF_FULL_RAW_FILE: 69c822394b341e8fef4aea6351d4ef2285931cd7448a5c235c30a2a80f390412
+BEGIN_UNTRUSTED_SOURCE_TEXT
+0),
+      Connection(295, 282),
+      Connection(282, 296),
+      Connection(296, 295),
+      Connection(448, 449),
+      Connection(449, 346),
+      Connection(346, 448),
+      Connection(356, 264),
+      Connection(264, 454),
+      Connection(454, 356),
+      Connection(337, 336),
+      Connection(336, 299),
+      Connection(299, 337),
+      Connection(337, 338),
+      Connection(338, 151),
+      Connection(151, 337),
+      Connection(294, 278),
+      Connection(278, 455),
+      Connection(455, 294),
+      Connection(308, 292),
+      Connection(292, 415),
+      Connection(415, 308),
+      Connection(429, 358),
+      Connection(358, 355),
+      Connection(355, 429),
+      Connection(265, 340),
+      Connection(340, 372),
+      Connection(372, 265),
+      Connection(352, 346),
+      Connection(346, 280),
+      Connection(280, 352),
+      Connection(295, 442),
+      Connection(442, 282),
+      Connection(282, 295),
+      Connection(354, 19),
+      Connection(19, 370),
+      Connection(370, 354),
+      Connection(285, 441),
+      Connection(441, 295),
+      Connection(295, 285),
+      Connection(195, 248),
+      Connection(248, 197),
+      Connection(197, 195),
+      Connection(457, 440),
+      Connection(440, 274),
+      Connection(274, 457),
+      Connection(301, 300),
+      Connection(300, 368),
+      Connection(368, 301),
+      Connection(417, 351),
+      Connection(351, 465),
+      Connection(465, 417),
+      Connection(251, 301),
+      Connection(301, 389),
+      Connection(389, 251),
+      Connection(394, 395),
+      Connection(395, 379),
+      Connection(379, 394),
+      Connection(399, 412),
+      Connection(412, 419),
+      Connection(419, 399),
+      Connection(410, 436),
+      Connection(436, 322),
+      Connection(322, 410),
+      Connection(326, 2),
+      Connection(2, 393),
+      Connection(393, 326),
+      Connection(354, 370),
+      Connection(370, 461),
+      Connection(461, 354),
+      Connection(393, 164),
+      Connection(164, 267),
+      Connection(267, 393),
+      Connection(268, 302),
+      Connection(302, 12),
+      Connection(12, 268),
+      Connection(312, 268),
+      Connection(268, 13),
+      Connection(13, 312),
+      Connection(298, 293),
+      Connection(293, 301),
+      Connection(301, 298),
+      Connection(265, 446),
+      Connection(446, 340),
+      Connection(340, 265),
+      Connection(280, 330),
+      Connection(330, 425),
+      Connection(425, 280),
+      Connection(322, 426),
+      Connection(426, 391),
+      Connection(391, 322),
+      Connection(420, 429),
+      Connection(429, 437),
+      Connection(437, 420),
+      Connection(393, 391),
+      Connection(391, 326),
+      Connection(326, 393),
+      Connection(344, 440),
+      Connection(440, 438),
+      Connection(438, 344),
+      Connection(458, 459),
+      Connection(459, 461),
+      Connection(461, 458),
+      Connection(364, 434),
+      Connection(434, 394),
+      Connection(394, 364),
+      Connection(428, 396),
+      Connection(396, 262),
+      Connection(262, 428),
+      Connection(274, 354),
+      Connection(354, 457),
+      Connection(457, 274),
+      Connection(317, 316),
+      Connection(316, 402),
+      Connection(402, 317),
+      Connection(316, 315),
+      Connection(315, 403),
+      Connection(403, 316),
+      Connection(315, 314),
+      Connection(314, 404),
+      Connection(404, 315),
+      Connection(314, 313),
+      Connection(313, 405),
+      Connection(405, 314),
+      Connection(313, 421),
+      Connection(421, 406),
+      Connection(406, 313),
+      Connection(323, 366),
+      Connection(366, 361),
+      Connection(361, 323),
+      Connection(292, 306),
+      Connection(306, 407),
+      Connection(407, 292),
+      Connection(306, 291),
+      Connection(291, 408),
+      Connection(408, 306),
+      Connection(291, 287),
+      Connection(287, 409),
+      Connection(409, 291),
+      Connection(287, 432),
+      Connection(432, 410),
+      Connection(410, 287),
+      Connection(427, 434),
+      Connection(434, 411),
+      Connection(411, 427),
+      Connection(372, 264),
+      Connection(264, 383),
+      Connection(383, 372),
+      Connection(459, 309),
+      Connection(309, 457),
+      Connection(457, 459),
+      Connection(366, 352),
+      Connection(352, 401),
+      Connection(401, 366),
+      Connection(1, 274),
+      Connection(274, 4),
+      Connection(4, 1),
+      Connection(418, 421),
+      Connection(421, 262),
+      Connection(262, 418),
+      Connection(331, 294),
+      Connection(294, 358),
+      Connection(358, 331),
+      Connection(435, 433),
+      Connection(433, 367),
+      Connection(367, 435),
+      Connection(392, 289),
+      Connection(289, 439),
+      Connection(439, 392),
+      Connection(328, 462),
+      Connection(462, 326),
+      Connection(326, 328),
+      Connection(94, 2),
+      Connection(2, 370),
+      Connection(370, 94),
+      Connection(289, 305),
+      Connection(305, 455),
+      Connection(455, 289),
+      Connection(339, 254),
+      Connection(254, 448),
+      Connection(448, 339),
+      Connection(359, 255),
+      Connection(255, 446),
+      Connection(446, 359),
+      Connection(254, 253),
+      Connection(253, 449),
+      Connection(449, 254),
+      Connection(253, 252),
+      Connection(252, 450),
+      Connection(450, 253),
+      Connection(252, 256),
+      Connection(256, 451),
+      Connection(451, 252),
+      Connection(256, 341),
+      Connection(341, 452),
+      Connection(452, 256),
+      Connection(414, 413),
+      Connection(413, 463),
+      Connection(463, 414),
+      Connection(286, 441),
+      Connection(441, 414),
+      Connection(414, 286),
+      Connection(286, 258),
+      Connection(258, 441),
+      Connection(441, 286),
+      Connection(258, 257),
+      Connection(257, 442),
+      Connection(442, 258),
+      Connection(257, 259),
+      Connection(259, 443),
+      Connection(443, 257),
+      Connection(259, 260),
+      Connection(260, 444),
+      Connection(444, 259),
+      Connection(260, 467),
+      Connection(467, 445),
+      Connection(445, 260),
+      Connection(309, 459),
+      Connection(459, 250),
+      Connection(250, 309),
+      Connection(305, 289),
+      Connection(289, 290),
+      Connection(290, 305),
+      Connection(305, 290),
+      Connection(290, 460),
+      Connection(460, 305),
+      Connection(401, 376),
+      Connection(376, 435),
+      Connection(435, 401),
+      Connection(309, 250),
+      Connection(250, 392),
+      Connection(392, 309),
+      Connection(376, 411),
+      Connection(411, 433),
+      Connection(433, 376),
+      Connection(453, 341),
+      Connection(341, 464),
+      Connection(464, 453),
+      Connection(357, 453),
+      Connection(453, 465),
+      Connection(465, 357),
+      Connection(343, 357),
+      Connection(357, 412),
+      Connection(412, 343),
+      Connection(437, 343),
+      Connection(343, 399),
+      Connection(399, 437),
+      Connection(344, 360),
+      Connection(360, 440),
+      Connection(440, 344),
+      Connection(420, 437),
+      Connection(437, 456),
+      Connection(456, 420),
+      Connection(360, 420),
+      Connection(420, 363),
+      Connection(363, 360),
+      Connection(361, 401),
+      Connection(401, 288),
+      Connection(288, 361),
+      Connection(265, 372),
+      Connection(372, 353),
+      Connection(353, 265),
+      Connection(390, 339),
+      Connection(339, 249),
+      Connection(249, 390),
+      Connection(339, 448),
+      Connection(448, 255),
+      Connection(255, 339),
+  ]
+
+
+class MpFaceLandmarkerResultC(ctypes.Structure):
+  """The ctypes struct for MpFaceLandmarkerResult."""
+
+  _fields_ = [
+      ('face_landmarks', ctypes.POINTER(landmark_c_lib.MpNormalizedLandmarksC)),
+      ('face_landmarks_count', ctypes.c_uint32),
+      ('face_blendshapes', ctypes.POINTER(category_c_lib.MpCategoriesC)),
+      ('face_blendshapes_count', ctypes.c_uint32),
+      (
+          'facial_transformation_matrixes',
+          ctypes.POINTER(matrix_c_lib.MpMatrixC),
+      ),
+      ('facial_transformation_matrixes_count', ctypes.c_uint32),
+  ]
+
+
+_C_TYPES_RESULT_CALLBACK = ctypes.CFUNCTYPE(
+    None,
+    ctypes.c_int32,  # MpStatus
+    ctypes.POINTER(MpFaceLandmarkerResultC),
+    ctypes.c_void_p,  # MpImage
+    ctypes.c_int64,  # timestamp_ms
+)
+
+
+@dataclasses.dataclass
+class FaceLandmarkerResult:
+  """The face landmarks detection result from FaceLandmarker, where each vector element represents a single face detected in the image.
+
+  Attributes:
+    face_landmarks: Detected face landmarks in normalized image coordinates.
+    face_blendshapes: Optional face blendshapes results.
+    facial_transformation_matrixes: Optional facial transformation matrix.
+  """
+
+  face_landmarks: List[List[landmark_lib.NormalizedLandmark]]
+  face_blendshapes: List[List[category_lib.Category]]
+  facial_transformation_matrixes: List[np.ndarray]
+
+  @classmethod
+  @doc_controls.do_not_generate_docs
+  def from_ctypes(
+      cls, c_struct: MpFaceLandmarkerResultC
+  ) -> 'FaceLandmarkerResult':
+    """Creates a FaceLandmarkerResult from a ctypes struct."""
+    face_landmarks = []
+    for i in range(c_struct.face_landmarks_count):
+      landmarks_c = c_struct.face_landmarks[i]
+      face_landmarks.append([
+          landmark_lib.NormalizedLandmark.from_ctypes(landmarks_c.landmarks[j])
+          for j in range(landmarks_c.landmarks_count)
+      ])
+
+    face_blendshapes = []
+    for i in range(c_struct.face_blendshapes_count):
+      categories_c = c_struct.face_blendshapes[i]
+      face_blendshapes.append([
+          category_lib.Category.from_ctypes(categories_c.categories[j])
+          for j in range(categories_c.categories_count)
+      ])
+
+    facial_transformation_matrixes = []
+    for i in range(c_struct.facial_transformation_matrixes_count):
+      matrix_c = c_struct.facial_transformation_matrixes[i]
+      facial_transformation_matrixes.append(matrix_c.to_numpy())
+
+    return cls(face_landmarks, face_blendshapes, facial_transformation_matrixes)
+
+
+class MpFaceLandmarkerOptionsC(ctypes.Structure):
+  """The ctypes struct for MpFaceLandmarkerOptions."""
+
+  _fields_ = [
+      ('base_options', base_options_c_lib.MpBaseOptionsC),
+      ('running_mode', ctypes.c_int),
+      ('num_faces', ctypes.c_int),
+      ('min_face_detection_confidence', ctypes.c_float),
+      ('min_face_presence_confidence', ctypes.c_float),
+      ('min_tracking_confidence', ctypes.c_float),
+      ('output_face_blendshapes', ctypes.c_bool),
+      ('output_facial_transformation_matrixes', ctypes.c_bool),
+      ('result_callback', _C_TYPES_RESULT_CALLBACK),
+  ]
+
+  @classmethod
+  @doc_controls.do_not_generate_docs
+  def from_c_options(
+      cls,
+      base_options: base_options_c_lib.MpBaseOptionsC,
+      running_mode: _RunningMode,
+      num_faces: int,
+      min_face_detection_confidence: float,
+      min_face_presence_confidence: float,
+      min_tracking_confidence: float,
+      output_face_blendshapes: bool,
+      output_facial_transformation_matrixes: bool,
+      result_callback: '_C_TYPES_RESULT_CALLBACK',
+  ) -> 'MpFaceLandmarkerOptionsC':
+    """Creates a MpFaceLandmarkerOptionsC object from the given options."""
+    return cls(
+        base_options=base_options,
+        running_mode=running_mode.ctype,
+        num_faces=num_faces,
+        min_face_detection_confidence=min_face_detection_confidence,
+        min_face_presence_confidence=min_face_presence_confidence,
+        min_tracking_confidence=min_tracking_confidence,
+        output_face_blendshapes=output_face_blendshapes,
+        output_facial_transformation_matrixes=output_facial_transformation_matrixes,
+        result_callback=result_callback,
+    )
+
+
+@dataclasses.dataclass
+class FaceLandmarkerOptions:
+  """Options for the face landmarker task.
+
+  Attributes:
+    base_options: Base options for the face landmarker task.
+    running_mode: The running mode of the task. Default to the image mode.
+      FaceLandmarker has three running modes: 1) The image mode for detecting
+      face landmarks on single image inputs. 2) The video mode for detecting
+      face landmarks on the decoded frames of a video. 3) The live stream mode
+      for detecting face landmarks on the live stream of input data, such as
+      from camera. In this mode, the "result_callback" below must be specified
+      to receive the detection results asynchronously.
+    num_faces: The maximum number of faces that can be detected by the
+      FaceLandmarker.
+    min_face_detection_confidence: The minimum confidence score for the face
+      detection to be considered successful.
+    min_face_presence_confidence: The minimum confidence score of face presence
+      score in the face landmark detection.
+    min_tracking_confidence: The minimum confidence score for the face tracking
+      to be considered successful.
+    output_face_blendshapes: Whether FaceLandmarker outputs face blendshapes
+      classification. Face blendshapes are used for rendering the 3D face model.
+    output_facial_transformation_matrixes: Whether FaceLandmarker outputs facial
+      transformation_matrix. Facial transformation matrix is used to transform
+      the face landmarks in canonical face to the detected face, so that users
+      can apply face effects on the detected landmarks.
+    result_callback: The user-defined result callback for processing live stream
+      data. The result callback should only be specified when the running mode
+      is set to the live stream mode.
+  """
+
+  base_options: _BaseOptions
+  running_mode: _RunningMode = _RunningMode.IMAGE
+  num_faces: int = 1
+  min_face_detection_confidence: float = 0.5
+  min_face_presence_confidence: float = 0.5
+  min_tracking_confidence: float = 0.5
+  output_face_blendshapes: bool = False
+  output_facial_transformation_matrixes: bool = False
+  result_callback: Optional[
+      Callable[[FaceLandmarkerResult, image_lib.Image, int], None]
+  ] = None
+
+
+_CTYPES_SIGNATURES = (
+    mediapipe_c_utils.CStatusFunction(
+        'MpFaceLandmarkerCreate',
+        (
+            ctypes.POINTER(MpFaceLandmarkerOptionsC),
+            ctypes.POINTER(ctypes.c_void_p),
+        ),
+    ),
+    mediapipe_c_utils.CStatusFunction(
+        'MpFaceLandmarkerDetectImage',
+        (
+            ctypes.c_void_p,
+            ctypes.c_void_p,
+            ctypes.POINTER(
+                image_processing_options_c_lib.MpImageProcessingOptionsC
+            ),
+            ctypes.POINTER(MpFaceLandmarkerResultC),
+        ),
+    ),
+    mediapipe_c_utils.CStatusFunction(
+        'MpFaceLandmarkerDetectForVideo',
+        (
+            ctypes.c_void_p,
+            ctypes.c_void_p,
+            ctypes.POINTER(
+                image_processing_options_c_lib.MpImageProcessingOptionsC
+            ),
+            ctypes.c_int64,
+            ctypes.POINTER(MpFaceLandmarkerResultC),
+        ),
+    ),
+    mediapipe_c_utils.CStatusFunction(
+        'MpFaceLandmarkerDetectAsync',
+        (
+            ctypes.c_void_p,
+            ctypes.c_void_p,
+            ctypes.POINTER(
+                image_processing_options_c_lib.MpImageProcessingOptionsC
+            ),
+            ctypes.c_int64,
+        ),
+    ),
+    mediapipe_c_utils.CFunction(
+        'MpFaceLandmarkerCloseResult',
+        [ctypes.POINTER(MpFaceLandmarkerResultC)],
+        None,
+    ),
+    mediapipe_c_utils.CStatusFunction(
+        'MpFaceLandmarkerClose',
+        (ctypes.c_void_p,),
+    ),
+)
+
+
+class FaceLandmarker:
+  """Class that performs face landmark detection on images."""
+
+  _lib: serial_dispatcher.SerialDispatcher
+  _handle: ctypes.c_void_p
+  _dispatcher: _AsyncResultDispatcher
+  _async_callback: _C_TYPES_RESULT_CALLBACK
+
+  def __init__(
+      self,
+      lib: serial_dispatcher.SerialDispatcher,
+      handle: ctypes.c_void_p,
+      dispatcher: _AsyncResultDispatcher,
+      async_callback: _C_TYPES_RESULT_CALLBACK,
+  ):
+    """Initializes the face landmarker.
+
+    Args:
+      lib: The dispatch library to use for the face landmarker.
+      handle: The C pointer to the face landmarker.
+      dispatcher: The async result handler for the face landmarker.
+      async_callback: The c callback for the face landmarker.
+    """
+    self._lib = lib
+    self._handle = handle
+    self._dispatcher = dispatcher
+    self._async_callback = async_callback
+
+  @classmethod
+  def create_from_model_path(cls, model_path: str) -> 'FaceLandmarker':
+    """Creates an `FaceLandmarker` object from a TensorFlow Lite model and the default `FaceLandmarkerOptions`.
+
+    Note that the created `FaceLandmarker` instance is in image mode, for
+    detecting face landmarks on single image inputs.
+
+    Args:
+      model_path: Path to the model.
+
+    Returns:
+      `FaceLandmarker` object that's created from the model file and the
+      default `FaceLandmarkerOptions`.
+
+    Raises:
+      ValueError: If failed to create `FaceLandmarker` object from the
+        provided file such as invalid file path.
+      RuntimeError: If other types of error occurred.
+    """
+    base_options = _BaseOptions(model_asset_path=model_path)
+    options = FaceLandmarkerOptions(
+        base_options=base_options, running_mode=_RunningMode.IMAGE
+    )
+    return cls.create_from_options(options)
+
+  @classmethod
+  def create_from_options(
+      cls, options: FaceLandmarkerOptions
+  ) -> 'FaceLandmarker':
+    """Creates the `FaceLandmarker` object from face landmarker options.
+
+    Args:
+      options: Options for the face landmarker task.
+
+    Returns:
+      `FaceLandmarker` object that's created from `options`.
+
+    Raises:
+      ValueError: If failed to create `FaceLandmarker` object from
+        `FaceLandmarkerOptions` such as missing the model.
+      RuntimeError: If other types of error occurred.
+    """
+    running_mode_lib.validate_running_mode(
+        options.running_mode, options.result_callback  # pyrefly: ignore[bad-argument-type]
+    )
+
+    lib = mediapipe_c_bindings_lib.load_shared_library(_CTYPES_SIGNATURES)
+
+    def convert_result(
+        c_result_ptr: ctypes.POINTER(MpFaceLandmarkerResultC),  # pyrefly: ignore[invalid-annotation]
+        image_ptr: ctypes.c_void_p,
+        timestamp_ms: int,
+    ) -> Tuple[FaceLandmarkerResult, image_lib.Image, int]:
+      c_result = c_result_ptr[0]
+      py_result = FaceLandmarkerResult.from_ctypes(c_result)
+      py_image = image_lib.Image.create_from_ctypes(image_ptr)
+      return (py_result, py_image, timestamp_ms)
+
+    dispatcher = _AsyncResultDispatcher(converter=convert_result)
+    c_callback = dispatcher.wrap_callback(
+        options.result_callback, _C_TYPES_RESULT_CALLBACK
+    )
+    options_c = MpFaceLandmarkerOptionsC.from_c_options(
+        base_options=options.base_options.to_ctypes(),
+        running_mode=options.running_mode,
+        num_faces=options.num_faces,
+        min_face_detection_confidence=options.min_face_detection_confidence,
+        min_face_presence_confidence=options.min_face_presence_confidence,
+        min_tracking_confidence=options.min_tracking_confidence,
+        output_face_blendshapes=options.output_face_blendshapes,
+        output_facial_transformation_matrixes=options.output_facial_transformation_matrixes,
+        result_callback=c_callback,
+    )
+
+    landmarker = ctypes.c_void_p()
+    lib.MpFaceLandmarkerCreate(  # pyrefly: ignore[missing-attribute]
+        ctypes.byref(options_c), ctypes.byref(landmarker)
+    )
+    return FaceLandmarker(
+        lib, landmarker, dispatcher=dispatcher, async_callback=c_callback
+    )
+
+  def detect(
+      self,
+      image: image_lib.Image,
+      image_processing_options: Optional[_ImageProcessingOptions] = None,
+  ) -> FaceLandmarkerResult:
+    """Performs face landmark detection on the provided MediaPipe Image.
+
+    Only use this method when the FaceLandmarker is created with the image
+    running mode.
+
+    Args:
+      image: MediaPipe Image.
+      image_processing_options: Options for image processing.
+
+    Returns:
+      A face landmarker result object that contains a list of face landmarks.
+
+    Raises:
+      ValueError: If any of the input arguments is invalid.
+      RuntimeError: If face landmark detection failed to run.
+    """
+    c_image = image._image_ptr  # pylint: disable=protected-access
+    result_c = MpFaceLandmarkerResultC()
+
+    c_image_processing_options = (
+        ctypes.byref(image_processing_options.to_ctypes())
+        if image_processing_options
+        else None
+    )
+    self._lib.MpFaceLandmarkerDetectImage(  # pyrefly: ignore[missing-attribute]
+        self._handle,
+        c_image,
+        c_image_processing_options,
+        ctypes.byref(result_c),
+    )
+    try:
+      result = FaceLandmarkerResult.from_ctypes(result_c)
+    finally:
+      self._lib.MpFaceLandmarkerCloseResult(ctypes.byref(result_c))  # pyrefly: ignore[missing-attribute]
+    return result
+
+  def detect_for_video(
+      self,
+      image: image_lib.Image,
+      timestamp_ms: int,
+      image_processing_options: Optional[_ImageProcessingOptions] = None,
+  ) -> FaceLandmarkerResult:
+    """Performs face landmarks detection on the provided video frame.
+
+    Only use this method when the FaceLandmarker is created with the video
+    running mode.
+
+    Only use this method when the FaceLandmarker is created with the video
+    running mode. It's required to provide the video frame's timestamp (in
+    milliseconds) along with the video frame. The input timestamps should be
+    monotonically increasing for adjacent calls of this method.
+
+    Args:
+      image: MediaPipe Image.
+      timestamp_ms: The timestamp of the input video frame in milliseconds.
+      image_processing_options: Options for image processing.
+
+    Returns:
+      The face landmarks detection results.
+
+    Raises:
+      ValueError: If any of the input arguments is invalid.
+      RuntimeError: If face landmarker detection failed to run.
+    """
+    c_image = image._image_ptr  # pylint: disable=protected-access
+    result_c = MpFaceLandmarkerResultC()
+    c_image_processing_options = (
+        ctypes.byref(image_processing_options.to_ctypes())
+        if image_processing_options
+        else None
+    )
+    self._lib.MpFaceLandmarkerDetectForVideo(  # pyrefly: ignore[missing-attribute]
+        self._handle,
+        c_image,
+        c_image_processing_options,
+        timestamp_ms,
+        ctypes.byref(result_c),
+    )
+    try:
+      py_result = FaceLandmarkerResult.from_ctypes(result_c)
+    finally:
+      self._lib.MpFaceLandmarkerCloseResult(ctypes.byref(result_c))  # pyrefly: ignore[missing-attribute]
+    return py_result
+
+  def detect_async(
+      self,
+      image: image_lib.Image,
+      timestamp_ms: int,
+      image_processing_options: Optional[_ImageProcessingOptions] = None,
+  ) -> None:
+    """Sends live image data to perform face landmarks detection.
+
+    The results will be available via the "result_callback" provided in the
+    FaceLandmarkerOptions. Only use this method when the FaceLandmarker is
+    created with the live stream running mode.
+
+    Only use this method when the FaceLandmarker is created with the live
+    stream running mode. The input timestamps should be monotonically increasing
+    for adjacent calls of this method. This method will return immediately after
+    the input image is accepted. The results will be available via the
+    `result_callback` provided in the `FaceLandmarkerOptions`. The
+    `detect_async` method is designed to process live stream data such as
+    camera input. To lower the overall latency, face landmarker may drop the
+    input images if needed. In other words, it's not guaranteed to have output
+    per input image.
+
+    The `result_callback` provides:
+      - The face landmarks detection results.
+      - The input image that the face landmarker runs on.
+      - The input timestamp in milliseconds.
+
+    Args:
+      image: MediaPipe Image.
+      timestamp_ms: The timestamp of the input image in milliseconds.
+      image_processing_options: Options for image processing.
+
+    Raises:
+      ValueError: If the current input timestamp is smaller than what the
+        face landmarker has already processed.
+      RuntimeError: If the face landmark det
+END_UNTRUSTED_SOURCE_TEXT

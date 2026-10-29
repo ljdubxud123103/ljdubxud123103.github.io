@@ -1,0 +1,469 @@
+{
+  "files": [
+    {
+      "path": "archive/README.md",
+      "bytes": 1307,
+      "sha256": "9559c0d794c2211e12a837d5316d55908b2d5cdb87f1d30bee31838f248a10f8"
+    },
+    {
+      "path": "archive/records/2026-10-29/SMOKE_TEST_RESULTS.json",
+      "bytes": 2909,
+      "sha256": "a6c8df906299a69716c722fa4f8715a5cc767ec5f87bacd7f2d5b316d90b3eec"
+    },
+    {
+      "path": "archive/records/2026-10-29/加载与测试状态.md",
+      "bytes": 935,
+      "sha256": "c358257ecb66b1759c36602d21be3a07d83fdb30c0a63f26110e75508351dc75"
+    },
+    {
+      "path": "archive/records/2026-10-29/归档偏好.md",
+      "bytes": 940,
+      "sha256": "9f3a04b07b6a02c0c5e23e98517e7ad91fb9cfeed11e8e541089a112931e35fd"
+    },
+    {
+      "path": "archive/source-packages/Video-Prompt-Skill-Kit-v1.8-Reading.zip",
+      "bytes": 774418,
+      "sha256": "b8644000e53ded310e18286aed06f283253deb4fd9bd74c2514f5b2ec6e368ae"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/BUNDLE_FILES.json",
+      "bytes": 4392,
+      "sha256": "8815f5d885bc57717ef8edfb4f6693d58bdf1aee6a3e8b6524ccfc9adce9b900"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/LOOP.md",
+      "bytes": 86423,
+      "sha256": "b65d4761d0db36f093b394eef5e46f9ef3f59f160578bd312d943118d1b98ca8"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/README.md",
+      "bytes": 2992,
+      "sha256": "642da75a1621c09fd54529879cab80b0889459216b97b1dc38c48950f7da52bf"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/REPOSITORIES.json",
+      "bytes": 13903,
+      "sha256": "c70a3006fcf626b4e96198ef9542f50afcc5809182a0f39acf5a90cceb1a17bb"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/REPOSITORY_FILES.json",
+      "bytes": 2243771,
+      "sha256": "d0a3954f360f3cef867e699490b8706290ea10a8ca4c8a79b475caf60ab799f7"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/SKILL.md",
+      "bytes": 108193,
+      "sha256": "665c43822031b92dd180ff17e1c90c9f2df8e245aead6b97192d077970b0a36c"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/SOURCE_LOADING.md",
+      "bytes": 2323,
+      "sha256": "e238ea74be7de0fc4e98688708e0afccead99e6aae41ea625d321aec0d5c0cb2"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/THIRD_PARTY_NOTICES.md",
+      "bytes": 2076,
+      "sha256": "431a46969ed5cde3e52abca81de6d849c05bfee4f99f626f330e249782afd4c4"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/2026-10-21-composition-motion-v1.4.md",
+      "bytes": 1121,
+      "sha256": "533cddda5df37e58efb06c2eb3077a8fd1b9a6c7b352e374b5640830d61436a3"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/2026-10-21-microexpression-integration-v1.6.md",
+      "bytes": 4298,
+      "sha256": "f6f56482b337772a93ec97637aea24ea27b49f80c033c88f8dbd0ed47f2e9178"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/2026-10-21-performance-authorization-v1.6.1.md",
+      "bytes": 475,
+      "sha256": "eb9ec0083890f2aed812650b4eae3e27c57831c80b8f3490fd4e7ca2524467ff"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/2026-10-21-performance-loop-v1.5.md",
+      "bytes": 1445,
+      "sha256": "644c289f49568e1ef3399f6079495326e8423cf31cb42f60fca56bf60bfe7a1e"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/2026-10-29-v1.8-decision.md",
+      "bytes": 3458,
+      "sha256": "23958b1454969d4f4e2ce97a71a3eb7b842bd7fd9bccb9eb8fb9ff2558846fce"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/BUILD_SCOPE.md",
+      "bytes": 528,
+      "sha256": "e8b7e9d834c6aa3f91bb396eb8ca5c699b2fe7a73c494de15a7273efe67c4839"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/audit/PACKAGE_VALIDATION.md",
+      "bytes": 1120,
+      "sha256": "b7739966c61c46445bcd91351bb6a432efc3f0ed46045dfd2a852f2e89729809"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/Jia1018__CineGEN/LICENSE",
+      "bytes": 19347,
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/TadasBaltrusaitis__OpenFace/Copyright.txt",
+      "bytes": 3896,
+      "sha256": "2a9a446fd82780bfa1b808ad246823c1027e82079ff471516dde26f0b0d99b07"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/TadasBaltrusaitis__OpenFace/OpenFace-license.txt",
+      "bytes": 7450,
+      "sha256": "36c3769073a6d4abc55c28d7265aa68ade9f5add076cd5f08972f92c9438b608"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/TencentARC__MotionCtrl/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/cosanlab__py-feat/LICENSE",
+      "bytes": 3731,
+      "sha256": "4d093ef08d072547eeddc59898dcdc97273e3054d5c5ae5c2afc273176584427"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/google-ai-edge__mediapipe/LICENSE",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/hehao13__CameraCtrl/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/licenses/sy77777en__CameraBench/LICENSE",
+      "bytes": 8072,
+      "sha256": "9088b58a577c4b228d86244d9cbc2951cb2db4ce90e8b35183fef70d1316bedc"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/01_01-of-01.txt",
+      "bytes": 6950,
+      "sha256": "b482270ed0aa2abde681c708baab0650fb960b8f80c92b0bda14fe633fc00100"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/02_01-of-01.txt",
+      "bytes": 11629,
+      "sha256": "cb2b3ff1c75215955a70af3a0e93733589eb2c21831fc7bc2fd722c5536d8839"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/03_01-of-01.txt",
+      "bytes": 19617,
+      "sha256": "fa8605ec5aff020ff77fbd1aa056d52d8f03179cbc212410096e7ceb61918228"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/04_01-of-01.txt",
+      "bytes": 5917,
+      "sha256": "06afa48fdc2074b9f79590536d507e82ae2a4226bc1ebca1cd50092470cd6cbe"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/05_01-of-01.txt",
+      "bytes": 7744,
+      "sha256": "46aed8d4c7c1ce64077a4fac2c955bc10a06bc86b59ca844fa87aed092fcb236"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/06_01-of-01.txt",
+      "bytes": 4194,
+      "sha256": "d9132f2eef9adb408f91fea1dc4839c673848f5ba4d25bd395a95d3db32bc858"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/07_01-of-01.txt",
+      "bytes": 8492,
+      "sha256": "a443a8e9e5d8dfe5d2fa9ec20d92e46739746898dfdbc7e6ca8f3d897a2b60bf"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/08_01-of-01.txt",
+      "bytes": 5547,
+      "sha256": "a065e1b54df4a8d684f5fbf84bb9023da7521af391ae3848c8ca48e37431ad6f"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/09_01-of-01.txt",
+      "bytes": 11633,
+      "sha256": "1c4db78bb5badec645135a17778879af72f295da5a00f1edf39a17a4a9ce00d5"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/10_01-of-01.txt",
+      "bytes": 4291,
+      "sha256": "069aa36559f65323629cdf721478c787869f83e4453a861a7b98db99334bf898"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/11_01-of-01.txt",
+      "bytes": 11599,
+      "sha256": "903dc052fde77966cbe07a8c62e7527131c3214c61f9353472d4e048b3fb3818"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/12_01-of-01.txt",
+      "bytes": 5890,
+      "sha256": "5637b156ae5e0c1bd0a706db244ad75310f7c89ce727602cd0b70bd900e5e088"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/13_01-of-01.txt",
+      "bytes": 4002,
+      "sha256": "1d2dba621bc25187251b6913d6bcf454f051b0fae9ff32205406f024379bd8fe"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/14_01-of-01.txt",
+      "bytes": 5976,
+      "sha256": "ecfb0cf2350d6e797306768ab1a1ad2b7f7474ff06422606fb0bc9bbb1f11b75"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/15_01-of-01.txt",
+      "bytes": 6723,
+      "sha256": "dcb3de3bf05101e1aef03c5901d82bf61f9c7e9fccf55aecd0143f3e454829da"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/16_01-of-01.txt",
+      "bytes": 13515,
+      "sha256": "2e9452ceb95c1c2977dbe8d247e337462181f15716da48753a8855007daef971"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/17_01-of-01.txt",
+      "bytes": 8683,
+      "sha256": "35035caea0a54ac9c7e3ec3996ab8ddc017be161a99d9a47e34c6c68b1ee7f21"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/18_01-of-05.txt",
+      "bytes": 24320,
+      "sha256": "c007aaec365d23413b365006bd1fd42c25d7437a29dd55cc6fe95b2f698b9f61"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/18_02-of-05.txt",
+      "bytes": 24320,
+      "sha256": "84962ded98086906853284643892c1079571037974956546eb2944012547d541"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/18_03-of-05.txt",
+      "bytes": 24320,
+      "sha256": "2e90f76e54511bd10685ae6cb32feeff6fc3b9c4f997b0ff1d98e734a2835d64"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/18_04-of-05.txt",
+      "bytes": 24320,
+      "sha256": "7e85a9995edb3cea9b20b307498e681b8b6d7495a07daa81dff13f7d76dd4d08"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/18_05-of-05.txt",
+      "bytes": 1735,
+      "sha256": "8f9e4267ef022d347c9d27ec8a64a5283163fe46667563f70d77022c9e8f9cbb"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/19_01-of-01.txt",
+      "bytes": 21068,
+      "sha256": "d27cc6eab71af70ffcb3ef58bbed7d8098826837515514f67479c7edaf35f399"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/20_01-of-01.txt",
+      "bytes": 21381,
+      "sha256": "8bf887fdebef23a9cbfc1473d5a4fdc1a6cd8204935c3613e9ab593833fb823d"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/21_01-of-01.txt",
+      "bytes": 12610,
+      "sha256": "cb497c4d9321c8e4cf4ae3874fd35eb8f5e49df709198c6e0f174ca31d2e5f1f"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/22_01-of-01.txt",
+      "bytes": 14302,
+      "sha256": "ed54f464f441d9b4993657cf21fcd88968e9cd0616769b54f1b9a961aea6671c"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/23_01-of-01.txt",
+      "bytes": 14266,
+      "sha256": "d736797a8b2b646c6bae7b902f27cd616718f779b55cdc62c97dd90bb9c12500"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/24_01-of-01.txt",
+      "bytes": 11634,
+      "sha256": "dd867859d617aff13650fc657d736c908277cae93c4b4d022ae70b67fc7f80b2"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/25_01-of-01.txt",
+      "bytes": 5625,
+      "sha256": "57ac6d07b57a809effb14536f6856ca354973b01463a70fcbfead4ba07969158"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/26_01-of-01.txt",
+      "bytes": 11374,
+      "sha256": "04092af57cc1701306359a5883e8faf9a8250079127d6e70a25be991889ec586"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/27_01-of-01.txt",
+      "bytes": 8348,
+      "sha256": "39d3c92dc2562bf96b9242f8fa1f54b3f114311ec30ecf5d92e9d5839dc2a31a"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/reading/READING_ORDER.md",
+      "bytes": 5710,
+      "sha256": "185c551956ab933060aa4971afd8db84c848b2f729ee876b56facb4e6010c8db"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/IcedDoggie__Micro-Expression-with-Deep-Learning/README.md",
+      "bytes": 6647,
+      "sha256": "ee6e079b1a6c8c4f10b130e0a4da966764f573a235c294c5385b8c5cf255964b"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/Jia1018__CineGEN/LICENSE",
+      "bytes": 19347,
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/Jia1018__CineGEN/README.md",
+      "bytes": 11357,
+      "sha256": "11115a3ef8f813e43681d281e3da29a7bffce4ff950be7711b47170d519d2102"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TadasBaltrusaitis__OpenFace/Copyright.txt",
+      "bytes": 3896,
+      "sha256": "2a9a446fd82780bfa1b808ad246823c1027e82079ff471516dde26f0b0d99b07"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TadasBaltrusaitis__OpenFace/OpenFace-license.txt",
+      "bytes": 7450,
+      "sha256": "36c3769073a6d4abc55c28d7265aa68ade9f5add076cd5f08972f92c9438b608"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TadasBaltrusaitis__OpenFace/README.md",
+      "bytes": 5634,
+      "sha256": "8893e8dc0598c0f5ca1124b716121f7aecfbccc52d0afa736520186ed664081c"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TencentARC__MotionCtrl/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TencentARC__MotionCtrl/README.md",
+      "bytes": 8214,
+      "sha256": "5c57baa483acdb76f075f0dcdcc55ef922095187d5b99621640d3834debe3aa2"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/TencentARC__MotionCtrl/gradio_utils/camera_utils.py",
+      "bytes": 5250,
+      "sha256": "4990dc3e7e9d372280a4c8386525d8448da3aefeaedaa98f776b6fac1d015227"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/LICENSE",
+      "bytes": 3731,
+      "sha256": "4d093ef08d072547eeddc59898dcdc97273e3054d5c5ae5c2afc273176584427"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/LICENSES/DATASETS.md",
+      "bytes": 13231,
+      "sha256": "5b5a335ed832dffe5265cfb540235a26c979cc2536b09fd4c3080405d5b9c264"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/LICENSES/PYFEAT-V1.md",
+      "bytes": 5691,
+      "sha256": "f88bfdfac9de6018943cd9603ad8616fc8066e3c41605c66903a320523c9d1e3"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/LICENSES/PYFEAT-V2.md",
+      "bytes": 6438,
+      "sha256": "1eb2d9c03a3f23b5ad98098018d538a5eb0c23ca8ccf1190b1853bdbdca8406b"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/README.md",
+      "bytes": 4018,
+      "sha256": "fc326be7086f6e28596bc0de34e87a5ecd6774177a029cef53617ab54165de7b"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/docs/pages/au_reference.md",
+      "bytes": 11309,
+      "sha256": "c8d6281bae16c154b39e1cdf3df810f46ebc0af065d9ec0920154223d96ed35b"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/cosanlab__py-feat/feat/utils/blendshape_to_au.py",
+      "bytes": 5596,
+      "sha256": "a9d65ccd69c682a45fedef9a60f31b68fcbe2422e7102e230c07694e6fc113c3"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/google-ai-edge__mediapipe/LICENSE",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/google-ai-edge__mediapipe/README.md",
+      "bytes": 8402,
+      "sha256": "31ea174fadbb71e4c7bfabde5b6d9cf17e79fa69adac20b0e737659bd5717748"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/face_landmarker.py",
+      "bytes": 97415,
+      "sha256": "69c822394b341e8fef4aea6351d4ef2285931cd7448a5c235c30a2a80f390412"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/hand_landmarker.py",
+      "bytes": 20748,
+      "sha256": "3c2cb5ca3add5589799655e996be3cfd64fbaedbb30e9f5aee16e13bfce7fef3"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/pose_landmarker.py",
+      "bytes": 21061,
+      "sha256": "bb49f0c12742e982130765720471d7963692f53e0b02c8df44419fb765d1eb79"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/hehao13__CameraCtrl/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/hehao13__CameraCtrl/README.md",
+      "bytes": 14027,
+      "sha256": "7bb01ed915c828963b3fde0a480daacd6405e9981581039b80d6445b9697a1ca"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/hehao13__CameraCtrl/cameractrl/data/dataset.py",
+      "bytes": 13974,
+      "sha256": "b149446ee3de59a9fe90452d3c3efba24e89a8cd3f9f6380179bdb4bf3af4a28"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/linuxsino__iMiGUE/README.md",
+      "bytes": 5352,
+      "sha256": "575527c5e340bd1cbfb0d0e23a18db586be1c704125951443c13a5e780e50c8f"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/sy77777en__CameraBench/LICENSE",
+      "bytes": 8072,
+      "sha256": "9088b58a577c4b228d86244d9cbc2951cb2db4ce90e8b35183fef70d1316bedc"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/repositories/sy77777en__CameraBench/README.md",
+      "bytes": 11096,
+      "sha256": "c60adb7d22a27e27f694247a2f79c66391ba77877f28c99b479b3132de2baa0e"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/templates/LOAD_RECEIPT.template.json",
+      "bytes": 11048,
+      "sha256": "168cb70491c3a344dcd069597ae9145bacc73c7717ffcc4b1eeb1767cbfd65e7"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/templates/OUTCOME_RECORD.template.md",
+      "bytes": 1279,
+      "sha256": "d673636b9fba29b7b1df960743523bbb1cd3436a9d68e1c1d3e79543f28c10f2"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/templates/REVIEW_RECORD.template.md",
+      "bytes": 1395,
+      "sha256": "68d0ad8dcc6e7c28480d8d30869ab4ac331ba63ae0f3023bdff228bc2a1ee167"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/tools/prepare_reading.py",
+      "bytes": 1589,
+      "sha256": "d221574c41ae95efe5d2a9169739fbfb728791587e54b0620eef8430a3684cf2"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/tools/sync_documents.py",
+      "bytes": 1614,
+      "sha256": "f6bde3c3de2e9d3f066dbd2991936c9bb2844c202018e01667292caf09f9738b"
+    },
+    {
+      "path": "archive/video-prompt-skill-kit/v1.8/tools/verify_bundle.py",
+      "bytes": 2442,
+      "sha256": "5c39442090c318f99923b1c56253a443e1d1f5a81070a30ffa726ffac1ffe933"
+    }
+  ]
+}

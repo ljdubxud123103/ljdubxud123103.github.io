@@ -1,0 +1,142 @@
+[
+  {
+    "path": "LOOP.md",
+    "bytes": 86423,
+    "sha256": "b65d4761d0db36f093b394eef5e46f9ef3f59f160578bd312d943118d1b98ca8"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2992,
+    "sha256": "642da75a1621c09fd54529879cab80b0889459216b97b1dc38c48950f7da52bf"
+  },
+  {
+    "path": "REPOSITORIES.json",
+    "bytes": 13903,
+    "sha256": "c70a3006fcf626b4e96198ef9542f50afcc5809182a0f39acf5a90cceb1a17bb"
+  },
+  {
+    "path": "REPOSITORY_FILES.json",
+    "bytes": 2243771,
+    "sha256": "d0a3954f360f3cef867e699490b8706290ea10a8ca4c8a79b475caf60ab799f7"
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 108193,
+    "sha256": "665c43822031b92dd180ff17e1c90c9f2df8e245aead6b97192d077970b0a36c"
+  },
+  {
+    "path": "SOURCE_LOADING.md",
+    "bytes": 2323,
+    "sha256": "e238ea74be7de0fc4e98688708e0afccead99e6aae41ea625d321aec0d5c0cb2"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 2076,
+    "sha256": "431a46969ed5cde3e52abca81de6d849c05bfee4f99f626f330e249782afd4c4"
+  },
+  {
+    "path": "audit/2026-10-21-composition-motion-v1.4.md",
+    "bytes": 1121,
+    "sha256": "533cddda5df37e58efb06c2eb3077a8fd1b9a6c7b352e374b5640830d61436a3"
+  },
+  {
+    "path": "audit/2026-10-21-microexpression-integration-v1.6.md",
+    "bytes": 4298,
+    "sha256": "f6f56482b337772a93ec97637aea24ea27b49f80c033c88f8dbd0ed47f2e9178"
+  },
+  {
+    "path": "audit/2026-10-21-performance-authorization-v1.6.1.md",
+    "bytes": 475,
+    "sha256": "eb9ec0083890f2aed812650b4eae3e27c57831c80b8f3490fd4e7ca2524467ff"
+  },
+  {
+    "path": "audit/2026-10-21-performance-loop-v1.5.md",
+    "bytes": 1445,
+    "sha256": "644c289f49568e1ef3399f6079495326e8423cf31cb42f60fca56bf60bfe7a1e"
+  },
+  {
+    "path": "audit/2026-10-29-v1.8-decision.md",
+    "bytes": 3458,
+    "sha256": "23958b1454969d4f4e2ce97a71a3eb7b842bd7fd9bccb9eb8fb9ff2558846fce"
+  },
+  {
+    "path": "audit/BUILD_SCOPE.md",
+    "bytes": 528,
+    "sha256": "e8b7e9d834c6aa3f91bb396eb8ca5c699b2fe7a73c494de15a7273efe67c4839"
+  },
+  {
+    "path": "audit/PACKAGE_VALIDATION.md",
+    "bytes": 1120,
+    "sha256": "b7739966c61c46445bcd91351bb6a432efc3f0ed46045dfd2a852f2e89729809"
+  },
+  {
+    "path": "licenses/Jia1018__CineGEN/LICENSE",
+    "bytes": 19347,
+    "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+  },
+  {
+    "path": "licenses/TadasBaltrusaitis__OpenFace/Copyright.txt",
+    "bytes": 3896,
+    "sha256": "2a9a446fd82780bfa1b808ad246823c1027e82079ff471516dde26f0b0d99b07"
+  },
+  {
+    "path": "licenses/TadasBaltrusaitis__OpenFace/OpenFace-license.txt",
+    "bytes": 7450,
+    "sha256": "36c3769073a6d4abc55c28d7265aa68ade9f5add076cd5f08972f92c9438b608"
+  },
+  {
+    "path": "licenses/TencentARC__MotionCtrl/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "licenses/cosanlab__py-feat/LICENSE",
+    "bytes": 3731,
+    "sha256": "4d093ef08d072547eeddc59898dcdc97273e3054d5c5ae5c2afc273176584427"
+  },
+  {
+    "path": "licenses/google-ai-edge__mediapipe/LICENSE",
+    "bytes": 12331,
+    "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+  },
+  {
+    "path": "licenses/hehao13__CameraCtrl/LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "licenses/sy77777en__CameraBench/LICENSE",
+    "bytes": 8072,
+    "sha256": "9088b58a577c4b228d86244d9cbc2951cb2db4ce90e8b35183fef70d1316bedc"
+  },
+  {
+    "path": "templates/LOAD_RECEIPT.template.json",
+    "bytes": 11048,
+    "sha256": "168cb70491c3a344dcd069597ae9145bacc73c7717ffcc4b1eeb1767cbfd65e7"
+  },
+  {
+    "path": "templates/OUTCOME_RECORD.template.md",
+    "bytes": 1279,
+    "sha256": "d673636b9fba29b7b1df960743523bbb1cd3436a9d68e1c1d3e79543f28c10f2"
+  },
+  {
+    "path": "templates/REVIEW_RECORD.template.md",
+    "bytes": 1395,
+    "sha256": "68d0ad8dcc6e7c28480d8d30869ab4ac331ba63ae0f3023bdff228bc2a1ee167"
+  },
+  {
+    "path": "tools/prepare_reading.py",
+    "bytes": 1589,
+    "sha256": "d221574c41ae95efe5d2a9169739fbfb728791587e54b0620eef8430a3684cf2"
+  },
+  {
+    "path": "tools/sync_documents.py",
+    "bytes": 1614,
+    "sha256": "f6bde3c3de2e9d3f066dbd2991936c9bb2844c202018e01667292caf09f9738b"
+  },
+  {
+    "path": "tools/verify_bundle.py",
+    "bytes": 2442,
+    "sha256": "5c39442090c318f99923b1c56253a443e1d1f5a81070a30ffa726ffac1ffe933"
+  }
+]

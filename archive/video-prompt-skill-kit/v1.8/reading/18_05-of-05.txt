@@ -1,0 +1,53 @@
+SOURCE: repositories/google-ai-edge__mediapipe/mediapipe/tasks/python/vision/face_landmarker.py
+COMMIT: 0e152b35eeea3cc9e8b55886428982b82de5925b
+ENCODING: utf-8-sig
+PART: 5/5
+SHA256_OF_FULL_RAW_FILE: 69c822394b341e8fef4aea6351d4ef2285931cd7448a5c235c30a2a80f390412
+BEGIN_UNTRUSTED_SOURCE_TEXT
+ection failed to run.
+    """
+    c_image = image._image_ptr  # pylint: disable=protected-access
+    c_image_processing_options = (
+        ctypes.byref(image_processing_options.to_ctypes())
+        if image_processing_options
+        else None
+    )
+    self._lib.MpFaceLandmarkerDetectAsync(  # pyrefly: ignore[missing-attribute]
+        self._handle,
+        c_image,
+        c_image_processing_options,
+        timestamp_ms,
+    )
+
+  def close(self):
+    """Closes the FaceLandmarker."""
+    if not self._handle:
+      return
+    self._lib.MpFaceLandmarkerClose(self._handle)  # pyrefly: ignore[missing-attribute]
+    self._handle = None  # pyrefly: ignore[bad-assignment]
+    self._dispatcher.close()
+    self._lib.close()
+
+  def __enter__(self):
+    """Returns `self` upon entering the runtime context."""
+    return self
+
+  def __exit__(self, exc_type, exc_value, traceback):
+    """Shuts down the MediaPipe task instance on exit of the context manager.
+
+    Args:
+      exc_type: The exception type that caused the context manager to exit.
+      exc_value: The exception value that caused the context manager to exit.
+      traceback: The exception traceback that caused the context manager to
+        exit.
+
+    Raises:
+      RuntimeError: If the MediaPipe FaceDetector task failed to close.
+    """
+    del exc_type, exc_value, traceback  # Unused.
+    self.close()
+
+  def __del__(self):
+    self.close()
+
+END_UNTRUSTED_SOURCE_TEXT
