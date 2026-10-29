@@ -1,0 +1,17 @@
+{
+  "corrections": [
+    {
+      "id": "CORRECTION-23-2-001",
+      "date": "2026-10-29",
+      "episode": 23,
+      "scene": "23-2",
+      "source_file": "第21集-33集.docx",
+      "body_index": 135,
+      "original_speaker": "Vera",
+      "confirmed_speaker": "Renata",
+      "speech_original": "Lo agarré y corrí. Mi hermano me persiguió. No volteé.",
+      "scope": "仅修正说话人；西语台词逐字保留，原始源文件不覆盖",
+      "authority": "用户本会话明确答复：由Renata说，修正原稿标注"
+    }
+  ]
+}
