@@ -1,0 +1,29 @@
+{
+  "completed_episodes": [
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "pending_episodes": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "storyboards": 24,
+  "shots": 122,
+  "dialogue_count": 40,
+  "vo_count": 3,
+  "desktop_output": "/Users/apple/Desktop/前夫黑道酵母_分镜_21-33.xlsx",
+  "loop": "production/21-25/REVIEW_LOOP.md",
+  "workbook_verification": "production/21-25/WORKBOOK_VERIFICATION.json",
+  "spatial_control": "文字控制，无尾帧或站位图",
+  "video_validation": "未实测",
+  "asset_exception": "缺项文字设计授权目前仅21—25集"
+}

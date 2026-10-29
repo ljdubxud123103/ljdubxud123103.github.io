@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "all_saved_values_exact": true,
+    "nine_headers_exact": true,
+    "column_widths_equal": true,
+    "row_heights_equal": true,
+    "header_font_equal": true,
+    "freeze_equal": true,
+    "no_old_template_story": true,
+    "later_episodes_blank": true,
+    "template_punctuation": true,
+    "no_reference_image_bindings": true
+  },
+  "episodes": {
+    "21": 5,
+    "22": 4,
+    "23": 5,
+    "24": 4,
+    "25": 6
+  },
+  "max_cell_chars": 3252,
+  "state": "24个单元导出后逐单元保存值核对通过"
+}
