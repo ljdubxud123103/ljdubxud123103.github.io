@@ -1,0 +1,133 @@
+{
+  "scope": "结构化合成数据测试；不验证自然语言抽取、演员表现、光学真实性或成片效果",
+  "total": 18,
+  "passed": 18,
+  "cases": [
+    {
+      "case": "正常三表到分镜输出",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "case": "未完成阅读必须阻塞",
+      "passed": true,
+      "observed": [
+        "DEPENDENCY_BLOCKED"
+      ]
+    },
+    {
+      "case": "关键人物缺项",
+      "passed": true,
+      "observed": [
+        "ASSET_LABEL",
+        "WAIT_USER:ASSET_MISSING"
+      ]
+    },
+    {
+      "case": "关键场景缺项",
+      "passed": true,
+      "observed": [
+        "ASSET_LABEL",
+        "WAIT_USER:ASSET_MISSING"
+      ]
+    },
+    {
+      "case": "关键道具缺项",
+      "passed": true,
+      "observed": [
+        "ASSET_LABEL",
+        "WAIT_USER:ASSET_MISSING"
+      ]
+    },
+    {
+      "case": "新旧资产冲突",
+      "passed": true,
+      "observed": [
+        "WAIT_USER:ASSET_CONFLICT"
+      ]
+    },
+    {
+      "case": "标签空格被擅改",
+      "passed": true,
+      "observed": [
+        "ASSET_LABEL"
+      ]
+    },
+    {
+      "case": "漏VO",
+      "passed": true,
+      "observed": [
+        "SPEECH_EXACT_MAPPING"
+      ]
+    },
+    {
+      "case": "漏词",
+      "passed": true,
+      "observed": [
+        "SPEECH_EXACT_MAPPING"
+      ]
+    },
+    {
+      "case": "声源错配",
+      "passed": true,
+      "observed": [
+        "SPEECH_EXACT_MAPPING"
+      ]
+    },
+    {
+      "case": "重复发声",
+      "passed": true,
+      "observed": [
+        "SPEECH_EXACT_MAPPING"
+      ]
+    },
+    {
+      "case": "普通单镜超4秒",
+      "passed": true,
+      "observed": [
+        "SHOT_OVER_4"
+      ]
+    },
+    {
+      "case": "单段超30秒",
+      "passed": true,
+      "observed": [
+        "SHOT_OVER_4",
+        "UNIT_OVER_30"
+      ]
+    },
+    {
+      "case": "越过指定制作范围",
+      "passed": true,
+      "observed": [
+        "SCOPE"
+      ]
+    },
+    {
+      "case": "新增背景音乐",
+      "passed": true,
+      "observed": [
+        "MUSIC"
+      ]
+    },
+    {
+      "case": "硬切镜头组冒充一镜到底",
+      "passed": true,
+      "observed": [
+        "FALSE_CONTINUOUS"
+      ]
+    },
+    {
+      "case": "缺结束状态",
+      "passed": true,
+      "observed": [
+        "FIELDS"
+      ]
+    },
+    {
+      "case": "真实单镜8秒允许连续镜头例外（仅结构检查）",
+      "passed": true,
+      "observed": []
+    }
+  ]
+}

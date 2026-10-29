@@ -6,14 +6,24 @@
       "sha256": "9559c0d794c2211e12a837d5316d55908b2d5cdb87f1d30bee31838f248a10f8"
     },
     {
+      "path": "archive/records/2026-10-29/LOAD_RECEIPT.json",
+      "bytes": 14863,
+      "sha256": "36ef02dfacf0053465bf7d205829794f361ec3686624cc9d916e301b4446e3be"
+    },
+    {
       "path": "archive/records/2026-10-29/SMOKE_TEST_RESULTS.json",
       "bytes": 2909,
       "sha256": "a6c8df906299a69716c722fa4f8715a5cc767ec5f87bacd7f2d5b316d90b3eec"
     },
     {
+      "path": "archive/records/2026-10-29/WORKFLOW_HANDOFF.md",
+      "bytes": 3428,
+      "sha256": "212f4205a344a54d5aae9fea0dcca88489db7233393eb66ba951efd00ff773b1"
+    },
+    {
       "path": "archive/records/2026-10-29/加载与测试状态.md",
-      "bytes": 935,
-      "sha256": "c358257ecb66b1759c36602d21be3a07d83fdb30c0a63f26110e75508351dc75"
+      "bytes": 627,
+      "sha256": "3cd4572b261514d034f15a2987b47176134199b76a6b0fac5cda2e5c8e5fddfb"
     },
     {
       "path": "archive/records/2026-10-29/归档偏好.md",
@@ -24,6 +34,31 @@
       "path": "archive/source-packages/Video-Prompt-Skill-Kit-v1.8-Reading.zip",
       "bytes": 774418,
       "sha256": "b8644000e53ded310e18286aed06f283253deb4fd9bd74c2514f5b2ec6e368ae"
+    },
+    {
+      "path": "archive/tests/2026-10-29-workflow/README.md",
+      "bytes": 466,
+      "sha256": "d7941ffbf10dd83ceda2f17e4a3490be8b107efbcdd4cc34d08d01099b78d267"
+    },
+    {
+      "path": "archive/tests/2026-10-29-workflow/fixture.json",
+      "bytes": 2738,
+      "sha256": "33789df358185f1e9736e3c09d59e5638db6b758261121d3d3c78d5d47b3fff0"
+    },
+    {
+      "path": "archive/tests/2026-10-29-workflow/results.json",
+      "bytes": 2506,
+      "sha256": "125c097bc8ae1a7aafb5261c609d9460613f1e1f84ae726cf3b75b91ff0aa41f"
+    },
+    {
+      "path": "archive/tests/2026-10-29-workflow/run_test.py",
+      "bytes": 6434,
+      "sha256": "a5aedf05c0ac7c1a9c01e2bbf1e85ee30c5d2b66181782b1afb8a5fd8dc3d0ff"
+    },
+    {
+      "path": "archive/tests/2026-10-29-workflow/分镜表格-合成测试.md",
+      "bytes": 1287,
+      "sha256": "68dc54eefe0cb2f2cf864229be0341e5b414df42f34d75b05c647ce13299fe02"
     },
     {
       "path": "archive/video-prompt-skill-kit/v1.8/BUNDLE_FILES.json",
