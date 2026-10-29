@@ -1,0 +1,370 @@
+{
+  "scope": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "source_sha256": "02386b993c7b22f66707ef0b467db7210521aa133f17903ae65e22de0aabf355",
+  "scenes": [
+    {
+      "source_index": 275,
+      "heading": "26-1 高层公寓/客厅（Departamento ejecutivo, Piso 21, Reforma） 夜 内"
+    },
+    {
+      "source_index": 288,
+      "heading": "26-2 汽车旅馆103房（Motel Vista Pacífico, 103） 夜 内"
+    },
+    {
+      "source_index": 308,
+      "heading": "26-3 汽车旅馆103房/门口（Motel Vista Pacífico, 103） 夜 内"
+    },
+    {
+      "source_index": 323,
+      "heading": "27-1 发布会现场（Sala de prensa） 日 内"
+    },
+    {
+      "source_index": 344,
+      "heading": "27-2 庄园大厅（Mansión Vargas, salón principal） 日 内"
+    },
+    {
+      "source_index": 360,
+      "heading": "27-3 豪宅/发布会后台/卧室（Mansión Vargas） 夜 内"
+    },
+    {
+      "source_index": 377,
+      "heading": "28-1 游艇甲板（Yate \"El Patrón\", lago de Valle de Bravo） 夜 外"
+    },
+    {
+      "source_index": 401,
+      "heading": "28-2 高层公寓/走廊（Departamento ejecutivo, Piso 21, Reforma） 夜 内"
+    },
+    {
+      "source_index": 413,
+      "heading": "29-1 高层公寓/入口处（Departamento ejecutivo, Piso 21, Reforma） 日 外"
+    },
+    {
+      "source_index": 439,
+      "heading": "29-2 高层公寓/入口处（Departamento ejecutivo, Piso 21, Reforma） 日 外"
+    },
+    {
+      "source_index": 448,
+      "heading": "29-3 庄园铁门与前庭（Portón y explanada, Mansión Vargas） 夜 外"
+    },
+    {
+      "source_index": 461,
+      "heading": "30-1 庄园铁门与前庭（Portón y explanada, Mansión Vargas） 夜 外"
+    },
+    {
+      "source_index": 472,
+      "heading": "30-2 庄园大厅（Mansión Vargas, salón principal） 夜 内"
+    },
+    {
+      "source_index": 488,
+      "heading": "30-3 高层公寓/密室（Departamento ejecutivo, Piso 21, Reforma） 夜 内"
+    }
+  ],
+  "speech_baseline": [
+    {
+      "source_index": 279,
+      "speaker": "Emiliano",
+      "kind": "对白",
+      "text": "Última vuelta."
+    },
+    {
+      "source_index": 281,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "Está ganando tiempo."
+    },
+    {
+      "source_index": 296,
+      "speaker": "Ramón",
+      "kind": "对白",
+      "text": "Tú... tú no puedes probar nada."
+    },
+    {
+      "source_index": 299,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "Incendio por el seguro. Quinientos mil pesos por una niña. Ese caso nunca se cerró."
+    },
+    {
+      "source_index": 302,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "¿Y la casa donde se esconden? Es de un prestamista que ni los Vargas se atreven a cruzar."
+    },
+    {
+      "source_index": 304,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "Dos opciones. La cárcel... o leen mi guion."
+    },
+    {
+      "source_index": 306,
+      "speaker": "Carmen",
+      "kind": "对白",
+      "text": "¡De cualquier modo estamos muertos!"
+    },
+    {
+      "source_index": 314,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "Los Vargas les pagaron quinientos mil por leer el de ellos."
+    },
+    {
+      "source_index": 317,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "Pregúntense... después de la conferencia, ¿los van a dejar gastarlo?"
+    },
+    {
+      "source_index": 327,
+      "speaker": "Ramón",
+      "kind": "对白",
+      "text": "Mi hija Vera Saldaña..."
+    },
+    {
+      "source_index": 329,
+      "speaker": "Ramón",
+      "kind": "对白",
+      "text": "...es una buena chica."
+    },
+    {
+      "source_index": 332,
+      "speaker": "Ramón",
+      "kind": "对白",
+      "text": "Los Vargas vinieron a vernos... nos dieron quinientos mil pesos."
+    },
+    {
+      "source_index": 334,
+      "speaker": "Ramón",
+      "kind": "对白",
+      "text": "Nos dijeron que la llamáramos loca. Que dijéramos que ella prendió el fuego."
+    },
+    {
+      "source_index": 336,
+      "speaker": "Carmen",
+      "kind": "对白",
+      "text": "¡No teníamos nada! ¡Nos usaron!"
+    },
+    {
+      "source_index": 338,
+      "speaker": "Carmen",
+      "kind": "对白",
+      "text": "¡Nos vamos a retractar! Ellos..."
+    },
+    {
+      "source_index": 341,
+      "speaker": "Bárbara",
+      "kind": "对白",
+      "text": "¡Esperen!"
+    },
+    {
+      "source_index": 351,
+      "speaker": "Víctor",
+      "kind": "对白",
+      "text": "No es suerte."
+    },
+    {
+      "source_index": 353,
+      "speaker": "Víctor",
+      "kind": "对白",
+      "text": "Nos lleva tres pasos de ventaja. Siempre."
+    },
+    {
+      "source_index": 356,
+      "speaker": "Víctor",
+      "kind": "对白",
+      "text": "Consígueme a Ernesto Miranda."
+    },
+    {
+      "source_index": 358,
+      "speaker": "Víctor",
+      "kind": "对白",
+      "text": "Dile... que tenemos un problema en común."
+    },
+    {
+      "source_index": 366,
+      "speaker": "Escorpión",
+      "kind": "对白",
+      "text": "Una pregunta."
+    },
+    {
+      "source_index": 368,
+      "speaker": "Escorpión",
+      "kind": "VO",
+      "text": "¿Ella es la Viuda?"
+    },
+    {
+      "source_index": 370,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Me casé con ella."
+    },
+    {
+      "source_index": 372,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Me casé con la Viuda."
+    },
+    {
+      "source_index": 383,
+      "speaker": "Víctor",
+      "kind": "对白",
+      "text": "Su hijo no pudo guardársela en los pantalones."
+    },
+    {
+      "source_index": 385,
+      "speaker": "Víctor",
+      "kind": "VO",
+      "text": "Ahí empezó todo."
+    },
+    {
+      "source_index": 387,
+      "speaker": "Don Ernesto",
+      "kind": "对白",
+      "text": "Y tú criaste un perro por veinte años que al final mordió."
+    },
+    {
+      "source_index": 390,
+      "speaker": "Don Ernesto",
+      "kind": "对白",
+      "text": "Una declaración conjunta."
+    },
+    {
+      "source_index": 392,
+      "speaker": "Don Ernesto",
+      "kind": "对白",
+      "text": "Matrimonio fraudulento. Extorsión. Inestabilidad mental. Vínculos con el crimen."
+    },
+    {
+      "source_index": 395,
+      "speaker": "Don Ernesto",
+      "kind": "VO",
+      "text": "Y mi parte. El terreno sobre Reforma."
+    },
+    {
+      "source_index": 397,
+      "speaker": "Don Ernesto",
+      "kind": "VO",
+      "text": "Tuyo... por una firma."
+    },
+    {
+      "source_index": 419,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Vera, empecemos de nuevo."
+    },
+    {
+      "source_index": 421,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Tú eres la Viuda, yo soy un Vargas. Juntos podríamos ser dueños de esta ciudad."
+    },
+    {
+      "source_index": 424,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "¿Y su compromiso con Bárbara?"
+    },
+    {
+      "source_index": 426,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Eso no fue nada. Puedo acabarlo hoy."
+    },
+    {
+      "source_index": 428,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "Te perdono. Las mentiras, la trampa, todo. No me importa."
+    },
+    {
+      "source_index": 430,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "¿Me perdona a MÍ?"
+    },
+    {
+      "source_index": 434,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "No se enamoró de mí. Se enamoró de sentirse vivo."
+    },
+    {
+      "source_index": 436,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "No está aquí porque me quiera. Está aquí porque le aterra morir."
+    },
+    {
+      "source_index": 446,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "¡Vas a desear no haberlo hecho!"
+    },
+    {
+      "source_index": 480,
+      "speaker": "Reportera D",
+      "kind": "VO",
+      "text": "En cuarenta y ocho horas, las familias Vargas y Miranda ofrecerán una conferencia de prensa conjunta."
+    },
+    {
+      "source_index": 486,
+      "speaker": "Damián",
+      "kind": "对白",
+      "text": "El rastro del Tejedor. Lleva diez años invisible."
+    },
+    {
+      "source_index": 497,
+      "speaker": "El Zorro Blanco",
+      "kind": "VO",
+      "text": "El rastro del Tejedor. Lleva diez años invisible, pero el mes pasado salió a la superficie."
+    },
+    {
+      "source_index": 498,
+      "speaker": "Vera",
+      "kind": "对白",
+      "text": "¿Dónde?"
+    },
+    {
+      "source_index": 499,
+      "speaker": "El Zorro Blanco",
+      "kind": "VO",
+      "text": "Valle de Bravo."
+    }
+  ],
+  "state": "只读基线，未生成分镜；三项资产/造型/声源裁定待回复",
+  "preserved_policy": [
+    "纯文字站位控制",
+    "画面不呈现文字，原文文字保留H列",
+    "资产别名按已确认映射",
+    "模板九列与标点结构不变",
+    "21—25集内容不覆盖"
+  ],
+  "initial_adversarial_findings": [
+    {
+      "source": 340,
+      "issue": "台上安保与座位区抓人须补实际行进路线，不能瞬移"
+    },
+    {
+      "source": 360,
+      "issue": "27-3为不同地点通话交叉剪辑，Escorpión与Damián不能错误同处一室；Vera只列于人物表，不凭列表新增入画"
+    },
+    {
+      "source": 398,
+      "issue": "握手前需放下酒杯与文件，避免同手同时持物和握手"
+    },
+    {
+      "source": 469,
+      "issue": "Vera闪回造型尚无对应表项，须等待用户裁定"
+    },
+    {
+      "source": 488,
+      "issue": "密室位置及新VO声源需要明确授权；不可伪造绑定"
+    }
+  ]
+}
