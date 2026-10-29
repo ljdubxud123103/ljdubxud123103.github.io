@@ -37,8 +37,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/PRODUCTION_STATUS.json",
-      "bytes": 778,
-      "sha256": "13d6d301c2a91ba801f8390d4250cc249b1065b50fbdbe459af07d2ea0760cf8"
+      "bytes": 786,
+      "sha256": "dc5002735391b280c1007d8b6e74c932446861974e021eb9bf800fcc08ffdb82"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/PROJECT_BLOCKING_RULES.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/README.md",
-      "bytes": 2014,
-      "sha256": "559d5c06e54cd49e863ce2ecb463d515f3abc3050048971532473a98b9f7bc16"
+      "bytes": 2266,
+      "sha256": "b1cbf4a77b07de599ff9ddbb4407e850a387076d17e131efabdd6bcf9fafe82f"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/SCREENSHOT_ASSET_CORRECTION.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_21-33.xlsx",
-      "bytes": 88563,
-      "sha256": "e1e92a98c7204ceb7f15164724967da19d3f5316db6fc1cd32e24179a232b85d"
+      "bytes": 89305,
+      "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/ASSET_REAUDIT.json",
@@ -103,7 +103,7 @@
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/STRUCTURE_CHECK.json",
       "bytes": 5663,
-      "sha256": "3cd3781161cf5b99274dad6d0dabe970b58cfd61d4a531f3ed11ccdf75a4546d"
+      "sha256": "be72c0347e40d28d183f19234c6cac26f3249732d8549474c475f0cc6f9fd5e5"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/WORKBOOK_VERIFICATION.json",
@@ -117,13 +117,13 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/plans.py",
-      "bytes": 39246,
-      "sha256": "c26071a39be786438b0aa341293c0545ef6c2b8ed7c7cab869c93be2fc9c2e56"
+      "bytes": 42230,
+      "sha256": "c7ad0c286edf578de6f725c98e689c27f236fd89b2fc86be6fd32ffc1b6463fd"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/rows.json",
-      "bytes": 177386,
-      "sha256": "02ed7ae4987950e5af1e4c9807d79313715ff33a75dbcdf3275b3403a00abf08"
+      "bytes": 180205,
+      "sha256": "03a73681dbd75d8aecf8ae433ca9247b2e340a87471b6bbccd8f92e50213211a"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/speech_mapping.json",
@@ -162,13 +162,13 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/26-30/plans.py",
-      "bytes": 36749,
-      "sha256": "d09a8ede842323d3543153e10de0f95eaec89e3d081c5010fb2372cecbd55c1c"
+      "bytes": 37874,
+      "sha256": "0712a09c6045e91e8c11d7d63a450a89260b7df6dac1059d32ae2ab6f09ee6e3"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/26-30/rows.json",
-      "bytes": 161794,
-      "sha256": "a0284cb79f8684b9a2d60524cb852555e5120ed4b75bfeac2eb4278dce7b2a89"
+      "bytes": 161856,
+      "sha256": "329f1160fcfd395f5371faa30c690aed3e03d18c39769d0e22a3d737dcbb14aa"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/26-30/speech_mapping.json",
@@ -237,8 +237,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/plans.py",
-      "bytes": 27822,
-      "sha256": "dea855fb9bb48ed665a7ce26b13120fe061047101191bf715a39e6e191b31424"
+      "bytes": 28643,
+      "sha256": "e36a2007b2d29e43ee137fc113a2d9c244d0d13ed498ea2afa2c3887f8ef0ca4"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/preview-end.png",
@@ -257,8 +257,8 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/rows.json",
-      "bytes": 121300,
-      "sha256": "25a4f58b51568a0c3d4651aa2490f39f83c3ed5da7368f83938e7537eb8d544b"
+      "bytes": 122540,
+      "sha256": "345301c2c3858f88c2fc9536dd8cf6d3089d50724fa24d5032c9bcee2af9e2ca"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/speech_mapping.json",
@@ -274,6 +274,51 @@
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/write_batch_31_33.mjs",
       "bytes": 1098,
       "sha256": "9292eebafc63daac3eb585e619b522d24be88a06ec12c969c96d6370c1158638"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/RECHECK.md",
+      "bytes": 3008,
+      "sha256": "d09e172300c1151db6916fc3969c49286a4b05c4f92b53f2d3eabb781014f545"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/RECHECK_RESULT.json",
+      "bytes": 2732,
+      "sha256": "5473670fb88976d32dce1ffb95ced1796f559b9a2dc32bef22e08f2d5c383f8a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/archive.py",
+      "bytes": 2711,
+      "sha256": "01b21c3c0aca16afd4f60bd4413fc8febe5ab945b627a9f9dc0ebf6d6992c994"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/final_recheck.mjs",
+      "bytes": 1033,
+      "sha256": "68d2ba566310900579cad96e67011db1f86a4257683f9a90e867439f4e9be469"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/preview-actions.png",
+      "bytes": 233564,
+      "sha256": "cefdfd6bfab905bc908abb72bf80ecb7a5d64c8dbf8577cb6c7fa431a021b90a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/preview-exit.png",
+      "bytes": 482618,
+      "sha256": "3c2fbae7fd36dc9112b50b9a5a0ab5e97f88620a5acf1d9a0a060d3709ea80a7"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/preview-stage.png",
+      "bytes": 517236,
+      "sha256": "569ceca446ba49940a3d80bfd6eae3365a09fbae981c977133cb5d1c1d70ea72"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/recheck_fix_plans.py",
+      "bytes": 4434,
+      "sha256": "adbd9417af3d57e161fbb485a97ba32e676412dbdf98418d5b3e77d8d8cecbeb"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/verify.py",
+      "bytes": 3370,
+      "sha256": "701e3601b293342db3a9e3682b8336c0c391ac5c13d26b1af9458d741507ee36"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/codex-clipboard-23a9d012-c181-4481-8988-15ec399c3f4e.png",

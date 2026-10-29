@@ -1,0 +1,169 @@
+{
+  "result": "passed",
+  "episodes": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "rows": 59,
+  "shots": 324,
+  "seconds": 1045.0,
+  "dialogue": 108,
+  "VO": 10,
+  "OS": 1,
+  "raw_source_blocks": 551,
+  "source_text_and_punctuation_preserved": true,
+  "speech_source_kind_order_count_and_punctuation_preserved": true,
+  "asset_columns_preserved": true,
+  "styles_widths_heights_freeze_and_sheet_count_preserved": true,
+  "changed_cells": [
+    {
+      "cell": "F4",
+      "storyboard": "21-2A"
+    },
+    {
+      "cell": "F5",
+      "storyboard": "21-3A"
+    },
+    {
+      "cell": "F6",
+      "storyboard": "21-4A"
+    },
+    {
+      "cell": "F7",
+      "storyboard": "22-1A"
+    },
+    {
+      "cell": "F13",
+      "storyboard": "23-2A"
+    },
+    {
+      "cell": "F14",
+      "storyboard": "23-2B"
+    },
+    {
+      "cell": "F15",
+      "storyboard": "23-3A"
+    },
+    {
+      "cell": "F16",
+      "storyboard": "24-1A"
+    },
+    {
+      "cell": "F17",
+      "storyboard": "24-2A"
+    },
+    {
+      "cell": "I17",
+      "storyboard": "24-2A"
+    },
+    {
+      "cell": "F18",
+      "storyboard": "24-3A"
+    },
+    {
+      "cell": "F19",
+      "storyboard": "24-4A"
+    },
+    {
+      "cell": "F24",
+      "storyboard": "25-2B"
+    },
+    {
+      "cell": "I24",
+      "storyboard": "25-2B"
+    },
+    {
+      "cell": "F25",
+      "storyboard": "25-2C"
+    },
+    {
+      "cell": "I25",
+      "storyboard": "25-2C"
+    },
+    {
+      "cell": "F26",
+      "storyboard": "26-1A"
+    },
+    {
+      "cell": "F34",
+      "storyboard": "28-1A"
+    },
+    {
+      "cell": "F35",
+      "storyboard": "28-1B"
+    },
+    {
+      "cell": "F36",
+      "storyboard": "28-2A"
+    },
+    {
+      "cell": "F39",
+      "storyboard": "29-2A"
+    },
+    {
+      "cell": "F41",
+      "storyboard": "30-1A"
+    },
+    {
+      "cell": "F45",
+      "storyboard": "30-3A"
+    },
+    {
+      "cell": "F46",
+      "storyboard": "30-3B"
+    },
+    {
+      "cell": "F50",
+      "storyboard": "31-3B"
+    },
+    {
+      "cell": "F51",
+      "storyboard": "31-3C"
+    },
+    {
+      "cell": "F52",
+      "storyboard": "32-1A"
+    },
+    {
+      "cell": "F53",
+      "storyboard": "32-1B"
+    },
+    {
+      "cell": "F54",
+      "storyboard": "32-1C"
+    },
+    {
+      "cell": "F55",
+      "storyboard": "32-1D"
+    },
+    {
+      "cell": "F56",
+      "storyboard": "33-1A"
+    },
+    {
+      "cell": "F57",
+      "storyboard": "33-1B"
+    },
+    {
+      "cell": "F58",
+      "storyboard": "33-1C"
+    },
+    {
+      "cell": "F59",
+      "storyboard": "33-1D"
+    }
+  ],
+  "video_validation": "未实测",
+  "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
+}

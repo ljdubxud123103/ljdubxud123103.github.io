@@ -115,3 +115,9 @@ s(3,'文件夹交接手部近景','固定，两侧手指与托底手掌在同一
 s(3,'文件夹封面特写','沿封面边缘短移，落在金色圆环蛇纹章','Vera左手托底、右手扶侧边，将封面略向自己倾斜；金色蛇咬尾图形随灯光改变反射，小字区域为无字黑面。','纹章为图形，无任何可读字母，文件夹仍在双手。'),
 s(3,'双人关系中景/台阶西侧','由文件夹轻向上摇至Vera与Escolta A的目光关系','Vera抬眼看Escolta A一瞬，再把文件夹靠近身前；Escolta A留下一层台阶，车门仍开，两人都不发声。','Vera持文件夹站第二层台阶，Escolta A站第一层，结尾归属与位置明确。')])
 PLANS.sort(key=lambda u:u['start'])
+
+# Final recheck: topology does not assert outdated actor positions or microphone custody.
+for u in PLANS:
+ if u['scene']=='晚宴酒店大厅':
+  u['map']=u['map'].replace('Vera在前排西侧靠中央通道座位，Damián在前排东侧；Reportero C在西侧边道拍摄。Víctor在讲台后，Don Ernesto站台上东侧，Carmen站台上西侧。','前排西侧靠中央通道为Vera的座位，前排东侧为Damián的座位；西侧边道是摄影位。讲台东、西两侧各有站人空处；人物是否在座或已经上台，依本段起始状态与动作描述，不据座位名复位。')
+  u['map']=u['map'].replace('起初固定于支架；谁拿到它谁发声扩声','本段起始归属以下述手部状态为准；在支架上时靠近它的人发声扩声，被取下时由持有者发声扩声')

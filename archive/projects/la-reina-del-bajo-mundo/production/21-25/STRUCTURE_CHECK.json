@@ -8,8 +8,8 @@
     25
   ],
   "storyboards": 24,
-  "shots": 122,
-  "seconds": 397.0,
+  "shots": 127,
+  "seconds": 409.5,
   "source_blocks_covered": 235,
   "dialogue_count": 40,
   "vo_count": 3,
@@ -182,8 +182,8 @@
     },
     {
       "storyboard": "24-2A",
-      "seconds": 13.0,
-      "shots": 4,
+      "seconds": 18.5,
+      "shots": 6,
       "speech_source_indices": [],
       "dialogue_count": 0,
       "vo_count": 0,
@@ -269,8 +269,8 @@
     },
     {
       "storyboard": "25-2B",
-      "seconds": 24.5,
-      "shots": 7,
+      "seconds": 29.0,
+      "shots": 9,
       "speech_source_indices": [
         257,
         260,
@@ -283,8 +283,8 @@
     },
     {
       "storyboard": "25-2C",
-      "seconds": 13.0,
-      "shots": 4,
+      "seconds": 15.5,
+      "shots": 5,
       "speech_source_indices": [],
       "dialogue_count": 0,
       "vo_count": 0,
