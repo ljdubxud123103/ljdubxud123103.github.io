@@ -6,6 +6,36 @@
       "sha256": "9559c0d794c2211e12a837d5316d55908b2d5cdb87f1d30bee31838f248a10f8"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/ASSET_CATALOG.md",
+      "bytes": 10263,
+      "sha256": "b7c6ee0731919f0319f61f7aa8e653346f9792663117a3b85bbfb1ed9134d145"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/ASSET_INDEX.json",
+      "bytes": 752990,
+      "sha256": "630de67d0adf2d36300587bebe11038445742df92710f78444c108b8032fb713"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/README.md",
+      "bytes": 1633,
+      "sha256": "e3f099be61876b774dcc61eaf5c09dea343e54f1d2b00885edec26c37cb45ee4"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/【无前缀】La reina del bajo mundo pidió el divorcio-潜伏你惹的事-前夫黑道酵母-西语_场景_20261028211408192.xlsx",
+      "bytes": 38425,
+      "sha256": "f8a9ec109bc1ce228858f8049c8cfd25c643deb09d5f8c7e4315ffd38c45d8f4"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/【无前缀】La reina del bajo mundo pidió el divorcio-潜伏你惹的事-前夫黑道酵母-西语_物品_20261028211914756.xlsx",
+      "bytes": 23387,
+      "sha256": "bac9bd114ff141aa2ac4515de1c98a776b71171f095d31cfe2ee83233d21c404"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/sources/2026-10-29/【无前缀】La reina del bajo mundo pidió el divorcio-潜伏你惹的事-前夫黑道酵母-西语_角色_20261028210422699.xlsx",
+      "bytes": 41463,
+      "sha256": "92bd5c64e02b14aef9a0c603d091336506c82cdf175e1bec8a759efe3cc4ec29"
+    },
+    {
       "path": "archive/records/2026-10-29/LOAD_RECEIPT.json",
       "bytes": 14863,
       "sha256": "36ef02dfacf0053465bf7d205829794f361ec3686624cc9d916e301b4446e3be"
