@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "asset_exception_scope": "21—25集",
+  "asset_exception": "缺少明确表项的场景与关键道具允许按剧本文字设计并保持连续性；已有明确资产继续用原标签",
+  "aliases": {
+    "保镖甲": "Escolta A常服",
+    "Escolta A": "Escolta A常服",
+    "EscoltaA": "Escolta A常服"
+  },
+  "visible_text": "画面所有文字均不呈现；原稿字幕、文件/便签/屏幕文字原样保留在对应原文列；对白旁白仍发声",
+  "authority": "用户本会话逐项明确答复"
+}

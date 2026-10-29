@@ -1,0 +1,14 @@
+{
+  "state": "空白模板已建立，未写入分镜",
+  "checks": {
+    "headers_equal": true,
+    "only_target_sheet": true,
+    "no_old_story": true,
+    "widths_equal": true,
+    "freeze_equal": true,
+    "header_fonts_equal": true,
+    "header_alignment_equal": true,
+    "header_visible_fill_rgb_equal": true
+  },
+  "visual_review": "已检查渲染表头与空白数据区，未发现错列或截断。"
+}
