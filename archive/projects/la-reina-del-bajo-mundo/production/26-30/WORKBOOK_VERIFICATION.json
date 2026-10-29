@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "scope": "26—30集文本、导出读回与格式核对",
+  "previous_rows_preserved": 24,
+  "appended_rows": 21,
+  "data_rows_total": 45,
+  "worksheet_count": 1,
+  "frozen_panes": "A2",
+  "exact_values": true,
+  "fonts_alignment_borders_number_formats_preserved": true,
+  "widths_and_heights_preserved": true,
+  "scene_names_exact_existing_assets": true,
+  "previews_reviewed": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "video_validation": "未实测",
+  "sha256": "f6eae5c44fec5cb5c06e8a5d8a415527fcbaa295f7e8b185d3b4a3bf31d2523d"
+}
