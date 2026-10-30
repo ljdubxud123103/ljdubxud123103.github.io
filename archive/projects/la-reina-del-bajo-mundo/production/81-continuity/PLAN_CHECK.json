@@ -1,0 +1,34 @@
+{
+  "input": [
+    "81-2A",
+    "81-3A",
+    "81-4A"
+  ],
+  "output": [
+    "81-2A",
+    "81-2B"
+  ],
+  "seconds": [
+    30,
+    18
+  ],
+  "shots": [
+    7,
+    6
+  ],
+  "walking_shot": {
+    "storyboard": "81-2A",
+    "interval": [
+      18,
+      26
+    ],
+    "seconds": 8,
+    "continuous": true,
+    "hard_cuts_inside": 0,
+    "path": "茶几西南侧→南侧空道→茶几东南角→东窗内侧向北→东北转角内半步处"
+  },
+  "end_start_state": "Vera常服站在东窗偏北、距玻璃约半步的同一位置，身体朝东南，双臂交叠，双脚站稳；档案袋、两张便利贴和黑色胶卷转盘均留茶几，未随身带走。",
+  "speech_count": 0,
+  "source_text_preserved": true,
+  "video_validation": "未实测"
+}

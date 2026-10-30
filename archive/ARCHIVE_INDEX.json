@@ -91,6 +91,11 @@
       "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_81-93.xlsx",
+      "bytes": 90786,
+      "sha256": "22ed02116528def89a33b7efbbdff08d00abf969b7cd4646a0a38fe808f23402"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/ASSET_REAUDIT.json",
       "bytes": 1444,
       "sha256": "682900b77086206d3af0587405f30e8bec5939e4a2185f3b94985798bb0decc2"
@@ -274,6 +279,81 @@
       "path": "archive/projects/la-reina-del-bajo-mundo/production/31-33/write_batch_31_33.mjs",
       "bytes": 1098,
       "sha256": "9292eebafc63daac3eb585e619b522d24be88a06ec12c969c96d6370c1158638"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/81-2A_提示词.txt",
+      "bytes": 7559,
+      "sha256": "8b59941b2ddf35945ef2fa97daca1d79fc67cf61bc9c33739d6add7067fa3f4c"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/81-2B_提示词.txt",
+      "bytes": 8093,
+      "sha256": "8c0a7ef010ab130dbc5bfc3c35db00aa684c34e87ff2a683bdb9a2e84fb901f1"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/PLAN_CHECK.json",
+      "bytes": 755,
+      "sha256": "9037b1e1daec6811b16627c3be395201eec5a2ecbee9328e7f4ff8a783647183"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/REVIEW.md",
+      "bytes": 1877,
+      "sha256": "253d51f1c98240260e730df9495d88822613ebd4bf8b8532128b850ee1811c9a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/SOURCE_ROWS.json",
+      "bytes": 18848,
+      "sha256": "2e56f288c259b8181ee5b4254468c7e7792c1e194b9d2dfc14b3fd02e3410e59"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/WORKBOOK_CHECK.json",
+      "bytes": 598,
+      "sha256": "7541573513a04c14cb53397712d53ce526290e95a96a391e45a3a29bd03986a5"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/before-workbook.xlsx",
+      "bytes": 88676,
+      "sha256": "b2a75446d6d5e267d8445e590afa200d9d5acfb114b4d970da3ba1fee5464b2c"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/build.py",
+      "bytes": 11121,
+      "sha256": "e97550f01987c6bc2ad6352705f12ec07e8fe3fef301cedc0497a5d95ada8d81"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/checked-workbook.xlsx",
+      "bytes": 90786,
+      "sha256": "22ed02116528def89a33b7efbbdff08d00abf969b7cd4646a0a38fe808f23402"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/edit_81_continuity.mjs",
+      "bytes": 1198,
+      "sha256": "877917b05c51d9a13628cbb1b5f0a7a8e51d511d777290f48fe595bff28d3803"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/preview-after.png",
+      "bytes": 703468,
+      "sha256": "114041d2fd523139783a21c827360cd5f01b93fc7ec458181110f4705c3274ba"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/preview-before.png",
+      "bytes": 675992,
+      "sha256": "72193bea5104b3846e8a5bd3427ae4dff60d520bccf6fa7c2236e5b19ab65876"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/rows.json",
+      "bytes": 464917,
+      "sha256": "a5d6e24c0e4338ef2ffe2b8aec0a6d580130295206986aa1e69fc8358ac5dfd5"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/verify.py",
+      "bytes": 2887,
+      "sha256": "eb366d1b9349d8dbbf4704f38f875ed5550bfd231142d2674f7315448b6b970a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/镭射红点规则.md",
+      "bytes": 272,
+      "sha256": "7e6956ccfb976f5ef40825bdcf868c5430c47fe451fdbffbfd30adec088b4f96"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/83-2_合并30s提示词.txt",

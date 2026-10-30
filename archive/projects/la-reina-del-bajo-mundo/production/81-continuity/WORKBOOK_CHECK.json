@@ -1,0 +1,24 @@
+{
+  "result": "passed",
+  "old_storyboards": [
+    "81-2A",
+    "81-3A",
+    "81-4A"
+  ],
+  "new_storyboards": [
+    "81-2A",
+    "81-2B"
+  ],
+  "seconds": [
+    30,
+    18
+  ],
+  "walking": "第一段18—26秒连续全身跟拍，一镜到底，无内部硬切",
+  "source_column_preserved": true,
+  "other_storyboards_unchanged": 56,
+  "format_and_freeze_preserved": true,
+  "new_segment_state_identical": true,
+  "laser_policy": "人物表面单一小红点，无空气射线",
+  "video_validation": "未实测",
+  "sha256": "22ed02116528def89a33b7efbbdff08d00abf969b7cd4646a0a38fe808f23402"
+}
