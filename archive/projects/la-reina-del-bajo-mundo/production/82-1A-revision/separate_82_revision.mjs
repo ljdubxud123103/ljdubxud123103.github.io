@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load('/Users/apple/Desktop/前夫黑道酵母_分镜_81-93.xlsx'));
+const s=wb.worksheets.getItem('分镜脚本');
+const rows=JSON.parse(await fs.readFile('../production-82-1A-revision/rows.json','utf8'));
+s.getRange('A2:I60').values=Array.from({length:59},()=>Array(9).fill(null));
+s.getRange('A2:I2').values=rows;
+wb.recalculate();
+console.log((await wb.inspect({kind:'table',range:'分镜脚本!A1:E3',tableMaxRows:3,tableMaxCols:5,maxChars:1400})).ndjson);
+const p=await wb.render({sheetName:'分镜脚本',range:'A1:I2',scale:1,format:'png'});
+await fs.writeFile('../production-82-1A-revision/preview.png',new Uint8Array(await p.arrayBuffer()));
+await(await SpreadsheetFile.exportXlsx(wb)).save('../production-82-1A-revision/checked-workbook.xlsx');

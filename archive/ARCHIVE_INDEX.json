@@ -91,6 +91,11 @@
       "sha256": "8c0abcc9abba0b9caa0d6d20488f57a180af556554e4e9a613fc0609cbbf7f2e"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/82-1A_修改稿_男性呼吸与镜头修正.xlsx",
+      "bytes": 10619,
+      "sha256": "a887a21fe4dff062b1715979e4aaec9a039c57d0bfdfa0d62d98cbfad99cd6e3"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_21-33.xlsx",
       "bytes": 89305,
       "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
@@ -379,6 +384,51 @@
       "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/镭射红点规则.md",
       "bytes": 272,
       "sha256": "7e6956ccfb976f5ef40825bdcf868c5430c47fe451fdbffbfd30adec088b4f96"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/82-1A_修改提示词.txt",
+      "bytes": 7273,
+      "sha256": "8a8c586bf4c3a22379c153e12600c68b61bfcc6e33792a5437f29cbeb41baa56"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/CHECK.json",
+      "bytes": 632,
+      "sha256": "5d553e00b343a523d4d221fd80582b6ff7b691c5f1a32786a207f25cb273bb23"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/REVIEW.md",
+      "bytes": 860,
+      "sha256": "becc0c29dc554d9fe4e48948b61451e82e36ceb9117fe70738fa74be821701f2"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/SOURCE_ROW.json",
+      "bytes": 5921,
+      "sha256": "98bdcdb1f3b0d82f0e0ee6a62e477f77dfdb7e10702bd9847a96e0f777efc052"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/build.py",
+      "bytes": 7569,
+      "sha256": "3d6759bce26987fadabd5307adc443a1fdd06f07309303d9b17d6d065b2a702b"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/checked-workbook.xlsx",
+      "bytes": 10619,
+      "sha256": "a887a21fe4dff062b1715979e4aaec9a039c57d0bfdfa0d62d98cbfad99cd6e3"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/preview.png",
+      "bytes": 256882,
+      "sha256": "24f26dad59113c4423467b48118370ff1226d9ebe7b93f026122ca7e40f3d668"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/rows.json",
+      "bytes": 8437,
+      "sha256": "9d0b4b16db49a48337bee51b4d9fd9f0adf13bf04993064d4a98e609d3c14287"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/82-1A-revision/separate_82_revision.mjs",
+      "bytes": 908,
+      "sha256": "a4920646591c57d986deefd3f78f4704d8bcb3d96c332dbae4cecbc08cb2c000"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/83-2_合并30s提示词.txt",
