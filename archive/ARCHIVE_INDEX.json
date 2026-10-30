@@ -96,6 +96,11 @@
       "sha256": "a887a21fe4dff062b1715979e4aaec9a039c57d0bfdfa0d62d98cbfad99cd6e3"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/84-2A_合并修改稿_30s.xlsx",
+      "bytes": 12100,
+      "sha256": "e865be898b3d763c3edc86a0fb1fbf97db90fe86f82c4d12513ee05e11b3597e"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_21-33.xlsx",
       "bytes": 89305,
       "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
@@ -464,6 +469,66 @@
       "path": "archive/projects/la-reina-del-bajo-mundo/production/83-2-merge/用户情绪参考截图.jpg",
       "bytes": 292127,
       "sha256": "824ec79d90a40d2573ca70ba45188726735b55ee00f13c9712096e7ac8f2dace"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/84-2A_合并30s提示词.txt",
+      "bytes": 10321,
+      "sha256": "bc0a2fcc1155e3d46b40a6193f7e1fa315c26c2827853a9657274aa4b6bf0281"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/PLAN_CHECK.json",
+      "bytes": 559,
+      "sha256": "4e28d9655ea4f84bd13ba1ee9260232782e6276204fc06912bd825c9b00a9877"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/REVIEW.md",
+      "bytes": 1738,
+      "sha256": "b029a214fe08d929485fff7d5193db86ec6eb318865e5dba07f675e468187ab3"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/SOURCE_ROWS.json",
+      "bytes": 16175,
+      "sha256": "a258f48deb6a29cb741b30ca0c9b1b6fde37d3b0f9a6537daffbae81c8566381"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/WORKBOOK_CHECK.json",
+      "bytes": 481,
+      "sha256": "46db3f8d1ae8f63d9cf0a13c0197134aec94947631db36831c0bd3a825887508"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/build.py",
+      "bytes": 9162,
+      "sha256": "8a09ee51e8eb6849f615edb578c33343ba15991ae9a22a381a83864abde8dced"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/checked-workbook.xlsx",
+      "bytes": 12100,
+      "sha256": "e865be898b3d763c3edc86a0fb1fbf97db90fe86f82c4d12513ee05e11b3597e"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/preview.png",
+      "bytes": 268426,
+      "sha256": "0be6cd5f8e058f621bfcd5e7f0fdc989cbd0ac10f4bfbacbdbe9a189aaf00d73"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/rows.json",
+      "bytes": 12902,
+      "sha256": "d5c8a46c08de29fb16f6ea7291b329b2872f48b40919b0cc1046b72243fb7923"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/separate_84_merge.mjs",
+      "bytes": 890,
+      "sha256": "e2ca31a72d1eb1f557de5eb57dbe9273e40ab9cbf1951b32ab7fab8f293be6c1"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/verify.py",
+      "bytes": 2366,
+      "sha256": "a9fc2f97a2a20aa8db204def168f9d21cc53daaf0964c1eb7b6b4182eb25d39e"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/84-merge/人物资产服装修正.md",
+      "bytes": 418,
+      "sha256": "dcfa6ed0540def8c45caa1210fbb97862b1179db777ed422c340654aa77d6ff2"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/final-recheck/RECHECK.md",

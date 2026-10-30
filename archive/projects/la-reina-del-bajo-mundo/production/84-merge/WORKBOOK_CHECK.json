@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "storyboards": 1,
+  "input": [
+    "84-2A",
+    "84-3A"
+  ],
+  "output": "84-2A",
+  "seconds": 30,
+  "shots": 8,
+  "speech_count": 4,
+  "VO_count": 3,
+  "dialogue_count": 1,
+  "source_and_punctuation_preserved": true,
+  "clothing_prop_and_costume_actions_removed": true,
+  "format_preserved": true,
+  "original_workbook_unmodified": true,
+  "sha256": "e865be898b3d763c3edc86a0fb1fbf97db90fe86f82c4d12513ee05e11b3597e",
+  "video_validation": "未实测"
+}
