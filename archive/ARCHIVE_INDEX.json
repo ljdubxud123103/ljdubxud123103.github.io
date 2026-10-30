@@ -86,14 +86,19 @@
       "sha256": "6bac87a484ccf1203205c79763c706576d56f872ff60f70bd9d4d6bc9dbcd604"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/81-2_修改稿_两故事板.xlsx",
+      "bytes": 12950,
+      "sha256": "8c0abcc9abba0b9caa0d6d20488f57a180af556554e4e9a613fc0609cbbf7f2e"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_21-33.xlsx",
       "bytes": 89305,
       "sha256": "80de276509656616e137d64f5b0476f60e2a26ed746ed529c53350c835518256"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/deliverables/前夫黑道酵母_分镜_81-93.xlsx",
-      "bytes": 90786,
-      "sha256": "22ed02116528def89a33b7efbbdff08d00abf969b7cd4646a0a38fe808f23402"
+      "bytes": 88676,
+      "sha256": "b2a75446d6d5e267d8445e590afa200d9d5acfb114b4d970da3ba1fee5464b2c"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/21-25/ASSET_REAUDIT.json",
@@ -297,8 +302,13 @@
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/REVIEW.md",
-      "bytes": 1877,
-      "sha256": "253d51f1c98240260e730df9495d88822613ebd4bf8b8532128b850ee1811c9a"
+      "bytes": 2340,
+      "sha256": "e341374b7da417e8f471387aca0146fa0595b99faaa1736a36745144fce49807"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/SEPARATE_DELIVERY_CHECK.json",
+      "bytes": 479,
+      "sha256": "3d491f05e05f52ee09c379b422c47c71b9e15a13af49a5c5bcd88c2ff792a40e"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/SOURCE_ROWS.json",
@@ -346,9 +356,24 @@
       "sha256": "a5d6e24c0e4338ef2ffe2b8aec0a6d580130295206986aa1e69fc8358ac5dfd5"
     },
     {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/separate_81_revision.mjs",
+      "bytes": 1040,
+      "sha256": "301ab4ae21e82f629197181fc4539c2d298d6d725846ee20d3af2c247f4fecfb"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/standalone-preview.png",
+      "bytes": 474879,
+      "sha256": "068a9c52fca6fef6cfde5aa5844754a8c346c46bd4219e8eaee960108ddeac2c"
+    },
+    {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/verify.py",
       "bytes": 2887,
       "sha256": "eb366d1b9349d8dbbf4704f38f875ed5550bfd231142d2674f7315448b6b970a"
+    },
+    {
+      "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/修改独立交付规则.md",
+      "bytes": 260,
+      "sha256": "8d4cc99a60733bdeaca1729009cc567c3ebee61891afeb96ae60deec276cc8e1"
     },
     {
       "path": "archive/projects/la-reina-del-bajo-mundo/production/81-continuity/镭射红点规则.md",

@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "separate_workbook": "/Users/apple/Desktop/81-2_修改稿_两故事板.xlsx",
+  "storyboards": [
+    "81-2A",
+    "81-2B"
+  ],
+  "seconds": [
+    30,
+    18
+  ],
+  "original_restored_byte_exact": true,
+  "original_rows": 59,
+  "revision_rows": 2,
+  "style_preserved": true,
+  "original_sha256": "b2a75446d6d5e267d8445e590afa200d9d5acfb114b4d970da3ba1fee5464b2c",
+  "revision_sha256": "8c0abcc9abba0b9caa0d6d20488f57a180af556554e4e9a613fc0609cbbf7f2e"
+}

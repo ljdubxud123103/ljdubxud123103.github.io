@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load('../production-81-continuity/before-workbook.xlsx'));
+const s=wb.worksheets.getItem('分镜脚本');
+const all=JSON.parse(await fs.readFile('../production-81-continuity/rows.json','utf8'));
+const rows=all.filter(r=>['81-2A','81-2B'].includes(r[1]));
+if(rows.length!==2)throw Error('Expected exactly two revised boards');
+s.getRange('A2:I60').values=Array.from({length:59},()=>Array(9).fill(null));
+s.getRange('A2:I3').values=rows;
+wb.recalculate();
+console.log((await wb.inspect({kind:'table',range:'分镜脚本!A1:E4',tableMaxRows:4,tableMaxCols:5,maxChars:1400})).ndjson);
+const p=await wb.render({sheetName:'分镜脚本',range:'A1:I3',scale:1,format:'png'});
+await fs.writeFile('../production-81-continuity/standalone-preview.png',new Uint8Array(await p.arrayBuffer()));
+await(await SpreadsheetFile.exportXlsx(wb)).save('../production-81-continuity/standalone-revision.xlsx');
